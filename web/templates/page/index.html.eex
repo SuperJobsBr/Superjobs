@@ -1,0 +1,426 @@
+<%= render "header.html" %>
+
+<!-- ========== process(timeline) ========== -->
+<section class="process block-area">
+    <div class="container">
+        <div class="center title-section wow fadeInDown">
+            <h5>HOW IS OUR</h5>
+            <h3 class="lrg">PROCESS</h3>
+            <div class="separator">
+                <span><i></i></span>
+            </div>
+        </div>
+        <!-- title-section -->
+        <ul class="timeline">
+            <li class="timeline-box wow fadeInLeft">
+                <i class="icon-layers"></i>
+                <p class="timeline-title">IDEAS</p>
+                <p class="timeline-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation . </p>
+                <span>1</span>
+            </li>
+            <li class="timeline-box wow fadeInRight">
+                <i class="icon-chat"></i>
+                <p class="timeline-title">DISCUSSION</p>
+                <p class="timeline-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation . </p>
+                <span>2</span>
+            </li>
+            <li class="timeline-box  wow fadeInLeft">
+                <i class="icon-tools"></i>
+                <p class="timeline-title">DESIGN</p>
+                <p class="timeline-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation . </p>
+                <span>3</span>
+            </li>
+            <li class="timeline-box wow fadeInRight">
+                <i class="icon-trophy"></i>
+                <p class="timeline-title">DEVELOPMENT</p>
+                <p class="timeline-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation . </p>
+                <span>4</span>
+            </li>
+        </ul>
+    </div>
+    <!-- .container -->
+</section>
+
+<!-- ========== vedio ========== -->
+<section class="vedio parallax block-area">
+    <div class="overlay"></div>
+    <div class="container parallax-container">
+        <h5 class="wow fadeInDown"><span class="divider right"></span> We Are Ready to Help You <span class="divider left"></span></h5>
+        <h3>WE'ARE DEVELOPING A NUMBER OF SPECIAL PROJECTS IF INTERESTED. SEE THE PROMO VIDEO. </h3>
+        <a class="lightbox-video" href="http://www.youtube.com/watch?v=0O2aH4XLbto"><i class="fa fa-play" aria-hidden="true"></i></a>
+    </div>
+    <!-- .container -->
+</section>
+
+<!-- ========== portifolio ========== -->
+<section id="portifolio" class="portifolio block-area">
+    <div class="container">
+        <div class="center title-section wow fadeInDown">
+            <h5>CKECK IT OUR</h5>
+            <h3 class="lrg">PORTITOLIO</h3>
+            <div class="separator">
+                <span><i></i></span>
+            </div>
+        </div>
+        <!-- title-section -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portfolio-filter">
+                    <a href="#" class="filter transition active" data-filter="*">All</a>
+                    <a href="#" class="filter transition" data-filter=".branding">Branding</a>
+                    <a href="#" class="filter transition" data-filter=".illustration">Illustration</a>
+                    <a href="#" class="filter transition" data-filter=".web-design">Web Design</a>
+                    <a href="#" class="filter transition" data-filter=".print">Print</a>
+                </div>
+                <!-- end filter -->
+            </div>
+            <!-- end col -->
+        </div>
+        <!-- end row -->
+
+        <div class="grid masonry">
+
+            <!-- work item -->
+            <div class="masonry-item web-design print wow fadeInUp" data-wow-delay=".1s">
+                <div class="work-img">
+                    <figure class="portfolio-effect">
+                        <img src="/images/portfolio/portfolio1.jpg" alt="img">
+                        <figcaption>
+                            <h3>A4 Paper Mockup</h3>
+                            <a href="/images/portfolio/portfolio1.jpg" class="lightbox-gallery" title=""><i class="fa fa-search"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- end work-item -->
+
+            <!-- work item -->
+            <div class="masonry-item web-design branding wow fadeInUp" data-wow-delay=".2s">
+                <figure class="portfolio-effect">
+                    <img src="/images/portfolio/portfolio2.jpg" alt="img">
+                    <figcaption>
+                        <h3>Vimeo Video </h3>
+                        <a href="/images/portfolio/portfolio2.jpg" class="lightbox-gallery"><i class="fa fa-search"></i>   </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end work-item -->
+
+            <!-- work item -->
+            <div class="masonry-item illustration branding wow fadeInUp" data-wow-delay=".3s">
+                <figure class="portfolio-effect">
+                    <img src="/images/portfolio/portfolio4.jpg" alt="img">
+                    <figcaption>
+                        <h3>Youtube Video</h3>
+                        <a href="/images/portfolio/portfolio4.jpg" class="lightbox-gallery"><i class="fa fa-search"></i>   </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end work-item -->
+
+            <!-- work item -->
+            <div class="masonry-item branding illustration wow fadeInUp" data-wow-delay=".4s">
+                <figure class="portfolio-effect">
+                    <img src="/images/portfolio/portfolio5.jpg" alt="img">
+                    <figcaption>
+                        <h3>Sweater Identity</h3>
+                        <a href="/images/portfolio/portfolio5.jpg" class="lightbox-gallery"><i class="fa fa-search"></i>   </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end work-item -->
+
+            <!-- work item -->
+            <div class="masonry-item print branding wow fadeInUp" data-wow-delay=".5s">
+                <figure class="portfolio-effect">
+                    <img src="/images/portfolio/portfolio6.jpg" alt="img">
+                    <figcaption>
+                        <h3>Business Card</h3>
+                        <a href="/images/portfolio/portfolio6.jpg" class="lightbox-gallery"><i class="fa fa-search"></i>   </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end work-item -->
+
+            <!-- work item -->
+            <div class="masonry-item print branding wow fadeInUp" data-wow-delay=".6s">
+                <figure class="portfolio-effect">
+                    <img src="/images/portfolio/portfolio7.jpg" alt="img">
+                    <figcaption>
+                        <h3>Business Card</h3>
+                        <a href="/images/portfolio/portfolio7.jpg" class="lightbox-gallery"><i class="fa fa-search"></i>   </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- end work-item -->
+
+        </div>
+        <!-- end grid -->
+    </div>
+    <!-- .container -->
+</section>
+
+<!-- ========== team ========== -->
+<section id="team" class="team block-area">
+    <div class="container">
+        <div class="center title-section wow fadeInDown">
+            <h5>GET TO KNOW US</h5>
+            <h3 class="lrg">OUR TEAM</h3>
+            <div class="separator">
+                <span><i></i></span>
+            </div>
+        </div>
+        <!-- title-section -->
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                    <div class="team-member">
+                        <figure class="team-effect">
+                            <img src="/images/team/member-1.jpg" alt="img">
+                            <p class="icon-links">
+                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                <a href="#"><span class="fa fa-linkedin"></span></a>
+                                <a href="#"><span class="fa fa-skype"></span></a>
+                            </p>
+                        </figure>
+                        <div class="team-details center">
+                            <h4>DOAA HAMZA</h4>
+                            <div class="divider"></div>
+                            <p>Creative Designer</p>
+                        </div>
+                        <!-- team-details -->
+                    </div>
+                    <!-- team-member -->
+                </div>
+                <!-- col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                    <div class="team-member">
+                        <figure class="team-effect">
+                            <img src="/images/team/member-2.jpg" alt="" />
+                            <p class="icon-links">
+                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                <a href="#"><span class="fa fa-linkedin"></span></a>
+                                <a href="#"><span class="fa fa-skype"></span></a>
+                            </p>
+                        </figure>
+                        <div class="team-details center">
+                            <h4>MONA KAMAL</h4>
+                            <div class="divider"></div>
+                            <p>CEO Founder</p>
+                        </div>
+                        <!-- team-details -->
+                    </div>
+                    <!-- team-member -->
+                </div>
+                <!-- col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                    <div class="team-member">
+                        <figure>
+                            <img src="/images/team/member-3.jpg" alt="" />
+                            <p class="icon-links">
+                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                <a href="#"><span class="fa fa-linkedin"></span></a>
+                                <a href="#"><span class="fa fa-skype"></span></a>
+                            </p>
+                        </figure>
+                        <div class="team-details center">
+                            <h4>MAI ZAGHLOUL</h4>
+                            <div class="divider"></div>
+                            <p>Lead Designer</p>
+                        </div>
+                        <!-- team-details -->
+                    </div>
+                    <!-- team-member -->
+                </div>
+                <!-- col -->
+
+                <div class="col-md-3 col-sm-6 col-xs-12 no-padding">
+                    <div class="team-member">
+                        <figure>
+                            <img src="/images/team/member-4.jpg" alt="" />
+                            <p class="icon-links">
+                                <a href="#"><span class="fa fa-facebook"></span></a>
+                                <a href="#"><span class="fa fa-twitter"></span></a>
+                                <a href="#"><span class="fa fa-linkedin"></span></a>
+                                <a href="#"><span class="fa fa-skype"></span></a>
+                            </p>
+                        </figure>
+                        <div class="team-details center">
+                            <h4>AHMED MAHMOUD</h4>
+                            <div class="divider"></div>
+                            <p>Web Designer</p>
+                        </div>
+                        <!-- team-details -->
+                    </div>
+                    <!-- team-member -->
+                </div>
+                <!-- col -->
+
+            </div>
+            <!-- col -->
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+</section>
+
+
+<!-- ========== testimonial-client ========== -->
+<section class="testimonial-client container-fluid">
+
+    <div class="col-md-6 no-padding" >
+        <div class="client">
+            <div class="item">
+                <img src="/images/clients/client-1.png" alt="" />
+            </div>
+            <!-- item -->
+            <div class="item">
+                <img src="/images/clients/client-2.png" alt="" />
+            </div>
+            <!-- item -->
+            <div class="item">
+                <img src="/images/clients/client-3.png" alt="" />
+            </div>
+            <!-- item -->
+            <div class="item">
+                <img src="/images/clients/client-4.png" alt="" />
+            </div>
+            <!-- item -->
+            <div class="item">
+                <img src="/images/clients/client-5.png" alt="" />
+            </div>
+            <!-- item -->
+        </div>
+        <!-- client -->
+    </div>
+    <!-- col -->
+
+    <div class="testimonial col-md-6 no-padding">
+        <h3>OUR CLIENTS</h3>
+        <div class="owl-clients">
+
+            <div class="item">
+                <p>This HTML template is just awesome! Creation of new website has never been so easy and simple. Everything has been carefully thought out. </p>
+                <img src="/images/testimonial/testimonial1.jpg" alt="" />
+                <div class="testimonial-details">
+                    <h5>AHMED KAMAL</h5>
+                    <h6>CEO company inc. </h6>
+                </div>
+                <!-- testimonial-details -->
+            </div>
+            <!-- item -->
+
+            <div class="item">
+                <p>This HTML template is just awesome! Creation of new website has never been so easy and simple. Everything has been carefully thought out. </p>
+                <img src="/images/testimonial/testimonial2.jpg" alt="" />
+                <div class="testimonial-details">
+                    <h5>MAI KAMAL</h5>
+                    <h6>Team Leader</h6>
+                </div>
+                <!-- testimonial-details -->
+            </div>
+            <!-- item -->
+
+            <div class="item">
+                <p>This HTML template is just awesome! Creation of new website has never been so easy and simple. Everything has been carefully thought out. </p>
+                <img src="/images/testimonial/testimonial3.jpg" alt="" />
+                <div class="testimonial-details">
+                    <h5>MONA KAMAL</h5>
+                    <h6>CEO company inc. </h6>
+                </div>
+                <!-- testimonial-details -->
+            </div>
+            <!-- item -->
+
+        </div>
+        <!-- owl-clients -->
+    </div>
+    <!-- testimonial -->
+</section>
+
+<!-- ========== contact ========== -->
+<section id="contact" class="contact block-area">
+    <div class="container">
+        <div class="center title-section wow  fadeInDown">
+            <h5>CONTACT US</h5>
+            <h3 class="lrg">GET IN TOUCH</h3>
+            <div class="separator">
+                <span><i></i></span>
+            </div>
+        </div>
+        <!-- title-section -->
+
+        <div class="row">
+            <div class="col-sm-8 col-xs-12">
+                <h4>FEll FREE TO SEND US EMAIL</h4>
+                <form id="contactform">
+                    <div class="row">
+                        <div class="message-contactform col-md-12"></div>
+                        <div class="col-sm-6 input">
+                            <input type="text" class="input_field" name="contact-name" id="contact-name" Required>
+                            <label class="input_label" for="contact-name">
+                                <span class="input_label_content" data-content="Name *">Name *</span>
+                            </label>
+                        </div>
+
+                        <div class="col-sm-6 input">
+                            <input type="text" class="input_field" name="contact-email" id="contact-email" Required>
+                            <label class="input_label" for="contact-email">
+                                <span class="input_label_content" data-content="Email *">Email *</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 input">
+                            <input class="input_field" name="contact-title" type="text" id="contact-title">
+                            <label class="input_label" for="contact-title">
+                                <span class="input_label_content" data-content="Subject">Subject</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 input">
+                            <textarea name="contact-message" id="contact-message" class="input_field" cols="40" rows="3"></textarea>
+                            <label class="input_label" for="contact-message">
+                                <span class="input_label_content" data-content="Message">Message</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <input class="button" type="submit" value="SEND" name="contact-submit">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <h4>Phone & Email</h4>
+                <p>+02 22566899</p>
+                <p>contact@motivweb.com</p>
+
+                <h4>Working hours</h4>
+                <p>Monday to Saturday - 8am to 5pm</p>
+                <p>friday - Closed</p>
+
+                <h4>OFFICE ADDRESS</h4>
+                <p>Egypt, Damietta, El Hoda Street West Victoria 254</p>
+                <a class="popup-gmaps btn" href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom">
+                    <i class="fa fa-map-marker"></i>GO TO OUR MAP
+                </a>
+            </div>
+
+        </div>
+        <!-- row -->
+    </div>
+    <!-- container -->
+</section>
+
