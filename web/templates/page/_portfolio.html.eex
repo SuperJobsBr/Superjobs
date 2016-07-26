@@ -1,0 +1,62 @@
+<section id="portifolio" class="portifolio block-area">
+    <div class="container">
+        <div class="center title-section wow fadeInDown">
+            <h5>NOSSO</h5>
+            <h3 class="lrg">PORTOFÓLIO</h3>
+            <div class="separator">
+                <span><i></i></span>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portfolio-filter">
+                    <a href="#" class="filter transition active" data-filter="*">Tudo</a>
+                    <a href="#" class="filter transition" data-filter=".marketplaces-tag">Marketplaces</a>
+                    <a href="#" class="filter transition" data-filter=".fintech-tag">Fintech</a>
+                    <a href="#" class="filter transition" data-filter=".ai-tag">AI</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid masonry">
+
+            <div class="masonry-item web-design marketplaces-tag wow fadeInUp" data-wow-delay=".1s">
+                <div class="work-img">
+                    <figure class="portfolio-effect">
+                        <img src="/images/portfolio/bicos.png" alt="img">
+                        <figcaption>
+                            <h3>Bicos</h3>
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="masonry-item web-design marketplaces-tag wow fadeInUp" data-wow-delay=".2s">
+                <div class="work-img">
+                    <figure class="portfolio-effect">
+                        <img src="/images/portfolio/estagiarios.png" alt="img">
+                        <figcaption>
+                            <h3>Estagiários Online</h3>
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="masonry-item web-design fintech-tag wow fadeInUp" data-wow-delay=".3s">
+                <div class="work-img">
+                    <figure class="portfolio-effect">
+                        <img src="/images/portfolio/pagueamigo.png" alt="img">
+                        <figcaption>
+                            <h3>Pague Amigo</h3>
+                            <a href="#"><i class="fa fa-search"></i></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

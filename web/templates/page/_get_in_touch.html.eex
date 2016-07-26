@@ -1,0 +1,14 @@
+<section class="contact block-area">
+    <div class="container">
+        <div class="center title-section wow  fadeInDown">
+            <h5>CONTATO</h5>
+            <h3 class="lrg">ENTRE EM CONTATO</h3>
+            <div class="separator">
+                <span><i></i></span>
+            </div>
+
+            <a href="https://superjobs.typeform.com/to/e12rdZ" class="button"><strong>Investidores</strong></a>
+            <a href="https://superjobs.typeform.com/to/FWSdcy" class="button"><strong>Startups</strong></a>
+        </div>
+    </div>
+</section>

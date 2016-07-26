@@ -440,8 +440,9 @@ p {
 /* ------------------------------------- */
 /* parallax */
 .parallax.hero {
-    background-image: url(../images/header.png);
-	height:700px;
+    background-image: url(/images/header-parallax.jpg);
+    background-size: inherit;
+    height:500px;
 }
 .parallax {
 	position: relative;
@@ -1187,11 +1188,10 @@ figure.portfolio-effect {
 	@include linear-gradient(top, $color-primary, $color-secondary);
 	
 	img {
-		max-width:100%;
+		width:100%;
+		height:auto;
 		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 		transition: opacity 0.35s, transform 0.35s;
-		-webkit-transform: scale(1.12);
-		transform: scale(1.12);
     }
 	
 	figcaption::before ,  figcaption::after {
@@ -1272,8 +1272,9 @@ figure.portfolio-effect {
 /* 9. vedio ............................ */
 /* ------------------------------------- */
 .parallax.vedio {
-    background-image: url(../images/parallex2.png);
-	height:400px;
+    background-image: url(/images/about-parallax.jpg);
+    height: auto;
+    padding: 140px 0px;
 }
 .vedio{
 	.parallax-container{padding:0 20%;}
