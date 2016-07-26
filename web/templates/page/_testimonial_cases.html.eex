@@ -1,0 +1,41 @@
+<section class="testimonial-client container-fluid">
+
+    <div class="col-md-6 no-padding" >
+        <div class="client">
+        </div>
+    </div>
+
+    <div class="testimonial col-md-6 no-padding">
+        <h3>CASES</h3>
+        <div class="owl-clients">
+
+            <div class="item">
+                <p>Com a SuperJobs foi possível escalar a nossa equipe de desenvolvimento</p>
+                <img src="/images/testimonial/testimonial1.jpg" alt="" />
+                <div class="testimonial-details">
+                    <h5>Leonardo Oshiro</h5>
+                    <h6>CTO</h6>
+                </div>
+            </div>
+
+            <div class="item">
+                <p>O objetivo do grupo é ...</p>
+                <img src="/images/testimonial/testimonial2.jpg" alt="" />
+                <div class="testimonial-details">
+                    <h5>Marcos Botelho</h5>
+                    <h6>CEO</h6>
+                </div>
+            </div>
+
+            <div class="item">
+                <p>Auxiliou na captação estratégica de fundos para expandirmos a nossa operação para todas as cidades do Brasil...</p>
+                <img src="/images/testimonial/testimonial3.jpg" alt="" />
+                <div class="testimonial-details">
+                    <h5>Kleber Costa</h5>
+                    <h6>CEO</h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
