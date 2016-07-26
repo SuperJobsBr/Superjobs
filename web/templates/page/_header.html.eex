@@ -1,4 +1,4 @@
-<section class="skew-section">
+<section class="skew-section" id="header">
     <div class="hero parallax wrapper">
         <div class="overlay"></div>
         <div class="container parallax-container reskew">
