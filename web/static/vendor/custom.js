@@ -288,4 +288,7 @@
 
        
 	});
+
+	// Init wow.js
+	new WOW().init();
 })(jQuery);
