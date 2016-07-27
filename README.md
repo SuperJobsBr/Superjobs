@@ -1,5 +1,9 @@
 # Superjobs
 
+Is it an overkill to write a "static" website in Phoenix? ***Yes*** ¯\_(ツ)_/¯
+
+Did we really need a database for this project? ***No*** ¯\_(ツ)_/¯
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
