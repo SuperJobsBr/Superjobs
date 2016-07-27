@@ -1,0 +1,21 @@
+<%= render(
+  "_header.html",
+  header: "Dr. Sintomas",
+  sub_header: "Inovando na área de diagnósticos, receba um first-opinion sem sair de casa.",
+  logo_url: static_path(@conn, "/images/portfolio/header/dr_sintomas.png"),
+  logo_alt: "Dr Sintomas logo",
+  site_url: "http://www.drsintomas.com.br/",
+  site_domain: "www.drsintomas.com.br",
+) %>
+
+<%= render(
+  "_about.html",
+  sections: [
+    %{
+      title: "Sobre",
+      body: ~s"""
+      ...
+      """
+    },
+  ],
+) %>

@@ -1,0 +1,38 @@
+<%= render(
+  "_header.html",
+  header: "Bicos",
+  sub_header: "Marketplace de prestadores de serviços, fundado em 2014 com a missão de aumentar a renda de milhões de brasileiros.",
+  logo_url: static_path(@conn, "/images/portfolio/header/bicos.png"),
+  logo_alt: "Bicos logo",
+  site_url: "https://www.bicos.com.br/",
+  site_domain: "www.bicos.com.br",
+) %>
+
+<%= render(
+  "_about.html",
+  sections: [
+    %{
+      title: "Sobre",
+      body: ~s"""
+Bicos é uma plataforma digital inovadora que traz um ambiente seguro e dinâmico para a busca de mão de obra qualificada em assuntos domésticos.
+<br/><br/>
+
+Ela foi fundada em dezembro de 2014 pelo publicitário Marcos de Arruda Botelho.
+<br/><br/>
+
+Nosso objetivo é facilitar a vida dos nossos clientes, conectando quem precisa de uma força em casa a prestadores de serviço competentes, de forma inovadora e ágil.
+
+Bicos é simples, rápido e fácil.
+      """
+    },
+    %{
+      title: "Missão & Visão",
+      body: ~s"""
+Facilitar a vida dos nosso clientes promovendo o encontro entre contratantes e prestadores de serviço em um só lugar, de forma inovadora e rápida.
+<br/><br/>
+
+Evoluir a forma de contratações de serviços para casa, e ser referência no mercado como a melhor opção para os usuários, colaboradores e investidores, pelo relacionamento diferenciado e a qualidade dos serviços prestados.
+      """
+     }
+  ],
+) %>

@@ -1,0 +1,30 @@
+<%= render(
+  "_header.html",
+  header: "Estagiários Online",
+  sub_header: "Marketplace de estagiarios, nasceu em 2015 para solucionar o problema de contratação de estagiários no mercado brasileiro.",
+  logo_url: static_path(@conn, "/images/portfolio/header/estagiariosonline.png"),
+  logo_alt: "Estagiarios Online logo",
+  site_url: "https://estagiariosonline.com.br/",
+  site_domain: "estagiariosonline.com.br",
+) %>
+
+<%= render(
+  "_about.html",
+  sections: [
+    %{
+      title: "Sobre",
+      body: ~s"""
+O Estagiários Online é uma plataforma que conecta empresas e estagiários. Selecionamos a vaga ideal para quem procura uma oportunidade e selecionamos os candidatos ideais para quem precisa contratar.
+      """
+    },
+    %{
+      title: "Missão & Visão",
+      body: ~s"""
+Oferecer uma nova forma para que empresas encontrem o estagiário ideal e fazer com que alunos entrem no mercado de trabalho com a vaga que mais combina com o seu perfil.
+<br/><br/>
+
+Inovar a forma de contratação de estagiários e abrir novas oportunidades para alunos.
+      """
+     }
+  ],
+) %>

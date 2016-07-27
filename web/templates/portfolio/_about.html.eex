@@ -1,0 +1,15 @@
+<div class="container text-center" style="padding-bottom: 60px;">
+  <%= for section <- @sections do %>
+    <section>
+      <div class="center title-section wow fadeInDown">
+        <h3 class="lrg"><%= {:safe, section[:title]} %></h3>
+        <div class="separator">
+            <span><i></i></span>
+        </div>
+      </div>
+      <p>
+        <%= {:safe, section[:body]} %>
+      </p>
+    </section>
+  <% end %>
+</div>

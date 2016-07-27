@@ -1,0 +1,24 @@
+<%= render(
+  "_header.html",
+  header: "Pague Amigo",
+  sub_header: "Estamos criando a melhor experiência para enviar e receber dinheiro.",
+  logo_url: static_path(@conn, "/images/portfolio/header/pagueamigo.png"),
+  logo_alt: "Pague Amigo logo",
+  site_url: "http://www.pagueamigo.com.br/",
+  site_domain: "www.pagueamigo.com.br",
+) %>
+
+<%= render(
+  "_about.html",
+  sections: [
+    %{
+      title: "Sobre",
+      body: ~s"""
+      Comece a pagar seus amigos em dia.
+      <br/><br/>
+
+      O Pague Amigo chegou para ser a melhor experiência de enviar e receber seu dinheiro.
+      """
+    },
+  ],
+) %>

@@ -28,7 +28,7 @@
                         <img src="/images/portfolio/bicos.png" alt="img">
                         <figcaption>
                             <h3>Bicos</h3>
-                            <a href="#"><i class="fa fa-search"></i></a>
+                            <a href="<%= portfolio_path(@conn, :bicos) %>"><i class="fa fa-search"></i></a>
                         </figcaption>
                     </figure>
                 </div>
@@ -40,7 +40,7 @@
                         <img src="/images/portfolio/estagiarios.png" alt="img">
                         <figcaption>
                             <h3>Estagiários Online</h3>
-                            <a href="#"><i class="fa fa-search"></i></a>
+                            <a href="<%= portfolio_path(@conn, :estagiariosonline) %>"><i class="fa fa-search"></i></a>
                         </figcaption>
                     </figure>
                 </div>
@@ -52,7 +52,7 @@
                         <img src="/images/portfolio/pagueamigo.png" alt="img">
                         <figcaption>
                             <h3>Pague Amigo</h3>
-                            <a href="#"><i class="fa fa-search"></i></a>
+                            <a href="<%= portfolio_path(@conn, :pagueamigo) %>"><i class="fa fa-search"></i></a>
                         </figcaption>
                     </figure>
                 </div>
@@ -64,7 +64,7 @@
                         <img src="/images/portfolio/drsintomas.png" alt="img">
                         <figcaption>
                             <h3>Dr. Sintomas</h3>
-                            <a href="#"><i class="fa fa-search"></i></a>
+                            <a href="<%= portfolio_path(@conn, :dr_sintomas) %>"><i class="fa fa-search"></i></a>
                         </figcaption>
                     </figure>
                 </div>

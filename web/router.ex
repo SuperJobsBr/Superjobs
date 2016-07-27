@@ -17,6 +17,11 @@ defmodule Superjobs.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+
+    get "/bicos", PortfolioController, :bicos
+    get "/estagiariosonline", PortfolioController, :estagiariosonline
+    get "/pagueamigo", PortfolioController, :pagueamigo
+    get "/dr-sintomas", PortfolioController, :dr_sintomas
   end
 
   # Other scopes may use custom stacks.
