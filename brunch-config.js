@@ -17,7 +17,6 @@ exports.config = {
           "web/static/vendor/jquery.min.js",
           "web/static/vendor/bootstrap.min.js",
           "web/static/vendor/animated-headline.js",
-          "web/static/vendor/notifyMe.js",
           "web/static/vendor/wow.min.js",
           "web/static/vendor/custom.js",
         ]
