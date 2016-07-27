@@ -1,6 +1,6 @@
-<%= render "_header.html" %>
-<%= render "_our_process.html" %>
-<%= render "_parallax_about.html" %>
-<%= render "_portfolio.html" %>
-<%= render "_testimonial_cases.html" %>
-<%= render "_get_in_touch.html" %>
+<%= render "_header.html", assigns %>
+<%= render "_our_process.html", assigns %>
+<%= render "_parallax_about.html", assigns %>
+<%= render "_portfolio.html", assigns %>
+<%= render "_testimonial_cases.html", assigns %>
+<%= render "_get_in_touch.html", assigns %>
