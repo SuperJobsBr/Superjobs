@@ -4,13 +4,9 @@
         <div class="container parallax-container reskew">
             <div class="text-center cd-intro">
                 <h1 class="cd-headline clip is-full-width">
-                    <span class="cd-words-wrapper">
-                        <b class="is-visible">SuperJobs Ventures</b>
-                        <b>Invista</b>
-                        <b>Encontre investimento</b>
-                    </span>
+                    <b class="is-visible">SuperJobs Ventures</b>
                 </h1>
-                <h3>Para investidores e startups que melhoram o mundo</h3>
+                <h3>Ajudando a criar plataformas de alto impacto</h3>
                 <a href="https://superjobs.typeform.com/to/e12rdZ" class="btn"><i class="fa fa-long-arrow-right"></i>Investidores</a>
                 <a href="https://superjobs.typeform.com/to/FWSdcy" class="btn"><i class="fa fa-long-arrow-right"></i>Startups</a>
             </div>
