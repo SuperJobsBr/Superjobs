@@ -7,8 +7,14 @@
                     <b class="is-visible">SuperJobs Ventures</b>
                 </h1>
                 <h3>Ajudando a criar plataformas de alto impacto</h3>
-                <a class="typeform-share link btn" href="https://bicos.typeform.com/to/e12rdZ" data-mode="1" target="_blank">Investidores</a>
-                <a class="typeform-share link btn" href="https://bicos.typeform.com/to/FWSdcy" data-mode="1" target="_blank">Startups</a>
+                <a class="typeform-share link btn" href="https://bicos.typeform.com/to/e12rdZ" data-mode="1" target="_blank">
+                    <i class="fa fa-long-arrow-right"></i>
+                    Investidores
+                </a>
+                <a class="typeform-share link btn" href="https://bicos.typeform.com/to/FWSdcy" data-mode="1" target="_blank">
+                    <i class="fa fa-long-arrow-right"></i>
+                    Startups
+                </a>
             </div>
         </div>
     </div>
