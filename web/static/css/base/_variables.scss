@@ -1,6 +1,6 @@
 // Font properties
-	$font-family: 'Open Sans', 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
-	$second-font: 'Raleway', 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
+	$font-family: 'Lato', 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
+	$second-font: 'Josefin Sans', 'Helvetica Neue', 'Lucida Grande', Arial, Verdana, sans-serif;
 
 // color
 	$color-white:#FFF;
@@ -10,6 +10,8 @@
     $color-dark:#3c3c3c;
 	$color-bg:#1f1f1f;
     $color-black:#000;
+    $color-blue: #1f98ff;
+    $color-green: #06cb06;
 
     $color-primary:#009ADC;
     $color-primary-dark:darken($color-primary,12%);

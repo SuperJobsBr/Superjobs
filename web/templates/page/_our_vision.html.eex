@@ -1,0 +1,48 @@
+<section class="our-vision" id="our-vision">
+  <h2 class="container our-vision__header">NOSSA VISÃO</h2>
+
+  <div class="container our-vision__subheader">
+    <div class="col-xs-12 col-md-2 our-vision__subheader__title">Qual é o<br/> seu everest?</div>
+    <div class="col-xs-12 col-md-10 our-vision__subheader__content">O seu everest nada mais é que o seu propósito. Aquilo que traz sentido para tudo o que fazemos. Vidas não tem sentido sem propósito. Negócios não tem sentido sem propósito.</div>
+  </div>
+
+  <div class="our-vision__first-part">
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-10">
+        <p>
+          O QUE TE <span class="our-vision__highlight">MOVE?</span> O QUE TE FAZ ACORDAR CEDO COM UMA <span class="our-vision__highlight">INQUIETAÇÃO INCONTROLÁVEL?</span> O QUE <span class="our-vision__highlight">DILATA A SUA PUPILA, ACELERA O SEU CORAÇÃO?</span>
+        </p>
+
+        <div class="our-vision__text-separator"></div>
+
+        <p>
+          Passamos muitas vezes a vida toda sem entender porque estamos aqui, qual é a nossa missão.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="our-vision__second-part">
+    <div class="container">
+      <div class="col-md-2">
+      </div>
+      <div class="col-md-10">
+        <p>
+          Baseado nesse entendimento que a SuperJobs definiu o seu propósito:
+        </p>
+        <p class="our-vision__highlight">
+          Ajudar pessoas e negócios a prosperar no novo mundo, na nova economia, de forma orgânica, engajada, transparente, preocupada não somente em gerar mais valores tangíveis, mas também os intangíveis.
+        </p>
+        <p>
+          Nada mais orgânico nos negócios do que entender o comportamento humano, as necessidades das pessoas. O mundo em que vivemos nunca presenciou tamanha transformação em tão pouco tempo. E o que todos nós não estávamos acostumados se tornou uma realidade: a mudança é agora o estado natural das coisas.
+        </p>
+        <p>
+	  E só temos uma alternativa, ou andamos na frente dessas transformações, sendo precursores, buscando inovação, criando tendências….ou seremos mais um no meio da enorme multidão.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+

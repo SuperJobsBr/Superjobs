@@ -1,0 +1,32 @@
+.sj-header {
+  width: 100%;
+  min-height: 700px;
+  background-size: cover;
+  background-position: top center;
+  background-image: url(/images/sj-header.jpg);
+  text-align: center;
+
+  &__title {
+    padding-top: 27%;
+    text-transform: uppercase;
+    color: $color-blue;
+    font-size: 48px;
+    font-weight: lighter;
+  }
+
+  &__subtitle {
+    color: $color-white;
+    font-size: 30px;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__buttons {
+    padding-top: 10px;
+  }
+
+  &__button:not(:first-child) {
+    margin-left: 25px;
+  }
+}

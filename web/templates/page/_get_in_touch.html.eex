@@ -1,14 +1,11 @@
-<section class="contact block-area" id="get-in-touch">
-    <div class="container">
-        <div class="center title-section wow  fadeInDown">
-            <h5>CONTATO</h5>
-            <h3 class="lrg">ENTRE EM CONTATO</h3>
-            <div class="separator">
-                <span><i></i></span>
-            </div>
+<section class="container get-in-touch" id="get-in-touch">
+  <div class="center title-section wow  fadeInDown">
+    <h2 class="get-in-touch__header">VAMOS <u>ESCALAR</u> O SEU EVEREST?</h2>
+    <h2 class="get-in-touch__content">FALE COM A GENTE</h2>
 
-            <a href="https://superjobs.typeform.com/to/e12rdZ" class="typeform-share link button" data-mode="1" target="_blank"><strong>Investidores</strong></a>
-            <a href="https://superjobs.typeform.com/to/FWSdcy" class="typeform-share link button" data-mode="1" target="_blank"><strong>Startups</strong></a>
-        </div>
+    <div class="get-in-touch__buttons">
+      <a href="https://superjobs.typeform.com/to/e12rdZ" class="typeform-share link button" data-mode="1" target="_blank"><strong>Investidores</strong></a>
+      <a href="https://superjobs.typeform.com/to/FWSdcy" class="typeform-share link button" data-mode="1" target="_blank"><strong>Startups</strong></a>
     </div>
+  </div>
 </section>

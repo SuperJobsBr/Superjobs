@@ -1,0 +1,17 @@
+.get-in-touch {
+  padding: 60px;
+
+  &__header {
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  &__content {
+    font-size: 48px;
+    color: $color-green;
+  }
+
+  &__buttons {
+    font-size: 18px;
+  }
+}

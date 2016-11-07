@@ -1,0 +1,16 @@
+.cases {
+  background-color: #373e45;
+  padding: 50px 0px;
+
+  &__header {
+    font-size: 44px;
+    color: $color-white;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  &__card {
+    margin-bottom: 30px;
+  }
+}

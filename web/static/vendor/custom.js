@@ -102,6 +102,15 @@
 			stopOnHover: true,
 			dots: true,
 		});
+
+		$("#process-slider").owlCarousel({
+			items: 1,
+			autoPlay: 5000,
+			stopOnHover: true,
+			singleItem: true,
+			dots: false,
+			nav: true,
+		});
 	
 		$(".client").owlCarousel({
 			autoPlay: 4000,
@@ -164,12 +173,9 @@
 		$container.imagesLoaded(function() {
 			$container.isotope({
 				itemSelector: '.masonry-item',
-				layoutMode: 'masonry',
-				resizesContainer: false,
-				percentPosition: true,
-				masonry: {
-					columnWidth: '.work-img',
-					gutter: 6
+				layoutMode: 'cellsByRow',
+				cellsByRow: {
+				  columnWidth: '.masonry-item',
 				}
 			});
 		});

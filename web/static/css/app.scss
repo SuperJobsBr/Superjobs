@@ -37,10 +37,13 @@
 //  Base  colors, fonts, sizes etc...
 @import "base/variables.scss";
 @import "base/mixins.scss";
-
-/* Google Fonts */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700");
+@import "base/functions.scss";
+@import "components/sj-header";
+@import "components/our-vision";
+@import "components/process-slider";
+@import "components/here-to-help";
+@import "components/cases";
+@import "components/get-in-touch";
 
 /* ------------------------------------- */
 /* 1. Generic styles ................... */
@@ -48,7 +51,7 @@
 body {
     background: $color-white;
     font-family: $font-family;
-    color: #777;
+    color: #4f4f4f;
     height: 100%;
 	overflow-x: hidden; 
 }
@@ -141,7 +144,7 @@ p {
 .btn{
     border: 2px solid #fff;
     padding: 10px 35px;
-    border-radius: 50px;
+    border-radius: 0px;
     color: #fff;
     margin-top: 2em;
 	margin-bottom: 2em;
@@ -170,19 +173,17 @@ p {
 .button {
     display: inline-block;
     margin: 1em 0;
-    border: none;
+    border: 3px $color-green solid;
 	text-transform: uppercase;
-	border-radius: 50px;
-	background: $color-primary;
-	color: #fff;
+	border-radius: 0px;
+	color: $color-green;
     padding: 10px 35px;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 .button:hover , .button:active , .button:focus {
 	color: #fff;
-	border-color: $color-primary-dark;
-	background-color: $color-primary-dark;
+	background-color: $color-green;
 }
 .center-btn{
 	margin:30px auto 0;
@@ -432,7 +433,7 @@ p {
 .parallax.hero {
     background-image: url(/images/header-parallax.jpg);
     background-size: inherit;
-    height:500px;
+    height:700px;
 }
 .parallax {
 	position: relative;
@@ -1149,6 +1150,7 @@ h1 , .header-title{
 	  text-transform: uppercase;
 	  letter-spacing: 0.1em;
 	  padding: 11px 19px;
+	  color: darken($color-white, 30%);
 	  
 	  &:last-child:after { visibility: hidden;}
 	  &:after{
@@ -1157,26 +1159,24 @@ h1 , .header-title{
 		height: 0;
 		width: 5px;
 		height: 5px;
-		background: $color-primary;
+		background: $color-white;
 		position: relative;
 		left: 23px; top: -2.5px;
 		@include rotate(45);
 	  }
-	  &:hover , &.active{ color: $color-primary;}
+	  &:hover , &.active{ color: $color-white; }
 	}
 }
 
 .masonry-item {
-  margin-top: 6px; 
-  width: 33%;
-  height: auto;
-  float: left;
+  width: 50%;
   overflow: hidden;
 }
 
 /*portfolio-effect*/
 figure.portfolio-effect {
 	@include linear-gradient(top, $color-primary, $color-secondary);
+    overflow: hidden;
 	
 	img {
 		width:100%;
@@ -2384,11 +2384,10 @@ ul.comment-children{
 /* 19. footer .......................... */
 /* ------------------------------------- */	
 footer {
-    background-color:$color-black;
-	padding: 50px 0;
-    margin-top: 40px;
-	position:relative;
-	color: $color-gray;
+  background: $color-light-gray;
+  padding: 30px 0;
+  color: $color-dark-gray;
+  text-align: center;
 }
 /* Big Triangle */
 svg#bigTriangleColor {
