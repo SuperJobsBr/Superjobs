@@ -12,6 +12,10 @@
     color: $color-blue;
     font-size: 48px;
     font-weight: lighter;
+
+    @media screen and (max-width: 768px) {
+      padding-top: 320px;
+    }
   }
 
   &__subtitle {
