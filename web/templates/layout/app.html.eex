@@ -31,12 +31,10 @@
         </div>
 
         <ul class="social-header">
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.linkedin.com/company-beta/16223864/"><i class="fa fa-linkedin"></i></a></li>
         </ul>
         <div class="logo">
-          <a href="<%= page_path(@conn, :index) %>"><img src="/images/logo.png" alt="Superjobs logo" width="212" height="40" /></a>
+          <a href="<%= page_path(@conn, :index) %>"><img src="/images/logo.png" alt="Superjobs logo" width="212" /></a>
         </div>
         <nav class="cd-nav-container" id="nav">
             <div class="close-container">
@@ -44,6 +42,7 @@
             </div>
 
             <ul class="cd-nav">
+                <li><a href="/#who-we-are">Quem somos</a></li>
                 <li><a href="/#our-vision">Nossa visão</a></li>
                 <li><a href="/#portfolio">Portifólio</a></li>
                 <li><a href="/#get-in-touch">Contato</a></li>

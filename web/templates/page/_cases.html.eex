@@ -1,15 +1,17 @@
+<section class="container here-to-help">
+  <p class="here-to-help__header">NOSSOS PILARES DE ATUAÇÃO</p>
+  <p class="here-to-help__content">JOBS - HEALTH - A.I - FINTECH.</p>
+</section>
+
 <section id="portfolio" class="cases">
     <div class="container">
-      <h3 class="cases__header">Cases</h3>
-
         <div class="row">
             <div class="col-md-12">
                 <div class="portfolio-filter">
-                    <a href="#" class="filter transition active" data-filter="*">Tudo</a>
-                    <a href="#" class="filter transition" data-filter=".marketplaces-tag">Marketplaces</a>
+                    <a href="#" class="filter transition active" data-filter="*">Portfolio</a>
+                    <a href="#" class="filter transition" data-filter=".marketplaces-tag">Jobs</a>
                     <a href="#" class="filter transition" data-filter=".fintech-tag">Fintech</a>
-                    <a href="#" class="filter transition" data-filter=".ai-tag">AI</a>
-                    <a href="#" class="filter transition" data-filter=".health-tag">Health</a>
+                    <a href="#" class="filter transition" data-filter=".ai-tag">Artificial Inteligence</a>
                 </div>
             </div>
         </div>
@@ -20,7 +22,7 @@
                   <img src="/images/portfolio/bicos.png" alt="img">
                   <figcaption>
                       <h3>Bicos</h3>
-                      <a href="<%= portfolio_path(@conn, :bicos) %>"><i class="fa fa-search"></i></a>
+                      <a href="https://www.bicos.com.br/"><i class="fa fa-search"></i></a>
                   </figcaption>
               </figure>
             </div>
@@ -30,7 +32,7 @@
                   <img src="/images/portfolio/estagiarios.png" alt="img">
                   <figcaption>
                       <h3>Estagiários Online</h3>
-                      <a href="<%= portfolio_path(@conn, :estagiariosonline) %>"><i class="fa fa-search"></i></a>
+                      <a href="https://estagiariosonline.com.br/"><i class="fa fa-search"></i></a>
                   </figcaption>
               </figure>
             </div>
@@ -40,17 +42,57 @@
                   <img src="/images/portfolio/pagueamigo.png" alt="img">
                   <figcaption>
                       <h3>Pague Amigo</h3>
-                      <a href="<%= portfolio_path(@conn, :pagueamigo) %>"><i class="fa fa-search"></i></a>
+                      <a href="http://www.pagueamigo.com.br/"><i class="fa fa-search"></i></a>
                   </figcaption>
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag health-tag wow fadeInUp" data-wow-delay=".4s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp" data-wow-delay=".4s">
               <figure class="portfolio-effect">
                   <img src="/images/portfolio/drsintomas.png" alt="img">
                   <figcaption>
                       <h3>Dr. Sintomas</h3>
-                      <a href="<%= portfolio_path(@conn, :dr_sintomas) %>"><i class="fa fa-search"></i></a>
+                      <a href="https://www.drsintomas.com.br/"><i class="fa fa-search"></i></a>
+                  </figcaption>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <img src="/images/portfolio/startmeup.png" alt="img">
+                  <figcaption>
+                      <h3>Startmeup</h3>
+                      <a href="https://www.startmeup.com.br/"><i class="fa fa-search"></i></a>
+                  </figcaption>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <img src="/images/portfolio/docbot.png" alt="img">
+                  <figcaption>
+                      <h3>Docbot</h3>
+                      <a href="http://docbot.com.br/"><i class="fa fa-search"></i></a>
+                  </figcaption>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <img src="/images/portfolio/diatec.png" alt="img">
+                  <figcaption>
+                      <h3>Diatec</h3>
+                      <a href="http://comercial.drsintomas.com.br/"><i class="fa fa-search"></i></a>
+                  </figcaption>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <img src="/images/portfolio/wetoro.png" alt="img">
+                  <figcaption>
+                      <h3>Em breve</h3>
+                      <a onclick="alert('Coming soon...')"><i class="fa fa-search"></i></a>
                   </figcaption>
               </figure>
             </div>

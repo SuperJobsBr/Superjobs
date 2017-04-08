@@ -1,6 +1,6 @@
 <%= render "_header.html", assigns %>
+<%= render "_who_we_are.html", assigns %>
 <%= render "_our_vision.html", assigns %>
 <%= render "_process_slider.html", assigns %>
-<%= render "_here_to_help.html", assigns %>
 <%= render "_cases.html", assigns %>
 <%= render "_get_in_touch.html", assigns %>
