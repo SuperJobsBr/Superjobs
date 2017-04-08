@@ -28,9 +28,19 @@
 
   &__buttons {
     padding-top: 10px;
+    text-align: center;
   }
 
-  &__button:not(:first-child) {
-    margin-left: 25px;
+  &__button {
+    margin-right: 25px;
+
+
+    @media screen and (max-width: 640px) {
+      margin-right: 0px;
+    }
+  }
+
+  &__button:not(:last-child) {
+    margin-right: 0px;
   }
 }
