@@ -22,6 +22,10 @@ config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
 
+# Supported languages
+config :superjobs, Superjobs.Gettext,
+  locales: ~w(pt-br en)
+
 # Configures the endpoint
 # Configures Elixir's Logger
 # Import environment specific config. This must remain at the bottom

@@ -1,11 +1,11 @@
 <section class="process-slider">
   <div class="process-slider__nav">
-    <h3>NOSSO PROCESSO</h3>
+    <h3><%= gettext "NOSSO PROCESSO" %></h3>
     <div class="process-slider__nav__jumps">
-      <a href="#ideias-validacoes">1. IDÉIAS & VALIDAÇÕES</a>
-      <a href="#funding">2. FUNDING</a>
-      <a href="#desenvolvimento">3. DESENVOLVIMENTO</a>
-      <a href="#growth">4. GROWTH</a>
+      <a href="#ideias-validacoes"><%= gettext "1. IDÉIAS & VALIDAÇÕES" %></a>
+      <a href="#funding"><%= gettext "2. FUNDING" %></a>
+      <a href="#desenvolvimento"><%= gettext "3. DESENVOLVIMENTO" %></a>
+      <a href="#growth"><%= gettext "4. GROWTH" %></a>
     </div>
   </div>
 

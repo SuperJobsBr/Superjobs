@@ -21,4 +21,14 @@ defmodule Superjobs.Gettext do
   See the [Gettext Docs](https://hexdocs.pm/gettext) for detailed usage.
   """
   use Gettext, otp_app: :superjobs
+
+  defp config, do: Application.get_env(:superjobs, __MODULE__)
+
+  def supported_locales do
+    known = Gettext.known_locales(Superjobs.Gettext)
+    allowed = config()[:locales]
+
+    Set.intersection(Enum.into(known, HashSet.new), Enum.into(allowed, HashSet.new))
+    |> Set.to_list
+  end
 end

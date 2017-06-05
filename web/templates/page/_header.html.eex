@@ -5,17 +5,17 @@
     </h1>
 
     <h2 class="sj-header__subtitle">
-        High impact investments
+        <%= gettext "Investimentos de Alto Impacto"  %>
     </h2>
 
     <div class="sj-header__buttons">
         <a class="typeform-share link btn sj-header__button" href="https://bicos.typeform.com/to/e12rdZ" data-mode="1" target="_blank">
             <i class="fa fa-long-arrow-right"></i>
-            Investidores
+            <%= gettext "Investidores"  %>
         </a>
         <a class="typeform-share link btn sj-header__button" href="https://bicos.typeform.com/to/FWSdcy" data-mode="1" target="_blank">
             <i class="fa fa-long-arrow-right"></i>
-            Startups
+            <%= gettext "Startups"  %>
         </a>
     </div>
 </section>

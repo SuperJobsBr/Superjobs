@@ -1,0 +1,141 @@
+## `msgid`s in this file come from POT (.pot) files.
+##
+## Do not add, change, or remove `msgid`s manually here as
+## they're tied to the ones in the corresponding POT file
+## (with the same domain).
+##
+## Use `mix gettext.extract --merge` or `mix gettext.merge`
+## to merge POT files into PO files.
+msgid ""
+msgstr ""
+"Language: en\n"
+
+#: web/templates/page/_get_in_touch.html.eex:8
+#: web/templates/page/_header.html.eex:18
+msgid "Startups"
+msgstr ""
+
+#: web/templates/page/_get_in_touch.html.eex:7
+#: web/templates/page/_header.html.eex:14
+msgid "Investidores"
+msgstr "Investors"
+
+#: web/templates/page/_who_we_are.html.eex:10
+msgid "Somos uma venture builder com foco em investimentos de alto impacto, nossa proposta é investir em pessoas diferenciadas e startups inovadoras que de alguma forma visam melhorar positivamente o mundo em que vivemos."
+msgstr "We are a venture builder, focused on high impact investments, our goal is to invest in capable people and innovative startups, that somehow aim to positively improve the world we live in."
+
+#: web/templates/page/_header.html.eex:8
+msgid "Investimentos de Alto Impacto"
+msgstr "High Impact Investiments"
+
+#: web/templates/page/_who_we_are.html.eex:2
+msgid "QUEM SOMOS"
+msgstr "WHO WE ARE"
+
+#: web/templates/page/_process_slider.html.eex:5
+msgid "1. IDÉIAS & VALIDAÇÕES"
+msgstr "1. IDEIAS & INNOVATION"
+
+#: web/templates/page/_process_slider.html.eex:6
+msgid "2. FUNDING"
+msgstr ""
+
+#: web/templates/page/_process_slider.html.eex:7
+msgid "3. DESENVOLVIMENTO"
+msgstr "3. DEVELOPMENT"
+
+#: web/templates/page/_process_slider.html.eex:8
+msgid "4. GROWTH"
+msgstr ""
+
+#: web/templates/page/_our_vision.html.eex:38
+msgid "Ajudar pessoas e negócios a prosperar no novo mundo, na nova economia, de forma orgânica, engajada, transparente, preocupada não somente em gerar mais valores tangíveis, mas também os intangíveis."
+msgstr "Help people and business to prospor in this new world, new economy; in an organic, engaged and transparent way. Worried not only with producing tangible value, but also, intangible."
+
+#: web/templates/page/_cases.html.eex:14
+msgid "Artificial Inteligence"
+msgstr ""
+
+#: web/templates/page/_our_vision.html.eex:35
+msgid "Baseado nesse entendimento que a SuperJobs definiu o seu propósito:"
+msgstr "Based on this comprehension that we, SuperJobs, defined our purpose:"
+
+#: web/templates/page/_our_vision.html.eex:44
+msgid "E só temos uma alternativa, ou andamos na frente dessas transformações, sendo precursores, investindo em inovação, criando tendências….ou seremos mais um no meio da enorme multidão."
+msgstr "And there is only one alternative, or we get ahead of these transformations, being forerunners, investing in innovation, creating tendencies... or we will be one more in the middle of this huge crowd."
+
+#: web/templates/page/_cases.html.eex:94 web/templates/page/_cases.html.eex:95
+msgid "Em breve"
+msgstr "Coming soon"
+
+#: web/templates/page/_get_in_touch.html.eex:4
+msgid "FALE COM A GENTE"
+msgstr "GET IN TOUCH"
+
+#: web/templates/page/_cases.html.eex:13
+msgid "Fintech"
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:3
+msgid "JOBS - HEALTH - A.I - FINTECH."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:12
+msgid "Jobs"
+msgstr ""
+
+#: web/templates/page/_process_slider.html.eex:3
+msgid "NOSSO PROCESSO"
+msgstr "OUR PROCESS"
+
+#: web/templates/page/_cases.html.eex:2
+msgid "NOSSOS PILARES DE ATUAÇÃO"
+msgstr "WHERE WE INVEST"
+
+#: web/templates/page/_our_vision.html.eex:41
+msgid "Nada mais orgânico nos negócios do que entender o comportamento humano, as necessidades das pessoas. O mundo em que vivemos nunca presenciou tamanha transformação em tão pouco tempo. E o que todos nós não estávamos acostumados se tornou uma realidade: a mudança é agora o estado natural das coisas."
+msgstr ""
+
+#: web/templates/page/_our_vision.html.eex:7
+msgid "O seu everest nada mais é que o seu propósito. Aquilo que traz sentido para tudo o que fazemos. Vidas não tem sentido sem propósito. Negócios não tem sentido sem propósito."
+msgstr "Your everest is nothing more than your purpose. What brings meaning for everything we do. Lives have no meaning without a purpose. Business has no meaning without a purpose."
+
+#: web/templates/page/_our_vision.html.eex:23
+msgid "Passamos muitas vezes a vida toda sem entender porque estamos aqui, qual é a nossa missão."
+msgstr "Most of us spend our entire life without knowing why we are here, our mission."
+
+#: web/templates/page/_cases.html.eex:11
+msgid "Portfolio"
+msgstr ""
+
+#: web/templates/page/_our_vision.html.eex:5
+msgid "Qual é o<br/> seu everest?"
+msgstr "What's your<br> everest?"
+
+#: web/templates/page/_get_in_touch.html.eex:3
+msgid "VAMOS <u>JUNTOS</u> ESCALAR O SEU EVEREST?"
+msgstr "LETS CLIMB THIS EVEREST <u>TOGETHER</u>?"
+
+#: web/templates/page/_our_vision.html.eex:17
+msgid "O QUE TE <span class='our-vision__highlight'>MOVE?</span> O QUE TE FAZ ACORDAR CEDO COM UMA <span class='our-vision__highlight'>INQUIETAÇÃO INCONTROLÁVEL?</span> O QUE <span class='our-vision__highlight'>DILATA A SUA PUPILA, ACELERA O SEU CORAÇÃO?</span>"
+msgstr "WHAT MOVES <span class='our-vision__highlight'>YOU?</span> WHAT MAKES YOU WAKE UP EARLY WITH AN <span class='our-vision__highlight'>UNCONTROLLABLE ITCH?</span> WHAT <span class='our-vision__highlight'> MAKES YOUR HEART PUMP?</span>"
+
+#: web/templates/layout/app.html.eex:68
+msgid "Contato"
+msgstr "Get in touch"
+
+#: web/templates/layout/app.html.eex:66
+msgid "Nossa visão"
+msgstr "Our vision"
+
+#: web/templates/layout/app.html.eex:67
+msgid "Portifólio"
+msgstr "Portfolio"
+
+#: web/templates/layout/app.html.eex:65
+msgid "Quem somos"
+msgstr "Who we are"
+
+#: web/templates/layout/app.html.eex:84
+msgid "SuperJobs Venture Capital - Todos os direitos reservados"
+msgstr "SuperJobs Venture Capital - All rights reserved"

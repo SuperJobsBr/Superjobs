@@ -1,6 +1,6 @@
 <section class="container here-to-help">
-  <p class="here-to-help__header">NOSSOS PILARES DE ATUAÇÃO</p>
-  <p class="here-to-help__content">JOBS - HEALTH - A.I - FINTECH.</p>
+  <p class="here-to-help__header"><%= gettext "NOSSOS PILARES DE ATUAÇÃO" %></p>
+  <p class="here-to-help__content"><%= gettext "JOBS - HEALTH - A.I - FINTECH." %></p>
 </section>
 
 <section id="portfolio" class="cases">
@@ -8,10 +8,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="portfolio-filter">
-                    <a href="#" class="filter transition active" data-filter="*">Portfolio</a>
-                    <a href="#" class="filter transition" data-filter=".marketplaces-tag">Jobs</a>
-                    <a href="#" class="filter transition" data-filter=".fintech-tag">Fintech</a>
-                    <a href="#" class="filter transition" data-filter=".ai-tag">Artificial Inteligence</a>
+                    <a href="#" class="filter transition active" data-filter="*"><%= gettext "Portfolio" %></a>
+                    <a href="#" class="filter transition" data-filter=".marketplaces-tag"><%= gettext "Jobs" %></a>
+                    <a href="#" class="filter transition" data-filter=".fintech-tag"><%= gettext "Fintech" %></a>
+                    <a href="#" class="filter transition" data-filter=".ai-tag"><%= gettext "Artificial Inteligence" %></a>
                 </div>
             </div>
         </div>
@@ -91,8 +91,8 @@
               <figure class="portfolio-effect">
                   <img src="/images/portfolio/wetoro.png" alt="img">
                   <figcaption>
-                      <h3>Em breve</h3>
-                      <a onclick="alert('Coming soon...')"><i class="fa fa-search"></i></a>
+                      <h3><%= gettext "Em breve" %></h3>
+                      <a onclick="alert('<%= gettext "Em breve" %>')"><i class="fa fa-search"></i></a>
                   </figcaption>
               </figure>
             </div>

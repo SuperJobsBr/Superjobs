@@ -7,6 +7,8 @@ defmodule Superjobs.Router do
     plug :fetch_flash
     plug :protect_from_forgery
     plug :put_secure_browser_headers
+
+    plug Superjobs.Plug.Locale, "pt-br"
   end
 
   pipeline :api do
@@ -15,6 +17,13 @@ defmodule Superjobs.Router do
 
   scope "/", Superjobs do
     pipe_through :browser # Use the default browser stack
+
+    # The dummy route is never hit, but exists so that the router has a "/" path.
+    get "/", PageController, :dummy
+  end
+
+  scope "/:locale", Superjobs do
+    pipe_through [:browser]
 
     get "/", PageController, :index
 

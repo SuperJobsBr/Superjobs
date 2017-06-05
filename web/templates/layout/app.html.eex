@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= locale %>">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Superjobs Venture Capital - Startups">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Generate og:locale tags -->
+    <%= for {property, content} <- fb_locales do %>
+      <%= Phoenix.HTML.Tag.tag(:meta, property: property, content: content) %>
+    <% end %>
+
+    <!-- Generate link alternate tags -->
+    <%= for {lang, path} <- language_annotations(@conn) do %>
+      <%= Phoenix.HTML.Tag.tag(:link, rel: "alternate", hreflang: lang, href: path) %>
+    <% end %>
+
     <title>Superjobs Venture Capital</title>
     <link rel="icon" href="/images/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,700|Lato:300,700" rel="stylesheet">
@@ -31,10 +42,19 @@
         </div>
 
         <ul class="social-header">
-            <li><a href="https://www.linkedin.com/company-beta/16223864/"><i class="fa fa-linkedin"></i></a></li>
+          <li>
+            <a href="<%= page_path(@conn, :index, "pt-br") %>">
+              <img src="<%= static_path(@conn, "/images/flags/bra.png") %>" />
+            </a>
+          </li>
+          <li>
+            <a href="<%= page_path(@conn, :index, "en") %>">
+              <img src="<%= static_path(@conn, "/images/flags/usa.png") %>" />
+            </a>
+          </li>
         </ul>
         <div class="logo">
-          <a href="<%= page_path(@conn, :index) %>"><img src="/images/logo.png" alt="Superjobs logo" width="212" /></a>
+          <a href="<%= page_path(@conn, :index, @locale) %>"><img src="/images/logo.png" alt="Superjobs logo" width="212" /></a>
         </div>
         <nav class="cd-nav-container" id="nav">
             <div class="close-container">
@@ -42,10 +62,10 @@
             </div>
 
             <ul class="cd-nav">
-                <li><a href="/#who-we-are">Quem somos</a></li>
-                <li><a href="/#our-vision">Nossa visão</a></li>
-                <li><a href="/#portfolio">Portifólio</a></li>
-                <li><a href="/#get-in-touch">Contato</a></li>
+                <li><a href="/#who-we-are"><%= gettext "Quem somos" %></a></li>
+                <li><a href="/#our-vision"><%= gettext "Nossa visão" %></a></li>
+                <li><a href="/#portfolio"><%= gettext "Portifólio" %></a></li>
+                <li><a href="/#get-in-touch"><%= gettext "Contato" %></a></li>
             </ul>
             <!-- .cd-nav -->
         </nav>
@@ -61,7 +81,7 @@
     </main>
 
     <footer>
-      SuperJobs Venture Capital - Todos os direitos reservados
+      <%= gettext "SuperJobs Venture Capital - Todos os direitos reservados" %>
     </footer>
 
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
