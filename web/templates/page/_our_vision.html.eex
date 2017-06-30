@@ -1,5 +1,5 @@
 <section class="our-vision" id="our-vision">
-  <h2 class="container our-vision__header">NOSSA VISÃO</h2>
+  <h2 class="container our-vision__header"><%= gettext "NOSSA VISÃO" %></h2>
 
   <div class="container our-vision__subheader">
     <div class="col-xs-12 col-md-2 our-vision__subheader__title"><%= raw gettext "Qual é o<br/> seu everest?" %></div>

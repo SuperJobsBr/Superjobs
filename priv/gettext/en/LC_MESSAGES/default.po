@@ -94,7 +94,7 @@ msgstr "WHERE WE INVEST"
 
 #: web/templates/page/_our_vision.html.eex:41
 msgid "Nada mais orgânico nos negócios do que entender o comportamento humano, as necessidades das pessoas. O mundo em que vivemos nunca presenciou tamanha transformação em tão pouco tempo. E o que todos nós não estávamos acostumados se tornou uma realidade: a mudança é agora o estado natural das coisas."
-msgstr ""
+msgstr "Nothing is more organic in business than understanding human behavior, people's needs. The world we live in has never witnessed such a transformation in such a short time. And what we were all not accustomed became a reality: change is now the natural state of things."
 
 #: web/templates/page/_our_vision.html.eex:7
 msgid "O seu everest nada mais é que o seu propósito. Aquilo que traz sentido para tudo o que fazemos. Vidas não tem sentido sem propósito. Negócios não tem sentido sem propósito."
@@ -139,3 +139,19 @@ msgstr "Who we are"
 #: web/templates/layout/app.html.eex:84
 msgid "SuperJobs Venture Capital - Todos os direitos reservados"
 msgstr "SuperJobs Venture Capital - All rights reserved"
+
+#: web/templates/page/_our_vision.html.eex:2
+msgid "NOSSA VISÃO"
+msgstr "Our vision"
+
+#: web/templates/page/_team.html.eex:4
+msgid "TIME"
+msgstr "Team"
+
+#: web/templates/page/_team.html.eex:19
+msgid "Andre Martins é presidente da VB desde abril de 2000. Formado em Administraç ão de Empresas pela Fundaç ão Á lvares Penteado (FAAP), com cursos de especializaç ão no INSEAD, na Franç a, e pela Fundaç ão Dom Cabral, em Minas Gerais, André Martins foi presidente do Lide Jovem, grupo de jovens executivos e empresá rios, até dezembro de 2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Há trê s anos, quando o grupo norte-americano FleetCor adquiriu a VB, Martins foi convidado a continuar como presidente da empresa. Além disso, André desenvolve um papel de investidor em startups desde 2008, tendo investido em empresas como Pto de Contato, mais recentemente na Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Venture."
+msgstr "Andre Martins has been President of VB since April 2000. He holds a degree in Business Administration from the Álvares Penteado Foundation (FAAP), with specialization courses at INSEAD, in France, and at the Dom Cabral Foundation in Minas Gerais, André Martins was president of Lide Jovem, a group of young executives and entrepreneurs, until December 2013 and is a member of the Business Council of the Ayrton Senna Institute. Three years ago, when the North American group FleetCor acquired VB, Martins was invited to continue as president of the company. In addition, André has been a star investor since 2008, having invested in companies such as Pto de Contacto, most recently at Fintech ContaUm, PetiteBox and co-founded SuperJobs Venture."
+
+#: web/templates/page/_team.html.eex:38
+msgid "Apaixonado por Inovação e Tecnologia, fundou a Agência Mídia em 2001 e a Elemidia Mall, em 2008, onde teve como sócios o Publicitário Roberto Justus e Marcos Quintela.  Em 2010, vendeu as duas operações para o Grupo Abril, permanecendo por três anos como Diretor Comercial. Hoje compõe o board de sete startups ajudando os CEOs nas inúmeras dores do ecossistema, além de estar sempre buscando por pessoas diferenciadas e ideias inovadoras que possam de alguma forma ajudar a melhorar o mundo em que vivemos."
+msgstr "Passionate about Innovation and Technology, he founded Media Agency in 2001 and Elemidia Mall in 2008, where he had as partners the Publicity Roberto Justus and Marcos Quintela. In 2010, he sold both operations to Abril Group, remaining for three years as Commercial Director. Today he is the board of seven startups helping CEOs in the many pains of the ecosystem, as well as being always looking for differentiated people and innovative ideas that can somehow help to improve the world we live in."
