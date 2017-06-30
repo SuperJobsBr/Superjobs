@@ -3,4 +3,5 @@
 <%= render "_our_vision.html", assigns %>
 <%= render "_process_slider.html", assigns %>
 <%= render "_cases.html", assigns %>
+<%= render "_team.html", assigns %>
 <%= render "_get_in_touch.html", assigns %>

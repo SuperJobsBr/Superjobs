@@ -1299,7 +1299,26 @@ figure.portfolio-effect {
 /* ------------------------------------- */
 /* 10. team ............................ */
 /* ------------------------------------- */
-.team{ background-color:$color-gray; }
+.team {
+  background-color:$color-gray;
+
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+
+  .row {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+
+  .row > div[class*='col-'] {
+    display: flex;
+  }
+}
 .team-member{
 	margin:15px 5px;
 	background-color:#fff;
@@ -1322,8 +1341,6 @@ figure.portfolio-effect {
 			height: 100%; width: 100%;
 			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 			transition: opacity 0.35s, transform 0.35s;
-			-webkit-transform: scale(1.2);
-			transform: scale(1.2);
 		}
 	
 		p.icon-links{

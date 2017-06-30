@@ -1,0 +1,64 @@
+<section id="team" class="team">
+  <div class="container">
+    <div class="center title-section wow fadeInDown">
+      <h2 class="title"><%= gettext "TEAM" %></h2>
+    </div>
+    <!-- title-section -->
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-3">
+	<div class="team-member">
+	  <figure class="team-effect">
+	    <img src="<%= static_path(@conn, "/images/team/andre.png") %>" alt="img">
+	  </figure>
+	  <div class="team-details center">
+	    <h4>Andre Martins</h4>
+	    <div class="divider"></div>
+	    <p>Founder</p>
+	    <p>
+	      Andre Martins é presidente da VB desde abril de 2000. Formado em Administraç ão de
+	      Empresas pela Fundaç ão Á lvares Penteado (FAAP), com cursos de especializaç ão no
+	      INSEAD, na Franç a, e pela Fundaç ão Dom Cabral, em Minas Gerais, André Martins foi
+	      presidente do Lide Jovem, grupo de jovens executivos e empresá rios, até dezembro de
+	      2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Há trê s anos,
+	      quando o grupo norte-americano FleetCor adquiriu a VB, Martins foi convidado a continuar
+	      como presidente da empresa. Além disso, André desenvolve um papel de investidor em
+	      startups desde 2008, tendo investido em empresas como Pto de Contato, mais
+	      recentemente na Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Venture.
+	    </p>
+	  </div>
+	  <!-- team-details -->
+	</div>
+	<!-- team-member -->
+      </div>
+      <!-- col -->
+
+      <div class="col-md-3 col-sm-6 col-xs-12">
+	<div class="team-member">
+	  <figure class="team-effect">
+	    <img src="<%= static_path(@conn, "/images/team/marcos.jpeg") %>" alt="img">
+	  </figure>
+	  <div class="team-details center">
+	    <h4>Marcos Botelho</h4>
+	    <div class="divider"></div>
+	    <p>Founder</p>
+	    <p>
+	      Apaixonado por Inovação e Tecnologia, fundou a Agência Mídia em 2001 e a Elemidia
+	      Mall, em 2008, onde teve como sócios o Publicitário Roberto Justus e Marcos Quintela.
+	      Em 2010, vendeu as duas operações para o Grupo Abril, permanecendo por três anos
+	      como Diretor Comercial. Hoje compõe o board de sete startups ajudando os CEOs nas
+	      inúmeras dores do ecossistema, além de estar sempre buscando por pessoas
+	      diferenciadas e ideias inovadoras que possam de alguma forma ajudar a melhorar o
+	      mundo em que vivemos.
+	    </p>
+	  </div>
+	  <!-- team-details -->
+	</div>
+	<!-- team-member -->
+      </div>
+      <!-- col -->
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</section>
