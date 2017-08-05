@@ -13,21 +13,25 @@
     <div id="ideias-validacoes" class="process-slider__slide" style="background: #004562">
       <div class="process-slider__slide__content">
         <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/1_pt-br.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/1_en.jpg") %>" />
       </div>
     </div>
     <div id="funding" class="process-slider__slide" style="background: #836334">
       <div class="process-slider__slide__content">
         <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/2_pt-br.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/2_en.jpg") %>" />
       </div>
     </div>
     <div id="desenvolvimento" class="process-slider__slide" style="background: #242841">
       <div class="process-slider__slide__content">
         <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/3_pt-br.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/3_en.jpg") %>" />
       </div>
     </div>
     <div id="growth" class="process-slider__slide" style="background: #2F241C">
       <div class="process-slider__slide__content">
         <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/4_pt-br.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/4_en.jpg") %>" />
       </div>
     </div>
   </div>
