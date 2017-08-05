@@ -2,32 +2,32 @@
   <div class="process-slider__nav">
     <h3><%= gettext "NOSSO PROCESSO" %></h3>
     <div class="process-slider__nav__jumps">
-      <a href="#ideias-validacoes"><%= gettext "1. IDÉIAS & VALIDAÇÕES" %></a>
-      <a href="#funding"><%= gettext "2. FUNDING" %></a>
-      <a href="#desenvolvimento"><%= gettext "3. DESENVOLVIMENTO" %></a>
-      <a href="#growth"><%= gettext "4. GROWTH" %></a>
+      <a href="#ideias-validacoes" class="tab-01 active"><%= gettext "1. IDÉIAS & VALIDAÇÕES" %></a>
+      <a href="#funding" class="tab-02"><%= gettext "2. FUNDING" %></a>
+      <a href="#desenvolvimento" class="tab-03"><%= gettext "3. DESENVOLVIMENTO" %></a>
+      <a href="#growth" class="tab-04"><%= gettext "4. GROWTH" %></a>
     </div>
   </div>
 
   <div id="process-slider">
     <div id="ideias-validacoes" class="process-slider__slide" style="background: #004562">
       <div class="process-slider__slide__content">
-        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/1.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/1_pt-br.jpg") %>" />
       </div>
     </div>
     <div id="funding" class="process-slider__slide" style="background: #836334">
       <div class="process-slider__slide__content">
-        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/2.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/2_pt-br.jpg") %>" />
       </div>
     </div>
     <div id="desenvolvimento" class="process-slider__slide" style="background: #242841">
       <div class="process-slider__slide__content">
-        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/3.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/3_pt-br.jpg") %>" />
       </div>
     </div>
     <div id="growth" class="process-slider__slide" style="background: #2F241C">
       <div class="process-slider__slide__content">
-        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/4.jpg") %>" />
+        <img class="process-slider__slide" src="<%= static_path(@conn, "/images/process-slider/4_pt-br.jpg") %>" />
       </div>
     </div>
   </div>

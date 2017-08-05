@@ -34,11 +34,40 @@
       margin-top: 90px;
 
       @media screen and (max-width: 768px) {
-	display: none;
+        display: none;
       }
 
       a {
       	margin-right: 30px;
+
+        &.active {
+          position: relative;
+          display: inline-block;
+          padding-bottom: 10px;
+
+          &::after {
+            position: absolute;
+            line-height: 12px;
+            content: "\2022";
+            font-size: 35px;
+            display: block;
+            bottom: -10px;
+            left: 0;
+          }
+
+          &.tab-01 {
+            color: #06ff95;
+          }
+          &.tab-02 {
+            color: #e4ff00;
+          }
+          &.tab-03 {
+            color: #7ef6ef;
+          }
+          &.tab-04 {
+            color: #f66a04;
+          }
+        }
       }
     }
   }
@@ -54,31 +83,47 @@
     }
   }
 
-  .owl-next {
-    position: absolute;
-    top: 60%;
-    right: 10px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 30px;
-    font-family: 'FontAwesome';
-    font-weight: 100;
-
-    &:after {
-      content: '\f054';
+  .owl-nav {
+    &.slide-01 {
+      .owl-prev { 
+        background: url(../images/process-slider/arrow-slide-01-left.png) top no-repeat;
+      }
+      .owl-next { 
+        background: url(../images/process-slider/arrow-slide-01-right.png) top no-repeat;
+      }
     }
-  }
+    &.slide-02 {
+      .owl-prev { 
+        background: url(../images/process-slider/arrow-slide-02-left.png) top no-repeat;
+      }
+      .owl-next { 
+        background: url(../images/process-slider/arrow-slide-02-right.png) top no-repeat;
+      }
+    }
+    &.slide-03 {
+      .owl-prev { 
+        background: url(../images/process-slider/arrow-slide-03-left.png) top no-repeat;
+      }
+      .owl-next { 
+        background: transparent;
+      }
+    }
 
-  .owl-prev {
-    position: absolute;
-    top: 60%;
-    left: 10px;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 30px;
-    font-family: 'FontAwesome';
-    font-weight: 100;
+    .owl-next {
+      background: url(../images/process-slider/arrow-slide-00-right.png) top no-repeat;
+      position: absolute;
+      height: 73px;
+      width: 30px;
+      right: 10px;
+      top: 60%;
+    }
 
-    &:after {
-      content: '\f053';
+    .owl-prev {
+      position: absolute;
+      height: 73px;
+      width: 30px;
+      left: 10px;
+      top: 60%;
     }
   }
 }
