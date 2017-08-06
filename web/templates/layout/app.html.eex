@@ -65,6 +65,7 @@
                 <li><a href="/#who-we-are"><%= gettext "Quem somos" %></a></li>
                 <li><a href="/#our-vision"><%= gettext "Nossa visão" %></a></li>
                 <li><a href="/#portfolio"><%= gettext "Portifólio" %></a></li>
+                <li><a href="/#team"><%= gettext "Nosso Time" %></a></li>
                 <li><a href="/#get-in-touch"><%= gettext "Contato" %></a></li>
             </ul>
             <!-- .cd-nav -->

@@ -122,6 +122,10 @@ msgid "O QUE TE <span class='our-vision__highlight'>MOVE?</span> O QUE TE FAZ AC
 msgstr ""
 
 #: web/templates/layout/app.html.eex:68
+msgid "Nosso Time"
+msgstr ""
+
+#: web/templates/layout/app.html.eex:68
 msgid "Contato"
 msgstr ""
 
@@ -144,10 +148,6 @@ msgstr ""
 #: web/templates/page/_our_vision.html.eex:2
 msgid "NOSSA VISÃO"
 msgstr ""
-
-#: web/templates/page/_team.html.eex:4
-msgid "Nosso Time"
-msgstr "Our Team"
 
 #: web/templates/page/_team.html.eex:19
 msgid "Andre Martins é presidente da VB desde abril de 2000. Formado em Administração de Empresas pela Fundação Álvares Penteado (FAAP), com cursos de especialização no INSEAD, na França, e pela Fundação Dom Cabral, em Minas Gerais, André Martins foi presidente do Lide Jovem, grupo de jovens executivos e empresários, até dezembro de 2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Além disso, André desenvolve um papel de investidor em startups desde 2008, investindo em empresas como Pto de Contato, Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Venture."
