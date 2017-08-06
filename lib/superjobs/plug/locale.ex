@@ -17,7 +17,7 @@ defmodule Superjobs.Plug.Locale do
       path = if is_ietf_tag do
         localized_path(conn.request_path, locale, conn.params["locale"])
       else
-        localized_path(conn.request_path, locale)
+        localized_path(conn.request_path, 'pt-br')
       end
       conn |> redirect_to(path)
     end
