@@ -6,7 +6,7 @@
 		<!-- title-section -->
 
 		<div class="team-content">
-			<div id="section-marcos" class="team-member">
+			<div id="section-marcos" class="team-member wow fadeInUp">
 				<figure class="member-image">
 					<img src="<%= static_path(@conn, "/images/team/round-marcos.png") %>" alt="img">
 				</figure>
@@ -20,7 +20,7 @@
 			</div>
 
 			<!-- team-member -->
-			<div id="section-andre" class="team-member">
+			<div id="section-andre" class="team-member wow fadeInUp">
 				<figure class="member-image">
 					<img src="<%= static_path(@conn, "/images/team/round-andre.png") %>" alt="img">
 				</figure>
@@ -34,7 +34,7 @@
 			</div>	
 			<!-- team-member -->
 
-			<div id="section-catharina" class="team-member">
+			<div id="section-catharina" class="team-member wow fadeInUp">
 				<figure class="member-image">
 					<img src="<%= static_path(@conn, "/images/team/round-catharina.png") %>" alt="img">
 				</figure>
@@ -48,7 +48,7 @@
 			</div>	
 			<!-- team-member -->
 
-			<div id="section-eriane" class="team-member">
+			<div id="section-eriane" class="team-member wow fadeInUp">
 				<figure class="member-image">
 					<img src="<%= static_path(@conn, "/images/team/round-eriane.png") %>" alt="img">
 				</figure>
