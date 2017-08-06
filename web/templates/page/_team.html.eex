@@ -1,50 +1,70 @@
 <section id="team" class="team">
-  <div class="container">
-    <div class="center title-section wow fadeInDown">
-      <h2 class="title"><%= gettext "TIME" %></h2>
-    </div>
-    <!-- title-section -->
+	<div class="container">
+		<div class="center title-section wow fadeInDown">
+			<h2 class="title"><%= gettext "Nosso Time" %></h2>
+		</div>
+		<!-- title-section -->
 
-    <div class="row">
-      <div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-3">
-	<div class="team-member">
-	  <figure class="team-effect">
-	    <img src="<%= static_path(@conn, "/images/team/andre.png") %>" alt="img">
-	  </figure>
-	  <div class="team-details center">
-	    <h4>Andre Martins</h4>
-	    <div class="divider"></div>
-	    <p>Founder</p>
-	    <p>
-	      <%= gettext("Andre Martins é presidente da VB desde abril de 2000. Formado em Administraç ão de Empresas pela Fundaç ão Á lvares Penteado (FAAP), com cursos de especializaç ão no INSEAD, na Franç a, e pela Fundaç ão Dom Cabral, em Minas Gerais, André Martins foi presidente do Lide Jovem, grupo de jovens executivos e empresá rios, até dezembro de 2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Há trê s anos, quando o grupo norte-americano FleetCor adquiriu a VB, Martins foi convidado a continuar como presidente da empresa. Além disso, André desenvolve um papel de investidor em startups desde 2008, tendo investido em empresas como Pto de Contato, mais recentemente na Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Venture.") %>
-	    </p>
-	  </div>
-	  <!-- team-details -->
-	</div>
-	<!-- team-member -->
-      </div>
-      <!-- col -->
+		<div class="team-content">
+			<div id="section-marcos" class="team-member">
+				<figure class="member-image">
+					<img src="<%= static_path(@conn, "/images/team/round-marcos.png") %>" alt="img">
+				</figure>
+				<div class="team-details center">
+					<h4>Marcos Botelho</h4>
+					<h5>Founder</h5>
+					<p>
+						<%= gettext("Fundador e CEO da SuperJobs, Marcos Botelho é um apaixonado por tecnologia, com 20 anos de experiência no mercado de comunicação, foi fundador da agência Midia (2001) e da Elemídia Mall (2008), onde tinha como sócio o publicitário Roberto Justus, após a venda das duas empresas para o grupo Abril (2010) e passar alguns anos na Abril como Diretor Comercial, Botelho voltou a empreender em 2014, idealizando e fundando as plataformas Bicos Online, Estagiários Online e Dr. Sintomas.") %>
+					</p>
+				</div>
+			</div>
 
-      <div class="col-md-3 col-sm-6 col-xs-12">
-	<div class="team-member">
-	  <figure class="team-effect">
-	    <img src="<%= static_path(@conn, "/images/team/marcos.jpeg") %>" alt="img">
-	  </figure>
-	  <div class="team-details center">
-	    <h4>Marcos Botelho</h4>
-	    <div class="divider"></div>
-	    <p>Founder</p>
-	    <p>
-	      <%= gettext("Apaixonado por Inovação e Tecnologia, fundou a Agência Mídia em 2001 e a Elemidia Mall, em 2008, onde teve como sócios o Publicitário Roberto Justus e Marcos Quintela.  Em 2010, vendeu as duas operações para o Grupo Abril, permanecendo por três anos como Diretor Comercial. Hoje compõe o board de sete startups ajudando os CEOs nas inúmeras dores do ecossistema, além de estar sempre buscando por pessoas diferenciadas e ideias inovadoras que possam de alguma forma ajudar a melhorar o mundo em que vivemos.") %>
-	    </p>
-	  </div>
-	  <!-- team-details -->
+			<!-- team-member -->
+			<div id="section-andre" class="team-member">
+				<figure class="member-image">
+					<img src="<%= static_path(@conn, "/images/team/round-andre.png") %>" alt="img">
+				</figure>
+				<div class="team-details center">
+					<h4>Andre Martins</h4>
+					<h5>Co-Founder</h5>
+					<p>
+						<%= gettext("Andre Martins é presidente da VB desde abril de 2000. Formado em Administração de Empresas pela Fundação Álvares Penteado (FAAP), com cursos de especialização no INSEAD, na França, e pela Fundação Dom Cabral, em Minas Gerais, André Martins foi presidente do Lide Jovem, grupo de jovens executivos e empresários, até dezembro de 2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Além disso, André desenvolve um papel de investidor em startups desde 2008, investindo em empresas como Pto de Contato, Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Venture.") %>
+					</p>
+				</div>
+			</div>	
+			<!-- team-member -->
+
+			<div id="section-catharina" class="team-member">
+				<figure class="member-image">
+					<img src="<%= static_path(@conn, "/images/team/round-catharina.png") %>" alt="img">
+				</figure>
+				<div class="team-details center">
+					<h4>Catharina Gaissler</h4>
+					<h5>Portfólio Manager</h5>
+					<p>
+						<%= gettext("Com 6 Anos de Experiência no mercado brasileiro de Marketing e Comunicação, Catharina atuou 4 anos como Diretora de Marketing e Gerenciamento de Operações na Construtora brasileira Gaissler & Solon LTDA. Posteriormente, na ideia de trazer uma ideia escalável para a América Latina, tornou-se sócia e Diretora Geral no Brasil da startup de hospitalidade nova-iorquina Host Lifestyle Group, desenvolvendo estratégias de captação, realizando parceria com grandes grupos no país.") %>
+					</p>
+				</div>
+			</div>	
+			<!-- team-member -->
+
+			<div id="section-eriane" class="team-member">
+				<figure class="member-image">
+					<img src="<%= static_path(@conn, "/images/team/round-eriane.png") %>" alt="img">
+				</figure>
+				<div class="team-details center">
+					<h4>Eriane Vila Nova</h4>
+					<h5>Produto e Planejamento</h5>
+					<p>
+						<%= gettext("Formada em Produção Publicitária pela Universidade Anhembi Morumbi, Eriane atuou no setor de Administração Financeira do Banco Indusval & Partnets no Brasil. Seguindo para o setor de Comunicação, acumulou 3 anos de experiência no setor de Gerenciamento de Projetos e Quality Assurance na Agência de Publicidade Urban Summer.") %>
+					</p>
+				</div>
+			</div>
+			<!-- team-member -->
+
+		</div>
+
+		<!-- row -->
 	</div>
-	<!-- team-member -->
-      </div>
-      <!-- col -->
-    </div>
-    <!-- row -->
-  </div>
-  <!-- container -->
+	<!-- container -->
 </section>
