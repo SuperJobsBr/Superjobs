@@ -26,7 +26,7 @@ msgstr "We are a venture builder, focused on high impact investments, our goal i
 
 #: web/templates/page/_header.html.eex:8
 msgid "Investimentos de Alto Impacto"
-msgstr "High Impact Investiments"
+msgstr "High Impact Investments"
 
 #: web/templates/page/_who_we_are.html.eex:2
 msgid "QUEM SOMOS"
