@@ -56,6 +56,14 @@ msgstr "Help people and business to prospor in this new world, new economy; in a
 msgid "Artificial Inteligence"
 msgstr ""
 
+#: web/templates/page/_cases.html.eex:15
+msgid "Todos"
+msgstr "All"
+
+#: web/templates/page/_cases.html.eex:17
+msgid "Inteligência Artificial/Realidade Aumentada"
+msgstr "Artificial Intelligence/Augmented Reality"
+
 #: web/templates/page/_our_vision.html.eex:35
 msgid "Baseado nesse entendimento que a SuperJobs definiu o seu propósito:"
 msgstr "Based on this comprehension that we, SuperJobs, defined our purpose:"

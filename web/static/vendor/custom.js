@@ -215,7 +215,7 @@
 		$container.imagesLoaded(function() {
 			$container.isotope({
 				itemSelector: '.masonry-item',
-				layoutMode: 'cellsByRow',
+				layoutMode: 'fitRows',
 				cellsByRow: {
 				  columnWidth: '.masonry-item',
 				}

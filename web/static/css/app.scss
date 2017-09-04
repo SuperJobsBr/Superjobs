@@ -55,6 +55,7 @@ body {
     color: #4f4f4f;
     height: 100%;
 	overflow-x: hidden; 
+	text-align: justify
 }
 
 ::-moz-selection {
@@ -1149,114 +1150,24 @@ h1 , .header-title{
 	  display: inline-block;
 	  margin: 0 5px;
 	  text-transform: uppercase;
-	  letter-spacing: 0.1em;
-	  padding: 11px 19px;
-	  color: darken($color-white, 30%);
+	  font-weight: bold;
+	  padding: 11px 5px;
+	  color: $color-blue;
+	  font-size: 18px;
 	  
 	  &:last-child:after { visibility: hidden;}
 	  &:after{
 		content: "";
+		background: url(/images/portfolio/ico-superjobs.png) 0 0 no-repeat;
 		display: inline-block;
-		height: 0;
-		width: 5px;
-		height: 5px;
-		background: $color-white;
-		position: relative;
-		left: 23px; top: -2.5px;
-		@include rotate(45);
+		margin-left: 15px;
+		height: 10px;
+		width: 10px;
 	  }
 	  &:hover , &.active{ color: $color-white; }
 	}
 }
 
-.masonry-item {
-  width: 50%;
-  overflow: hidden;
-}
-
-/*portfolio-effect*/
-figure.portfolio-effect {
-	@include linear-gradient(top, $color-primary, $color-secondary);
-    overflow: hidden;
-	
-	img {
-		width:100%;
-		height:auto;
-		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-		transition: opacity 0.35s, transform 0.35s;
-    }
-	
-	figcaption::before ,  figcaption::after {
-		position: absolute;
-		top: 50%;
-		width: 40px;
-		height: 40px;
-		border: 1px solid #fff;
-		content: '';
-		opacity: 0;
-		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-		transition: opacity 0.35s, transform 0.35s;
-		-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-		transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-		-webkit-transform-origin: 50%;
-		transform-origin: 50%;
-    }
-	figcaption::before {left: 50%;}
-    figcaption::after {left: 51.5%;}
-	 
-	a {
-		position: absolute;
-		top: 50%; left: 50%;
-		z-index:2;
-		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-		transition: opacity 0.35s, transform 0.35s;
-		-webkit-transform: translate3d(-50%,-50%,0);
-		transform: translate3d(-50%,-50%,0);
-		-webkit-transform-origin: 50%;
-		transform-origin: 50%;
-		font-size:20px; color:#fff;
-		width:30px;
-	    i { margin-left:8px;opacity: 0;}
-     }
-	  
-	a:i {
-		 -webkit-transform: translate3d(-60px,-60px,0);
-		 transform: translate3d(-60px,-60px,0);
-    } 
-	
-	h3 {
-		color:#fff;
-		position: absolute;
-		opacity: 0; top:23%;
-		right:20%;left:20%;
-		text-align:center;
-		font-weight: 700; padding: 0.5em;
-		-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-		transition: opacity 0.35s, transform 0.35s;
-		-webkit-transform: scale3d(0.9,0.9,1);
-		transform: scale3d(0.9,0.9,1);
-	} 
-	
-	
-	&:hover{
-		img {
-			opacity: 0.5;
-			-webkit-transform: scale(1.22);
-			transform: scale(1.22);
-		}
-		h3 {
-			opacity: 1;
-			-webkit-transform: scale3d(1,1,1);
-			transform: scale3d(1,1,1);
-		}
-		figcaption::before , figcaption::after  {
-			opacity: 1;
-			-webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
-			transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(1,1,1);
-		}
-		a i {opacity:1;}
-	}
-}
 .mfp-bg {
   	@include linear-gradient(left, $color-primary, $color-secondary);
 }
@@ -1338,7 +1249,6 @@ figure.portfolio-effect {
 			width: 410px;
 			right: 125px;
     		top: 152px;
-
 		}
 
 		&#section-marcos {
@@ -1357,11 +1267,11 @@ figure.portfolio-effect {
 			top: 680px;
 		}
 			
-		.team-details{
-			text-align: left;
+		.team-details {
 
 			h4{ 
 				text-transform: uppercase;
+				text-align: left;
 				font-weight: 700; 
 				font-size: 18px;
 				color: #1f98ff; 
@@ -1369,6 +1279,7 @@ figure.portfolio-effect {
 			}
 
 			h5{ 
+				text-align: left;
 				font-weight: 700; 
 				margin-top: 10px; 
 				font-size: 16px;
@@ -1377,6 +1288,7 @@ figure.portfolio-effect {
 			}
 
 			p {
+				text-align: justify;
     			line-height: 120%;
 				font-size: 16px;
 			}
@@ -2733,25 +2645,27 @@ svg#bigTriangleColor {
 					top: auto;
 				}
 
-				.team-details{
-					text-align: left;
+				.team-details {
 
-					h4{ 
+					h4{
 						text-transform: uppercase;
+						text-align: left; 
 						font-weight: 700; 
 						font-size: 18px;
 						color: #1f98ff; 
 						margin: 0; 
 					}
 
-					h5{ 
+					h5{
+						margin: 0 0 30px; 
 						font-weight: 700; 
+						text-align: left; 
 						font-size: 16px;
 						color: #1f98ff; 
-						margin: 0 0 30px; 
 					}
 
 					p {
+						text-align: justify;
 						line-height: 120%;
 						font-size: 16px;
 					}
