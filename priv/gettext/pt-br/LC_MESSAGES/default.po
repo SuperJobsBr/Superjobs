@@ -56,24 +56,12 @@ msgstr ""
 msgid "Artificial Inteligence"
 msgstr ""
 
-#: web/templates/page/_cases.html.eex:16
-msgid "Inteligência Artificial/Realidade Aumentada"
-msgstr ""
-
-#: web/templates/page/_our_vision.html.eex:35
-msgid "Baseado nesse entendimento que a SuperJobs definiu o seu propósito:"
-msgstr ""
-
-#: web/templates/page/_our_vision.html.eex:44
-msgid "E só temos uma alternativa, ou andamos na frente dessas transformações, sendo precursores, investindo em inovação, criando tendências….ou seremos mais um no meio da enorme multidão."
-msgstr ""
-
 #: web/templates/page/_cases.html.eex:94 web/templates/page/_cases.html.eex:95
 msgid "Em breve"
 msgstr ""
 
-#: web/templates/page/_get_in_touch.html.eex:4
-msgid "FALE COM A GENTE"
+#: web/templates/page/_cases.html.eex:16
+msgid "Inteligência Artificial/Realidade Aumentada"
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:13
@@ -92,12 +80,88 @@ msgstr ""
 msgid "Todos"
 msgstr ""
 
-#: web/templates/page/_process_slider.html.eex:3
-msgid "NOSSO PROCESSO"
-msgstr ""
-
 #: web/templates/page/_cases.html.eex:2
 msgid "NOSSOS PILARES DE ATUAÇÃO"
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:11
+msgid "Portfolio"
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:28
+msgid "Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:40
+msgid "Dr. Sintomas é uma plataforma de análise de sintomas, com a missão de proporcionar ao usuário um primeiro direcionamento sobre dúvidas relacionadas a saúde."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:52
+msgid "DOCBOT é uma plataforma que funciona como um assistente pessoal de saúde, permitindo aos usuários uma avaliação gratuita de sintomas."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:64
+msgid "Plataforma que usa da inteligência artificial para ajudar a economizar nas compras de supermercado através de um robô que identifica todas as promoções existentes no supermercado que desejar."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:78
+msgid "O Pinmyspot é um aplicativo de Realidade Aumentada que funciona como uma rede social e um caça descontos."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:90
+msgid "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:102
+msgid "Solução que facilita a sua melhor escolha na compra de moeda estrangeira através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:114
+msgid "Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou pagar alguém de forma indiscreta."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:126
+msgid "Plataforma social de Fintech que permite aos usuários uma interação dentro do mercado financeiro."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:136
+msgid "Bicos Online é uma plataforma digital inovadora que traz um ambiente seguro e dinâmico para a busca de mão de obra qualificada em assuntos domésticos."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:148
+msgid "O Estagiários Online é uma plataforma que conecta empresas e estagiários. Selecionamos a vaga ideal para quem procura uma oportunidade e selecionamos os candidatos ideais para quem precisa contratar."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:160
+msgid "Da cozinha do Chef, para sua mesa. Apptite é o 1º marketplace de comida artesanal do Brasil, conectando consumidores a chefs e cozinheiros próximos. Descubra os talentos que fazem a melhor comida na sua região."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:172
+msgid "Jober é um agregador de empregos que encontra, armazena e organiza vagas de emprego das mais diversas fontes na internet."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:184
+msgid "Plataforma inteligente para desenvolvimento de projetos de software reunindo uma rede de técnicos e desenvolvedores. Utilizando inteligência artificial a plataforma seleciona o melhor profissional para seu projeto de acordo com suas necessidades."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:196
+msgid "Rheco.me é um método de recrutamento que encoraja os atuais funcionários da empresa a recomendar amigos e/ou conhecidos para uma vaga específica e, caso o candidato recomendado seja contratado, o funcionário que indicou recebe uma recompensa financeira."
+msgstr ""
+
+#: web/templates/page/_our_vision.html.eex:35
+msgid "Baseado nesse entendimento que a SuperJobs definiu o seu propósito:"
+msgstr ""
+
+#: web/templates/page/_our_vision.html.eex:44
+msgid "E só temos uma alternativa, ou andamos na frente dessas transformações, sendo precursores, investindo em inovação, criando tendências….ou seremos mais um no meio da enorme multidão."
+msgstr ""
+
+#: web/templates/page/_get_in_touch.html.eex:4
+msgid "FALE COM A GENTE"
+msgstr ""
+
+#: web/templates/page/_process_slider.html.eex:3
+msgid "NOSSO PROCESSO"
 msgstr ""
 
 #: web/templates/page/_our_vision.html.eex:41
@@ -110,10 +174,6 @@ msgstr ""
 
 #: web/templates/page/_our_vision.html.eex:23
 msgid "Passamos muitas vezes a vida toda sem entender porque estamos aqui, qual é a nossa missão."
-msgstr ""
-
-#: web/templates/page/_cases.html.eex:11
-msgid "Portfolio"
 msgstr ""
 
 #: web/templates/page/_our_vision.html.eex:5

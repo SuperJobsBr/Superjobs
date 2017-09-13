@@ -25,7 +25,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Bicos Online é uma plataforma digital inovadora que traz um ambiente seguro e dinâmico para a busca de mão de obra qualificada em assuntos domésticos.
+                    <%= gettext "Bicos Online é uma plataforma digital inovadora que traz um ambiente seguro e dinâmico para a busca de mão de obra qualificada em assuntos domésticos." %>
                   </p>
               </figure>
             </div>
@@ -37,7 +37,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    O Estagiários Online é uma plataforma que conecta empresas e estagiários. Selecionamos a vaga ideal para quem procura uma oportunidade e selecionamos os candidatos ideais para quem precisa contratar.
+                    <%= gettext "O Estagiários Online é uma plataforma que conecta empresas e estagiários. Selecionamos a vaga ideal para quem procura uma oportunidade e selecionamos os candidatos ideais para quem precisa contratar." %>
                   </p>
               </figure>
             </div>
@@ -49,7 +49,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou lembrar de pagar.
+                    <%= gettext "Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou pagar alguém de forma indiscreta." %>
                   </p>
               </figure>
             </div>
@@ -61,7 +61,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras. 
+                    <%= gettext "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras." %>
                   </p>
               </figure>
             </div>
@@ -73,7 +73,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Plataforma social de Fintech que permite aos usuários uma interação dentro do mercado financeiro.
+                    <%= gettext "Plataforma social de Fintech que permite aos usuários uma interação dentro do mercado financeiro." %>
                   </p>
               </figure>
             </div>
@@ -85,7 +85,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Dr. Sintomas é uma plataforma de análise de sintomas, com a missão de proporcionar ao usuário um primeiro direcionamento sobre dúvidas relacionadas a saúde.
+                    <%= gettext "Dr. Sintomas é uma plataforma de análise de sintomas, com a missão de proporcionar ao usuário um primeiro direcionamento sobre dúvidas relacionadas a saúde." %>
                   </p>
               </figure>
             </div>
@@ -97,7 +97,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida.
+                    <%= gettext "Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida." %>
                   </p>
               </figure>
             </div>
@@ -109,7 +109,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Da cozinha do Chef, para sua mesa. Apptite é o 1º marketplace de comida artesanal do Brasil, conectando consumidores a chefs e cozinheiros próximos. Descubra os talentos que fazem a melhor comida na sua região.
+                    <%= gettext "Da cozinha do Chef, para sua mesa. Apptite é o 1º marketplace de comida artesanal do Brasil, conectando consumidores a chefs e cozinheiros próximos. Descubra os talentos que fazem a melhor comida na sua região." %>
                   </p>
               </figure>
             </div>
@@ -121,7 +121,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    DOCBOT é uma plataforma que funciona como um assistente pessoal de saúde, permitindo aos usuários uma avaliação gratuita de sintomas.
+                    <%= gettext "DOCBOT é uma plataforma que funciona como um assistente pessoal de saúde, permitindo aos usuários uma avaliação gratuita de sintomas." %>
                   </p>
               </figure>
             </div>
@@ -133,7 +133,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    Jober é um agregador de empregos que encontra, armazena e organiza vagas de emprego das mais diversas fontes na internet. 
+                    <%= gettext "Jober é um agregador de empregos que encontra, armazena e organiza vagas de emprego das mais diversas fontes na internet." %>
                   </p>
               </figure>
             </div>
@@ -145,7 +145,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    O Pinmyspot é um aplicativo de Realidade Aumentada que funciona como uma rede social e um caça descontos. 
+                    <%= gettext "O Pinmyspot é um aplicativo de Realidade Aumentada que funciona como uma rede social e um caça descontos." %>
                   </p>
               </figure>
             </div>
