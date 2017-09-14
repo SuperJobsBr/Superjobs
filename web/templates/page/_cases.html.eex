@@ -1,6 +1,6 @@
 <section id="portfolio" class="cases">
     <div class="header">
-      <img src="/images/portfolio/header-mountain.png" alt="">
+      <img src="/images/cases/header-mountain.png" alt="">
       <h2><%= gettext "NOSSOS PILARES DE ATUAÇÃO" %></h2>
     </div>
 
@@ -21,7 +21,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp bicos" data-wow-delay=".1s">
               <figure class="portfolio-effect">
                   <a href="https://www.bicos.com.br/" title="Bicos" target="_blank">
-                    <img src="/images/portfolio/bicos.png" alt="Bicos">
+                    <img src="/images/cases/bicos.png" alt="Bicos">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -33,7 +33,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp estagiariosonline" data-wow-delay=".2s">
               <figure class="portfolio-effect">
                   <a href="https://estagiariosonline.com.br/" title="Estagiarios online" target="_blank">
-                    <img src="/images/portfolio/estagiariosonline.png" alt="Estagiariosonline">
+                    <img src="/images/cases/estagiariosonline.png" alt="Estagiariosonline">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -45,7 +45,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp pagueamigo" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="http://www.pagueamigo.com.br/" title="Pague Amigo" target="_blank">
-                    <img src="/images/portfolio/pagueamigo.png" alt="Pagueamigo">
+                    <img src="/images/cases/pagueamigo.png" alt="Pagueamigo">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -58,7 +58,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="https://www.startmeup.com.br/" title="Start me up" target="_blank">
-                    <img src="/images/portfolio/startmeup.png" alt="Startmeup">
+                    <img src="/images/cases/startmeup.png" alt="Startmeup">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -70,7 +70,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp wetoro" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a onclick="alert('<%= gettext "Em breve" %>')">
-                    <img src="/images/portfolio/wetoro.png" alt="Wetoro">
+                    <img src="/images/cases/wetoro.png" alt="Wetoro">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -83,7 +83,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drsintomas" data-wow-delay=".4s">
               <figure class="portfolio-effect">
                   <a href="https://www.drsintomas.com.br/" title="Dr Sintomas" target="_blank">
-                    <img src="/images/portfolio/drsintomas.png" alt="Drsintomas">
+                    <img src="/images/cases/drsintomas.png" alt="Drsintomas">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -95,7 +95,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp diatec" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="http://comercial.drsintomas.com.br/" title="Diatec" target="_blank">
-                    <img src="/images/portfolio/diatec.png" alt="Diatec">
+                    <img src="/images/cases/diatec.png" alt="Diatec">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -107,7 +107,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp apptite" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="http://www.apptite.com/" title="Apptite" target="_blank">
-                    <img src="/images/portfolio/apptite.png" alt="Apptite">
+                    <img src="/images/cases/apptite.png" alt="Apptite">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -119,7 +119,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp docbot" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="http://docbot.com.br/" title="Docbot" target="_blank">
-                    <img src="/images/portfolio/docbot.png" alt="Docbot">
+                    <img src="/images/cases/docbot.png" alt="Docbot">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -131,7 +131,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp jober" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="https://jober.me/" title="Jober" target="_blank">
-                    <img src="/images/portfolio/jober.png" alt="Jober">
+                    <img src="/images/cases/jober.png" alt="Jober">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -143,7 +143,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp pinmyspot" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="https://pinmyspot.com.br/" title="Pin My Spot" target="_blank">
-                    <img src="/images/portfolio/pinmyspot.png" alt="Pinmyspot">
+                    <img src="/images/cases/pinmyspot.png" alt="Pinmyspot">
                   </a>
                   <hr class="separator">
                   <p class="description">
