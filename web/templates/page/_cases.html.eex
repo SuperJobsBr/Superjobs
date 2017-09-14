@@ -142,7 +142,7 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp pinmyspot" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://comercial.drsintomas.com.br/" title="Pin My Spot" target="_blank">
+                  <a href="https://pinmyspot.com.br/" title="Pin My Spot" target="_blank">
                     <img src="/images/portfolio/pinmyspot.png" alt="Pinmyspot">
                   </a>
                   <hr class="separator">
