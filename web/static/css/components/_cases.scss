@@ -148,6 +148,12 @@
 
         .description {
             font-size: 16px;
+
+            small {
+                color: $color-blue;
+                font-size: 12px;
+                display: block;
+            }
         }
 
 

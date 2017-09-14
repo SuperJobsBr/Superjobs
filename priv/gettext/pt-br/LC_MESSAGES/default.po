@@ -88,6 +88,10 @@ msgstr ""
 msgid "Portfolio"
 msgstr ""
 
+#: web/templates/page/_cases.html.eex:15
+msgid "Projeto não operacional"
+msgstr ""
+
 #: web/templates/page/_cases.html.eex:28
 msgid "Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida."
 msgstr ""

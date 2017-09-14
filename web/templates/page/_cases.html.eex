@@ -49,6 +49,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
+                    <small>(<%= gettext "Projeto não operacional" %>)</small>
                     <%= gettext "Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou pagar alguém de forma indiscreta." %>
                   </p>
               </figure>
@@ -61,6 +62,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
+                    <small>(<%= gettext "Projeto não operacional" %>)</small>
                     <%= gettext "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras." %>
                   </p>
               </figure>
