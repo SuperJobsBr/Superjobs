@@ -2581,6 +2581,27 @@ svg#bigTriangleColor {
 	.team-member { margin: 15px 5%;}
 	.pricing-item , .item-post {margin: 0 5% 35px;}
 	.testimonial .owl-dots { bottom: 0;}
+
+	#portfolio  { 
+		.container { 
+			width: 100%; 
+		}
+		.header h2 { 
+			font-size: 30px;
+			padding: 0 10px;
+		}
+		.masonry-item {
+			position: relative;
+			width: 90%;
+			left: 8%;
+		}
+		.portfolio-filter a { 
+			margin: 0; 
+		}
+		figure.portfolio-effect a {
+			width: 285px;
+		}
+	}
 	
 	.footer-newsletter , .to-top{ margin-top: 30px;}
 	.social-footer , .footer-newsletter form {width:100%;}

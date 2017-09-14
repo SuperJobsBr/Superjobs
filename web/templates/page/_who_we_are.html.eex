@@ -3,7 +3,7 @@
   <div class="who-we-are__part">
     <div class="container">
       <div class="col-md-7">
-        <video autoplay muted loop controls="true" controlsList="nodownload" class="video">
+        <video autoplay="true" muted="true" loop="true" controls="true" controlsList="nodownload" class="video">
           <source src="/videos/superjobs_institucional_1.mp4" type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
