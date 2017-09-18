@@ -212,6 +212,10 @@ msgstr "Portfolio"
 msgid "Quem somos"
 msgstr "Who we are"
 
+#: web/templates/page/_who_we_are.html.eex:7
+msgid "superjobs_institucional_1.mp4"
+msgstr "superjobs_institucional_en.mp4"
+
 #: web/templates/layout/app.html.eex:84
 msgid "SuperJobs Venture Capital - Todos os direitos reservados"
 msgstr "SuperJobs Venture Capital - All rights reserved"

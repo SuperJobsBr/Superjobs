@@ -4,7 +4,7 @@
     <div class="container">
       <div class="col-md-7">
         <video autoplay="true" muted="true" loop="true" playsinline controls="true" controlsList="nodownload" class="video">
-          <source src="/videos/superjobs_institucional_1.mp4" type="video/mp4">
+          <source src="/videos/<%= gettext("superjobs_institucional_1.mp4") %>"  type="video/mp4">
           Your browser does not support HTML5 video.
         </video>
       </div>
