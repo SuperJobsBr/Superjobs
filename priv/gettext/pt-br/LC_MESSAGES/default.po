@@ -93,7 +93,7 @@ msgid "Portfolio"
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:15
-msgid "Projeto não operacional"
+msgid "Em desenvolvimento"
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:28

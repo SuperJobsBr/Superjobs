@@ -151,6 +151,54 @@
                   </p>
               </figure>
             </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp rhecome" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="" title="Rheco.me" target="_blank">
+                    <img src="/images/cases/rhecome.png" alt="Rheco.me">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Rheco.me é um método de recrutamento que encoraja os atuais funcionários da empresa a recomendar amigos e/ou conhecidos para uma vaga específica e, caso o candidato recomendado seja contratado, o funcionário que indicou recebe uma recompensa financeira." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp supercambio" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="" title="Super Câmbio" target="_blank">
+                    <img src="/images/cases/supercambio.png" alt="Super Câmbio">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Solução que facilita a sua melhor escolha na compra de moeda estrangeira através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp vibbra" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="" title="Vibbra!" target="_blank">
+                    <img src="/images/cases/vibbra.png" alt="Vibbra!">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Plataforma inteligente para desenvolvimento de projetos de software reunindo uma rede de técnicos e desenvolvedores. Utilizando inteligência artificial a plataforma seleciona o melhor profissional para seu projeto de acordo com suas necessidades." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp zaply" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="" title="Zaply" target="_blank">
+                    <img src="/images/cases/zaply.png" alt="Zaply">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Plataforma que usa da inteligência artificial para ajudar a economizar nas compras de supermercado através de um robô que identifica todas as promoções existentes no supermercado que desejar." %>
+                  </p>
+              </figure>
+            </div>
         </div>
     </div>
 </section>

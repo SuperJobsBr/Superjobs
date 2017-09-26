@@ -23,6 +23,7 @@
         overflow: hidden;
         margin: 20px;
         width: 275px;
+        height: 470px;
 
         .separator {
             bottom: 0;
@@ -93,6 +94,26 @@
         &.pinmyspot { 
             .separator { 
                 border-color: #191919; 
+            }
+        }
+        &.rhecome { 
+            .separator { 
+                border-color: #19b5e7; 
+            }
+        }
+        &.supercambio { 
+            .separator { 
+                border-color: #394472; 
+            }
+        }
+        &.vibbra { 
+            .separator { 
+                border-color: #19b6ec; 
+            }
+        }
+        &.zaply { 
+            .separator { 
+                border-color: #ff5f25; 
             }
         }
     }

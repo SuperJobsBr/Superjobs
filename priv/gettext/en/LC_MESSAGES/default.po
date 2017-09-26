@@ -85,8 +85,8 @@ msgid "JOBS - HEALTH - A.I - FINTECH."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:15
-msgid "Projeto não operacional"
-msgstr "Non-operational project"
+msgid "Em desenvolvimento"
+msgstr "In Progress"
 
 #: web/templates/page/_cases.html.eex:28
 msgid "Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida."
