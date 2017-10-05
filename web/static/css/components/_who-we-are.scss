@@ -1,31 +1,68 @@
 .who-we-are {
   background: $color-white;
-  padding-top: 50px;
+  position: relative;
+  overflow: hidden;
+  height: 630px;
 
   &__header {
     color: $color-blue;
-    font-weight: bold;
-    font-size: 38px;
+    font-weight: normal;
+    padding-left: 0;
+    font-size: 46px;
   }
 
   &__part {
-    background: $color-white;
-    padding: 25px 0px;
-    font-size: 20px;
-    color: #9e9e9e;
+    margin-left: -620px;
+    position: absolute;
+    font-size: 24px;
+    z-index: 100;
+    top: 150px;
+    left: 50%;
 
     p {
       padding-bottom: 20px;
+      color: #FFFFFF;
     }
 
     p:nth-child(2) {
       font-size: 24px;
     }
   }
+  
+  .play-button {
+    margin-top: 30px;
+    cursor: pointer;
+  }
 
-  .video {
-    width: 100%; 
-    height: 350px;
+  .video-holder {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    .fullscreen {
+      display: none;
+    }
+
+    .playback video, .video-overlay {
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+    }
+
+    .video-overlay{
+      background: url(/images/cases/video-overlay.png) 0 0 repeat;
+      min-width: 122%;
+      min-height: 122%;
+    }
   }
 }
 

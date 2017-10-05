@@ -91,9 +91,49 @@
     	}
 	});
 	
-	
+	var playback = videojs('#playback', {
+                "controls": false, 
+                "autoplay": true, 
+                "preload": "auto", 
+                "muted": true, 
+                "loop": true
+            });
+
+	var fullVideo = videojs('#fullscreen', {
+                "controls": true, 
+                "autoplay": false, 
+                "preload": "auto", 
+                "muted": false, 
+                "loop": false
+            })
 	
 	$(document).ready(function(){
+		$('.play-button').click(function(){
+			$('.fullscreen').show();
+			fullVideo.pause();
+			fullVideo.currentTime(0);
+			fullVideo.trigger('loadstart');
+        	$('.fullscreen .vjs-fullscreen-control').click();
+        	$('.fullscreen .vjs-play-control').click();
+		});
+
+		fullVideo.on('ended', function(){
+			fullVideo.currentTime(0);
+			fullVideo.trigger('loadstart');
+        	$('.fullscreen .vjs-fullscreen-control').click();
+        	$('.fullscreen .vjs-play-control').click();
+			$('.fullscreen').hide();
+		});
+
+		fullVideo.on('fullscreenchange', function(e){
+			if(!fullVideo.isFullscreen_){
+				fullVideo.currentTime(0);
+				fullVideo.trigger('loadstart');
+				$('.fullscreen .vjs-play-control').click();
+				$('.fullscreen').hide();
+			}
+		});
+
 
   
     $(".owl-clients , .last-tweets").owlCarousel({

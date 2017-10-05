@@ -38,6 +38,7 @@
 @import "base/variables.scss";
 @import "base/mixins.scss";
 @import "base/functions.scss";
+@import "vendor/video-js.css";
 @import "components/sj-header";
 @import "components/our-vision";
 @import "components/who-we-are";
@@ -2600,6 +2601,27 @@ svg#bigTriangleColor {
 		}
 		figure.portfolio-effect a {
 			width: 285px;
+		}
+	}
+
+	.who-we-are{
+		&__header{
+			font-size: 36px;
+		}
+	
+		&__part {
+			margin-left: -50%;
+			font-size: 18px;
+			width: 100%;
+
+			p:nth-child(2) {
+		      font-size: 18px;
+		    }
+		} 
+
+		.play-button {
+			margin-top: 0;
+			height: 120px;
 		}
 	}
 	
