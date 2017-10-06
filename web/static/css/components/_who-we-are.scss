@@ -5,8 +5,9 @@
   height: 630px;
 
   &__header {
+    font-family: $second-font;
     color: $color-blue;
-    font-weight: normal;
+    font-weight: 600;
     padding-left: 0;
     font-size: 46px;
   }
@@ -60,6 +61,7 @@
 
     .video-overlay{
       background: url(/images/cases/video-overlay.png) 0 0 repeat;
+      background-blend-mode: multiply;
       min-width: 122%;
       min-height: 122%;
     }
