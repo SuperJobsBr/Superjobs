@@ -91,14 +91,6 @@
     	}
 	});
 	
-	var playback = videojs('#playback', {
-                "controls": false, 
-                "autoplay": true, 
-                "preload": "auto", 
-                "muted": true, 
-                "loop": true
-            });
-
 	var fullVideo = videojs('#fullscreen', {
                 "controls": true, 
                 "autoplay": false, 
