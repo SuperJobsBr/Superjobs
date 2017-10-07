@@ -36,6 +36,9 @@
             }
         }
         &.estagiariosonline { 
+            img {
+                max-width: 100%;
+            }
             .separator { 
                 border-color: #41b9ec; 
             }
@@ -46,25 +49,34 @@
             }
         }
         &.startmeup { 
-            /*margin-top: -30px;*/
+            img {
+                max-width: 100%;
+            }
             .separator { 
                 border-color: #2288c3; 
             }
         }
         &.wetoro { 
+            img {
+                max-width: 65%;
+            }
+
             .separator { 
                 border-color: #19a8bb; 
             }
         }
         &.drsintomas { 
             padding: 35px 15px 20px;
-            /*margin-top: -30px;*/
+
+            img {
+                max-width: 90%;
+            }
+
             .separator { 
                 border-color: #815ea7; 
             }
         }
         &.diatec { 
-            /*margin-top: -30px;*/
             .separator { 
                 border-color: #194576; 
             }
@@ -75,17 +87,19 @@
             }
         }
         &.docbot { 
-            /*margin-top: -30px;*/
+            img {
+                max-width: 60%;
+            }
+
             .separator { 
                 border-color: #775a98; 
             }
-
-            img {
-                max-width: 70%;
-            }
         }
         &.jober { 
-            /*margin-top: -30px;*/
+            img {
+                max-width: 65%;
+            }
+
             .separator { 
                 border-color: #19cd88; 
             }
@@ -96,11 +110,19 @@
             }
         }
         &.rhecome { 
+            img {
+                max-width: 65%;
+            }
+
             .separator { 
                 border-color: #19b5e7; 
             }
         }
         &.supercambio { 
+            img {
+                max-width: 80%;
+            }
+
             .separator { 
                 border-color: #394472; 
             }

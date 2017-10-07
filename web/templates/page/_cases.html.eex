@@ -36,6 +36,18 @@
               </figure>
             </div>
 
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.startmeup.com.br/" title="Start me up" target="_blank">
+                    <img src="/images/cases/startmeup.png" alt="Startmeup">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras." %>
+                  </p>
+              </figure>
+            </div>
+
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp estagiariosonline" data-wow-delay=".2s">
               <figure class="portfolio-effect">
                   <a href="https://estagiariosonline.com.br/" title="Estagiarios online" target="_blank">
@@ -57,18 +69,6 @@
                   <p class="description">
                     <small>(<%= gettext "Em desenvolvimento" %>)</small>
                     <%= gettext "Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou pagar alguém de forma indiscreta." %>
-                  </p>
-              </figure>
-            </div>
-
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a href="https://www.startmeup.com.br/" title="Start me up" target="_blank">
-                    <img src="/images/cases/startmeup.png" alt="Startmeup">
-                  </a>
-                  <hr class="separator">
-                  <p class="description">
-                    <%= gettext "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras." %>
                   </p>
               </figure>
             </div>
