@@ -96,26 +96,22 @@
 	$(document).ready(function(){
 		$('.play-button').click(function(){
 			$('.fullscreen').show();
-			fullVideo.pause();
 			fullVideo.currentTime(0);
-			fullVideo.trigger('loadstart');
+        	fullVideo.play();
         	$('.fullscreen .vjs-fullscreen-control').click();
-        	$('.fullscreen .vjs-play-control').click();
 		});
 
 		fullVideo.on('ended', function(){
-			fullVideo.currentTime(0);
-			fullVideo.trigger('loadstart');
         	$('.fullscreen .vjs-fullscreen-control').click();
-        	$('.fullscreen .vjs-play-control').click();
+			fullVideo.currentTime(0);
+        	fullVideo.pause();
 			$('.fullscreen').hide();
 		});
 
 		fullVideo.on('fullscreenchange', function(e){
 			if(!fullVideo.isFullscreen_){
 				fullVideo.currentTime(0);
-				fullVideo.trigger('loadstart');
-				$('.fullscreen .vjs-play-control').click();
+				fullVideo.pause();
 				$('.fullscreen').hide();
 			}
 		});
