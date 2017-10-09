@@ -91,13 +91,7 @@
     	}
 	});
 	
-	var fullVideo = videojs('#fullscreen', {
-                "controls": true, 
-                "autoplay": false, 
-                "preload": "auto", 
-                "muted": false, 
-                "loop": false
-            })
+	var fullVideo = videojs('#fullscreen', { "controls": true });
 	
 	$(document).ready(function(){
 		$('.play-button').click(function(){
