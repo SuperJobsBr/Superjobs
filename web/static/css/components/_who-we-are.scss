@@ -62,8 +62,9 @@
     .video-overlay{
       background: url(/images/cases/video-overlay.png) 0 0 repeat;
       background-blend-mode: multiply;
-      min-width: 122%;
       min-height: 122%;
+      min-width: 122%;
+      z-index: 10;
     }
   }
 }

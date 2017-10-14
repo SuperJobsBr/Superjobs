@@ -1,9 +1,9 @@
 <section class="who-we-are" id="who-we-are">
     <div class="video-holder">
+        <div class="video-overlay"></div>
         <div class="playback">
             <img src="/images/video-playback-poster.gif" alt="">
         </div>
-        <div class="video-overlay"></div>
     </div>
 
     <div class="who-we-are__part">
