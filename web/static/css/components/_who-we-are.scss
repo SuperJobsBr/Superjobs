@@ -36,6 +36,8 @@
   }
 
   .video-holder {
+    background: url(/images/video-playback-poster.gif) 0 0 no-repeat;
+    background-size: cover;
     position: relative;
     height: 100%;
     width: 100%;
@@ -51,12 +53,12 @@
       -o-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%);
       position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
       min-height: 100%;
-      width: auto;
+      min-width: 100%;
       height: auto;
+      width: auto;
+      left: 50%;
+      top: 50%;
     }
 
     .video-overlay{
@@ -68,4 +70,3 @@
     }
   }
 }
-
