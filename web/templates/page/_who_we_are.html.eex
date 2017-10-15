@@ -22,8 +22,8 @@
 
     <div class="fullscreen">
         <video id="fullscreen" class="video-js ">
-            <source src="http://vjs.zencdn.net/v/oceans.mp4"  type="video/mp4" />
-            <!-- <source src="/videos/<%= gettext("superjobs_institucional_1.mp4") %>"  type="video/mp4" /> -->
+            <!-- <source src="http://vjs.zencdn.net/v/oceans.mp4"  type="video/mp4" /> -->
+            <source src="/videos/<%= gettext("superjobs_institucional_1.mp4") %>"  type="video/mp4" />
                 
         </video>
     </div>
