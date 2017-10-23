@@ -56,7 +56,7 @@
           </li>
         </ul>
         <div class="logo">
-          <a href="<%= page_path(@conn, :index, @locale) %>"><img src="/images/logo.png" alt="Superjobs logo" width="212" /></a>
+          <a href="<%= page_path(@conn, :index, @locale) %>"><img src="/images/logo_v2.png" alt="Superjobs logo" width="212" /></a>
         </div>
         <nav class="cd-nav-container" id="nav">
             <div class="close-container">
