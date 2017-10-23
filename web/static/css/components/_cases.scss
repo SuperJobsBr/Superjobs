@@ -105,6 +105,8 @@
             }
         }
         &.pinmyspot { 
+            height: 370px;
+            
             .separator { 
                 border-color: #191919; 
             }
@@ -119,6 +121,7 @@
             }
         }
         &.supercambio { 
+            height: 430px;
             img {
                 max-width: 80%;
             }

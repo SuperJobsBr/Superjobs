@@ -148,6 +148,10 @@ msgstr "Dynamic platform for software project development bringing together a ne
 msgid "Rheco.me é um método de recrutamento que encoraja os atuais funcionários da empresa a recomendar amigos e/ou conhecidos para uma vaga específica e, caso o candidato recomendado seja contratado, o funcionário que indicou recebe uma recompensa financeira."
 msgstr "Rheco.me is a recruiting method that encourages current employees to recommend friends and / or acquaintances for a specific jobvacancy and, if the recommended candidate is hired, a financial reward will be given to those who helped on the recommendation."
 
+#: web/templates/page/_cases.html.eex:208
+msgid "Dr. Cannabis traz informações do ecossistema da Cannabis Medicial, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas."
+msgstr "Dr. Cannabis provides top end worldwide information regarding medicinal cannabis. Our ecosystem directs pacients to specialized doctors, assisting users about alternative treatment for cronic diseases."
+
 #: web/templates/page/_cases.html.eex:126
 msgid "Jobs"
 msgstr ""

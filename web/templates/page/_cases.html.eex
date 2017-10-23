@@ -205,6 +205,18 @@
                   </p>
               </figure>
             </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drcannabis" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="http://www.drcannabis.com.br/ " title="drcannabis" target="_blank">
+                    <img src="/images/cases/drcannabis.png" alt="Dr. Cannabis">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Dr. Cannabis traz informações do ecossistema da Cannabis Medicial, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas." %>
+                  </p>
+              </figure>
+            </div>
         </div>
     </div>
 </section>
