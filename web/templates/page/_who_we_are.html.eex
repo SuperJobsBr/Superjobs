@@ -46,10 +46,16 @@
           width: '640',
           videoId: video.value,
             events: {
+                'onReady': onPlayerReady,
                 'onStateChange': onPlayerStateChange
             }
 
         });
+    }
+
+    function onPlayerReady(event) {
+        player.seekTo(0);
+        player.stopVideo();
     }
 
     function onPlayerStateChange(event) {
@@ -63,36 +69,36 @@
         }
 
         if (event.data == YT.PlayerState.ENDED) {
-            player.stopVideo();
             player.seekTo(0);
+            player.stopVideo();
         }
     }
 
     document.addEventListener("fullscreenchange", function() {
         if (!document.fullscreenElement) { 
-            player.stopVideo();
             player.seekTo(0);
+            player.stopVideo();
         }
     }, false);
 
     document.addEventListener("msfullscreenchange", function() {
         if (!document.msFullscreenElement) { 
-            player.stopVideo();
             player.seekTo(0);
+            player.stopVideo();
         }
     }, false);
 
     document.addEventListener("mozfullscreenchange", function() {
         if (!document.mozFullScreen) { 
-            player.stopVideo();
             player.seekTo(0);
+            player.stopVideo();
         }
     }, false);
 
     document.addEventListener("webkitfullscreenchange", function() {
         if (!document.webkitIsFullScreen) { 
-            player.stopVideo();
             player.seekTo(0);
+            player.stopVideo();
         }
     }, false);
 </script>
