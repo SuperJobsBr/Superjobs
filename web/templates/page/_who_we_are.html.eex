@@ -1,3 +1,4 @@
+<script src="https://www.youtube.com/iframe_api"></script>
 <section class="who-we-are" id="who-we-are">
     <div class="video-holder">
         <div class="video-overlay"></div>
@@ -21,10 +22,77 @@
     </div>
 
     <div class="fullscreen">
-        <video id="fullscreen" class="video-js ">
+        <!-- <video id="fullscreen" class="video-js">
             <source src="/videos/<%= gettext("superjobs_institucional_1.mp4") %>"  type="video/mp4" />
-                
-        </video>
+        </video> -->
+
+        <div id="fullscreen_2">
+            <input type="hidden" id="videoUrl" value="<%= gettext("84EJVmpHykE") %>">
+            <!-- <iframe id="home-video" allowfullscreen="allowfullscreen"
+                    mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" 
+                    oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" 
+                    frameborder="0" src="//www.youtube.com/watch_popup?v=84EJVmpHykE&enablejsapi=1">
+            </iframe> -->
+            <div id="player"></div>
+        </div>
     </div>
 </section>
+<script>
+      var player;
+      function onYouTubePlayerAPIReady() {
+        var video = document.getElementById('videoUrl');
+        player = new YT.Player('player', {
+          height: '360',
+          width: '640',
+          videoId: video.value,
+            events: {
+                'onStateChange': onPlayerStateChange
+            }
 
+        });
+    }
+
+    function onPlayerStateChange(event) {
+        console.log(event.data)
+        if (event.data == YT.PlayerState.PAUSED) {
+            console.log("Paused");
+        }
+
+        if (event.data == YT.PlayerState.PLAYING) {
+            console.log("Playing");
+        }
+
+        if (event.data == YT.PlayerState.ENDED) {
+            player.stopVideo();
+            player.seekTo(0);
+        }
+    }
+
+    document.addEventListener("fullscreenchange", function() {
+        if (!document.fullscreenElement) { 
+            player.stopVideo();
+            player.seekTo(0);
+        }
+    }, false);
+
+    document.addEventListener("msfullscreenchange", function() {
+        if (!document.msFullscreenElement) { 
+            player.stopVideo();
+            player.seekTo(0);
+        }
+    }, false);
+
+    document.addEventListener("mozfullscreenchange", function() {
+        if (!document.mozFullScreen) { 
+            player.stopVideo();
+            player.seekTo(0);
+        }
+    }, false);
+
+    document.addEventListener("webkitfullscreenchange", function() {
+        if (!document.webkitIsFullScreen) { 
+            player.stopVideo();
+            player.seekTo(0);
+        }
+    }, false);
+</script>

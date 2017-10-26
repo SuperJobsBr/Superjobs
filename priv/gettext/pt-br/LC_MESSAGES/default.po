@@ -24,6 +24,10 @@ msgstr ""
 msgid "Somos uma venture builder com foco em investimentos de alto impacto, nossa proposta é investir em pessoas diferenciadas e startups inovadoras que de alguma forma visam melhorar positivamente o mundo em que vivemos."
 msgstr ""
 
+#: web/templates/page/_who_we_are.html.eex:30
+msgid "84EJVmpHykE"
+msgstr ""
+
 #: web/templates/page/_header.html.eex:8
 msgid "Investimentos de Alto Impacto"
 msgstr ""

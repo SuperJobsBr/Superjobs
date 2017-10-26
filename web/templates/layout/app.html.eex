@@ -31,7 +31,7 @@
 
     </script>
 
-    <link href="//vjs.zencdn.net/5.19/video-js.min.css" rel="stylesheet">
+    <!-- <link href="//vjs.zencdn.net/5.19/video-js.min.css" rel="stylesheet"> -->
   </head>
 
   <body>
@@ -87,8 +87,15 @@
       <%= gettext "SuperJobs Venture Capital - Todos os direitos reservados" %>
     </footer>
 
-    <script src="//vjs.zencdn.net/5.19/video.min.js"></script>
+  
+    <script>
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/player_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    </script>    
 
+    <!-- <script src="//vjs.zencdn.net/5.19/video.min.js"></script> -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 
     <%# Typeform link popup form snippet %>

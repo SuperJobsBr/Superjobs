@@ -90,32 +90,22 @@
         	}
     	}
 	});
-	
-	var fullVideo = videojs('#fullscreen', { "controls": true });
-	
+
+
+	function playFullscreen (){
+		var $ = document.querySelector.bind(document);
+		var iframe = $('iframe#player');
+
+		var requestFullScreen = iframe.requestFullScreen || iframe.mozRequestFullScreen || iframe.webkitRequestFullScreen;
+		if (requestFullScreen) {
+			requestFullScreen.bind(iframe)();
+		}
+	}
+
 	$(document).ready(function(){
 		$('.play-button').click(function(){
-			$('.fullscreen').show();
-			fullVideo.currentTime(0);
-        	fullVideo.play();
-        	$('.fullscreen .vjs-fullscreen-control').click();
-		});
-
-		fullVideo.on('ended', function(){
-        	$('.fullscreen .vjs-fullscreen-control').click();
-			fullVideo.currentTime(0);
-        	fullVideo.pause();
-			$('.fullscreen').hide();
-		});
-
-		fullVideo.on('fullscreenchange', function(e){
-			if(!fullVideo.isFullscreen_){
-				fullVideo.currentTime(0);
-				fullVideo.pause();
-				$('.fullscreen').hide();
-			}
-		});
-
+			playFullscreen();
+		})
 
   
     $(".owl-clients , .last-tweets").owlCarousel({
