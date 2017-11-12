@@ -124,6 +124,10 @@ msgstr "Super Cambio is an online platform which reunites exchange rates from se
 msgid "Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou pagar alguém de forma indiscreta."
 msgstr "Platform created to facilitate the division of expenses among friends. With Pay Buddy you can share the expenses equally without having to charge or pay someone indiscreetly."
 
+#: web/templates/page/_cases.html.eex:120
+msgid "O Bsocial tem como objetivo agilizar e facilitar doações de forma extremamente segura e transparente, além de fornecer a possibilidade para ONGs e instituições de criar causas sociais para receber contribuições de usuários da plataforma."
+msgstr "Bsocial aims to agilize and simplify donations in an extremely safe and transparent manner, as well as providing the possibility for ONGs  and institutions to create social causes to receive contributions from users of the platform."
+
 #: web/templates/page/_cases.html.eex:126
 msgid "Plataforma social de Fintech que permite aos usuários uma interação dentro do mercado financeiro."
 msgstr "Fintech social platform that allows users to interact within the financial market."

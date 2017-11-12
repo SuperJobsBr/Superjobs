@@ -60,15 +60,15 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp pagueamigo" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp bsocial" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://www.pagueamigo.com.br/" title="Pague Amigo" target="_blank">
-                    <img src="/images/cases/pagueamigo.png" alt="Pagueamigo">
+                  <a href="http://www.bsocial.com.br/" title="BSocial" target="_blank">
+                    <img src="/images/cases/bsocial.png" alt="BSocial">
                   </a>
-                  <hr class="separator">
+                  <hr class="separator" style="border-color: #4a1968;">
                   <p class="description">
                     <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "Plataforma criada para facilitar a divisão de despesas entre amigos. Com Pague Amigo você pode compartilhar as despesas igualmente sem precisar cobrar ou pagar alguém de forma indiscreta." %>
+                    <%= gettext "O Bsocial tem como objetivo agilizar e facilitar doações de forma extremamente segura e transparente, além de fornecer a possibilidade para ONGs e instituições de criar causas sociais para receber contribuições de usuários da plataforma." %>
                   </p>
               </figure>
             </div>
