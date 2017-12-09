@@ -217,8 +217,8 @@ msgid "Nossa visão"
 msgstr "Our vision"
 
 #: web/templates/layout/app.html.eex:67
-msgid "Portifólio"
-msgstr "Portfolio"
+msgid "Portfólio"
+msgstr ""
 
 #: web/templates/layout/app.html.eex:65
 msgid "Quem somos"
