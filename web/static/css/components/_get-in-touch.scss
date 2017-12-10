@@ -21,10 +21,10 @@
     }
 
     .modal-dialog {
-      margin: 15% 0 0 0;
+      margin: 15% auto 0;
 
       @media screen and (max-device-width: 768px) {
-        margin: 55% 0 0 0;
+        margin: 55% auto 0;
       }
     }
 
