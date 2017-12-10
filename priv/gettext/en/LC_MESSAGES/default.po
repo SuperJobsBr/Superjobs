@@ -20,6 +20,16 @@ msgstr ""
 msgid "Investidores"
 msgstr "Investors"
 
+#: web/templates/page/_get_in_touch.html.eex:10
+#: web/templates/page/_header.html.eex:16
+msgid "Imprensa"
+msgstr "Press"
+
+#: web/templates/page/_get_in_touch.html.eex:13
+#: web/templates/page/_header.html.eex:18
+msgid "Assessoria de Imprensa"
+msgstr "Press Office"
+
 #: web/templates/page/_who_we_are.html.eex:10
 msgid "Somos uma venture builder com foco em investimentos de alto impacto, nossa proposta é investir em pessoas diferenciadas e startups inovadoras que de alguma forma visam melhorar positivamente o mundo em que vivemos."
 msgstr "We are a venture builder, focused on high impact investments, our goal is to invest in capable people and innovative startups, that somehow aim to positively improve the world we live in."

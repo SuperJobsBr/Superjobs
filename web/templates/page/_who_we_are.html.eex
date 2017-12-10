@@ -59,13 +59,10 @@
     }
 
     function onPlayerStateChange(event) {
-        console.log(event.data)
         if (event.data == YT.PlayerState.PAUSED) {
-            console.log("Paused");
         }
 
         if (event.data == YT.PlayerState.PLAYING) {
-            console.log("Playing");
         }
 
         if (event.data == YT.PlayerState.ENDED) {

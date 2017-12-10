@@ -14,4 +14,37 @@
   &__buttons {
     font-size: 18px;
   }
+
+  #modal-press {
+    .close {
+      font-size: 35px;
+    }
+
+    .modal-dialog {
+      margin-top: 15%;
+    }
+
+    .modal-header {
+      text-align: center;
+      margin-bottom: 0;
+
+      .modal-title {
+        color: $color-blue;
+        font-weight: bold;
+        font-size: 30px;
+      }
+    }
+
+    .modal-content {
+      background: url(/images/modal-background.jpeg) 0 0 repeat;      
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.modal-backdrop.in {
+  opacity: .8;
 }
