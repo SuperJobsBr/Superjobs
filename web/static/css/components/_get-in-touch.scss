@@ -21,7 +21,11 @@
     }
 
     .modal-dialog {
-      margin-top: 15%;
+      margin: 15% 0 0 0;
+
+      @media screen and (max-device-width: 768px) {
+        margin-top: 55% 0 0 0;
+      }
     }
 
     .modal-header {
