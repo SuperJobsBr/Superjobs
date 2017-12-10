@@ -28,7 +28,7 @@
 					<h4>Andre Martins</h4>
 					<h5>Co-Founder</h5>
 					<p>
-						<%= gettext("Andre Martins é presidente da VB desde abril de 2000. Formado em Administração de Empresas pela Fundação Álvares Penteado (FAAP), com cursos de especialização no INSEAD, na França, e pela Fundação Dom Cabral, em Minas Gerais, André Martins foi presidente do Lide Jovem, grupo de jovens executivos e empresários, até dezembro de 2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Além disso, André desenvolve um papel de investidor em startups desde 2008, investindo em empresas como Pto de Contato, Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Venture.") %>
+						<%= gettext("Andre Martins é presidente da VB desde abril de 2000. Formado em Administração de Empresas pela Fundação Álvares Penteado (FAAP), com cursos de especialização no INSEAD, na França, e pela Fundação Dom Cabral, em Minas Gerais, André Martins foi presidente do Lide Jovem, grupo de jovens executivos e empresários, até dezembro de 2013 e é membro do Conselho Empresarial do Instituto Ayrton Senna. Além disso, André desenvolve um papel de investidor em startups desde 2008, investindo em empresas como Pto de Contato, Fintech ContaUm, PetiteBox e co-fundou a SuperJobs Ventures.") %>
 					</p>
 				</div>
 			</div>	
@@ -40,7 +40,7 @@
 				</figure>
 				<div class="team-details center">
 					<h4>Catharina Gaissler</h4>
-					<h5>Portfólio Manager</h5>
+					<h5>Portfolio Manager</h5>
 					<p>
 						<%= gettext("Com 6 Anos de Experiência no mercado brasileiro de Marketing e Comunicação, Catharina atuou 4 anos como Diretora de Marketing e Gerenciamento de Operações na Construtora brasileira Gaissler & Solon LTDA. Posteriormente, na ideia de trazer uma ideia escalável para a América Latina, tornou-se sócia e Diretora Geral no Brasil da startup de hospitalidade nova-iorquina Host Lifestyle Group, desenvolvendo estratégias de captação, realizando parceria com grandes grupos no país.") %>
 					</p>
@@ -54,9 +54,9 @@
 				</figure>
 				<div class="team-details center">
 					<h4>Eriane Vila Nova</h4>
-					<h5>Produto e Planejamento</h5>
+					<h5>Product and Planner</h5>
 					<p>
-						<%= gettext("Formada em Produção Publicitária pela Universidade Anhembi Morumbi, Eriane atuou no setor de Administração Financeira do Banco Indusval & Partnets no Brasil. Seguindo para o setor de Comunicação, acumulou 3 anos de experiência no setor de Gerenciamento de Projetos e Quality Assurance na Agência de Publicidade Urban Summer.") %>
+						<%= gettext("Formada em Produção Publicitária pela Universidade Anhembi Morumbi, Eriane atuou no setor de Administração Financeira do Banco Indusval & Partners no Brasil. Seguindo para o setor de Comunicação, acumulou 3 anos de experiência no setor de Gerenciamento de Projetos e Quality Assurance na Agência de Publicidade Urban Summer.") %>
 					</p>
 				</div>
 			</div>
