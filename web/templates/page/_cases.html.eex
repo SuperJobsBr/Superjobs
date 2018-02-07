@@ -213,7 +213,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Dr. Cannabis traz informações do ecossistema da Cannabis Medicial, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas." %>
+                    <%= gettext "Dr. Cannabis traz informações do ecossistema da Cannabis Medicinal, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas." %>
                   </p>
               </figure>
             </div>

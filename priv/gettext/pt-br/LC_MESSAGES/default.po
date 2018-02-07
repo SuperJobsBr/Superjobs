@@ -175,7 +175,7 @@ msgid "Rheco.me é um método de recrutamento que encoraja os atuais funcionári
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:208
-msgid "Dr. Cannabis traz informações do ecossistema da Cannabis Medicial, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas."
+msgid "Dr. Cannabis traz informações do ecossistema da Cannabis Medicinal, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas."
 msgstr ""
 
 #: web/templates/page/_our_vision.html.eex:35
