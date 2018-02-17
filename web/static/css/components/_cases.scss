@@ -1,4 +1,7 @@
-#portfolio {
+.cases {
+    background: #e0e0e0; 
+    padding-top: 50px;
+
     .header {
         text-align: center;
 
@@ -9,12 +12,110 @@
         }
     }
 
-    background: #e0e0e0; 
-    padding: 50px 0 100px 0;
+    &#portfolio-internacional {
+        background: url('/images/cases/international-header.jpg') top no-repeat #ededed;
+        background-size: contain;
+        padding: 0 0 100px;
+    }
 
     .container {
         padding-left: 20px;
         width: 965px;
+
+
+        &.babel-portfolio{
+
+            .babel-header {
+                text-align: center;
+                margin: 12% 0 40px;
+                
+                .babel-logo {
+                    margin: 0 auto 20px;
+                    display: block;
+                    width: 195px;
+                }
+
+                .subtitle {
+                    font-weight: bold;
+                    font-size: 30px;
+                    color: #343434;                 
+                }
+            }
+
+            .masonry-item {
+                background: #dfdfdf;
+            }
+
+        }
+    }
+
+    /*portfolio-effect*/
+    figure.portfolio-effect {
+        text-align: center;
+        cursor: pointer;
+        
+        a {
+            vertical-align: middle;
+            text-align: center;
+            display: table-cell;
+            height: 140px;
+            width: 225px;
+        }
+        
+        img {
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            margin: 0 auto;
+            max-width: 80%;
+        }
+
+        figcaption::before ,  figcaption::after {
+            position: absolute;
+            top: 50%;
+            width: 40px;
+            height: 40px;
+            content: '';
+            opacity: 0;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+            transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
+            -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+        }
+
+        h3 {
+            color:#fff;
+            position: absolute;
+            opacity: 0; top:23%;
+            right:20%;left:20%;
+            text-align:center;
+            font-weight: 700; padding: 0.5em;
+            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+            transition: opacity 0.35s, transform 0.35s;
+            -webkit-transform: scale3d(0.9,0.9,1);
+            transform: scale3d(0.9,0.9,1);
+        } 
+
+        .description {
+            font-size: 16px;
+            line-height: 1.3em;
+            font-family: $second-font;
+
+            small {
+                color: $color-blue;
+                font-size: 12px;
+                display: block;
+            }
+        }
+
+
+        &:hover{
+            img {
+                -webkit-transform: scale(1.11);
+                transform: scale(1.11);
+            }
+        }
     }
 
     .masonry-item {
@@ -151,77 +252,41 @@
                 border-color: #ff5f25; 
             }
         }
-        /*&.wuzu { 
+        &.wuzu { 
             .separator { 
-                border-color: #ff5f25; 
-            }
-        }*/
-    }
-
-
-    /*portfolio-effect*/
-    figure.portfolio-effect {
-        text-align: center;
-        cursor: pointer;
-        
-        a {
-            vertical-align: middle;
-            text-align: center;
-            display: table-cell;
-            height: 140px;
-            width: 225px;
-        }
-        
-        img {
-            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-            transition: opacity 0.35s, transform 0.35s;
-            margin: 0 auto;
-            max-width: 80%;
-        }
-
-        figcaption::before ,  figcaption::after {
-            position: absolute;
-            top: 50%;
-            width: 40px;
-            height: 40px;
-            content: '';
-            opacity: 0;
-            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-            transition: opacity 0.35s, transform 0.35s;
-            -webkit-transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-            transform: translate3d(-50%,-50%,0) rotate3d(0,0,1,-45deg) scale3d(0,0,1);
-            -webkit-transform-origin: 50%;
-            transform-origin: 50%;
-        }
-
-        h3 {
-            color:#fff;
-            position: absolute;
-            opacity: 0; top:23%;
-            right:20%;left:20%;
-            text-align:center;
-            font-weight: 700; padding: 0.5em;
-            -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-            transition: opacity 0.35s, transform 0.35s;
-            -webkit-transform: scale3d(0.9,0.9,1);
-            transform: scale3d(0.9,0.9,1);
-        } 
-
-        .description {
-            font-size: 16px;
-
-            small {
-                color: $color-blue;
-                font-size: 12px;
-                display: block;
+                border-color: #87d2dc; 
             }
         }
 
-
-        &:hover{
-            img {
-                -webkit-transform: scale(1.11);
-                transform: scale(1.11);
+        /*** Babel Ventures ***/        
+        &.babel-cue { 
+            .separator { 
+                border-color: #838383; 
+            }
+        }
+        &.nebia { 
+            .separator { 
+                border-color: #434c54; 
+            }
+        }
+        &.finless-foods { 
+            .separator { 
+                border-color: #434c54; 
+            }
+        }
+        &.vitagene { 
+            .separator { 
+                border-color: #434c54; 
+            }
+        }
+        &.forever-labs { 
+            .separator { 
+                border-color: #161616; 
+            }
+        }
+        &.occamz-razor { 
+            .separator { 
+                border-color: #2aa89b; 
             }
         }
     }

@@ -209,12 +209,96 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp smartrade" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a onclick="alert('<%= gettext "Em breve" %>')">
-                    <img src="/images/cases/smartrade.png" alt="Wetoro">
+                    <img src="/images/cases/smartrade.png" alt="Smartrade">
                   </a>
                   <hr class="separator">
                   <p class="description">
                     <small>(<%= gettext "Em desenvolvimento" %>)</small>
                     <%= gettext "Smartrade é uma plataforma P2P de social trading, onde usuários podem trocar informações, trades, estratégias e experiências, e copiá-los dos melhores operadores e investidores do mercado financeiro local." %>
+                  </p>
+              </figure>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section id="portfolio-internacional" class="cases">
+    <div class="container babel-portfolio">
+        <div class="row">
+          <div class="col-md-12 babel-header">
+            <img src="/images/cases/babel-ventures-logo.png" class="babel-logo" alt="Babel Ventures">
+            <h3 class="subtitle"><%= gettext "PORTFOLIO INTERNACIONAL" %></h3>
+          </div>  
+        </div>
+
+        <div class="row masonry">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp babel-cue" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/cue" title="Cue" target="_blank">
+                    <img src="/images/cases/babel-cue.png" alt="Cue">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "O objetivo da CUE é ser o fornecedor mundial de dados moleculares domésticos e de ponto de atendimento. Uma pequena caixinha branca que cabe na palma da mão veio para revolucionar o mercado de saúde global, permitindo a detecção e quantificação de vários tipos de ácidos nucleicos alvo, pequenas moléculas, proteínas, células." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp nebia" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/nebia" title="Nebia" target="_blank">
+                    <img src="/images/cases/babel-nebia.png" alt="Nebia">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "A NEBIA pretende revolucionar a forma como administramos o uso de água em nossas casas, com produtos de design incrível sempre focados em um impacto positivo para o universo. O chuveiro ganhou alguns prêmios de design em 2017 e ele gasta 70% menos água que os chuveiros tradicionais." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp finless-foods" data-wow-delay=".1s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/finless" title="Finless Foods" target="_blank">
+                    <img src="/images/cases/babel-finless-foods.png" alt="Finless Foods">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Frutos do mar e peixes são ricos em ácidos graxos Omega 3, Omega 6 e DHA, tornando-se uma das proteínas mais saudáveis do planeta. Mas isso está mudando devido as atividades humanas e os níveis de mercúrio em peixes selvagens, juntamente com a poluição das águas. A FINLESS se propõe a solucionar esse problema, trazendo ao mercado um peixe saudável que se incluí na nova categoria de clean meat." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp vitagene" data-wow-delay=".2s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/vitagene" title="Vitagene" target="_blank">
+                    <img src="/images/cases/babel-vitagene.png" alt="Vitagene">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "O setor da saúde está mudando. 60% dos consumidores estão preocupados com a qualidade e a dosagem de suas vitaminas. O que a VITAGENE oferece vem ao encontro com a necessidade deste público, lhes trazendo um simples teste em casa que pode ser realizado em um minuto, dizendo suas deficiências nutricionais, preferências de dieta, informações sobre fitness, transformando tudo isso em um plano prático para sua suplementação, exercícios e alimentação com baixo custo." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp forever-labs" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/foreverlabs" title="Forever Labs" target="_blank">
+                    <img src="/images/cases/babel-forever-labs.png" alt="Forever Labs">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "A Forever Labs é uma startup com foco em anti-aging, na qual busca preservar  e armazenar células-tronco adultas dos pacientes com o objetivo de ajuda-lo a viver mais e mais saudável. As células-tronco têm o potencial de se tornar qualquer tipo de célula necessária no corpo, sendo extremamente útil caso futuramente precise de intervenção médica, como um transplante de medula óssea, pois o risco de rejeição é muito reduzido quando as células são suas." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp occamz-razor" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                    <img src="/images/cases/babel-occamz-razor.png" alt="Occamz Razor">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Com foco inicial na doença de Parkinson (PD), que é incurável, a Razor desenvolveu um sistema de Inteligência Artificial que permite que todas as pesquisas, conhecimentos e informações atuais sejam feitas de forma semi-automatizada. A OccamzRazor pretende acelerar os processos por trás de pesquisas científicas, abordando a fragmentação da informação e a validação dos dados, facilitando a construção de uma base de conhecimento institucional. A empresa começou executando pilotos em Stanford, Harvard e MIT." %>
                   </p>
               </figure>
             </div>
