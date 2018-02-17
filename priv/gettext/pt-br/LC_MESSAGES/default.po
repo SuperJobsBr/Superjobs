@@ -155,7 +155,7 @@ msgid "O Bicos é uma plataforma digital e inovadora criada para descomplicar o 
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:148
-msgid "O Estagiários Online é uma plataforma que conecta empresas e estagiários. Selecionamos a vaga ideal para quem procura uma oportunidade e selecionamos os candidatos ideais para quem precisa contratar."
+msgid "Estagiários Online é uma plataforma digital que conecta universitários à vaga de estágio ideal e auxilia as empresas na contratação/formalização do estagiário. Por meio de processos 100% automatizados e recursos exclusivos, as empresas economizam tempo e dinheiro, chegando a reduzir o custo em até 60% em relação ao praticado do mercado."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:160

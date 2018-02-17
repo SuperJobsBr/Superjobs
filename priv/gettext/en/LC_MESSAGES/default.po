@@ -147,7 +147,7 @@ msgid "O Bicos é uma plataforma digital e inovadora criada para descomplicar o 
 msgstr "Bicos is a digital, innovative platform created to sort out most household common issues. It connects customers and small service providers such as plumbers, carpenters, dogwalkers and many others, quickly and safely."
 
 #: web/templates/page/_cases.html.eex:148
-msgid "Estagiários Online é uma plataforma digital que conecta universitários à vaga de estágio ideal e auxilia as empresas na contratação e formalização do estagiário. Por meio de processos 100% automatizados e recursos exclusivos, as empresas economizam tempo e dinheiro, chegando a reduzir o custo em até 60% em relação ao praticado do mercado."
+msgid "Estagiários Online é uma plataforma digital que conecta universitários à vaga de estágio ideal e auxilia as empresas na contratação/formalização do estagiário. Por meio de processos 100% automatizados e recursos exclusivos, as empresas economizam tempo e dinheiro, chegando a reduzir o custo em até 60% em relação ao praticado do mercado."
 msgstr "Estagiários Online is a digital platform that connects university students looking for their ideal internships to companies offering suitable positions, and aids the latter with the steps of hiring interns. Through 100% automated processes and exclusive resources, companies save time and money, and reduce their costs by up to 60% compared to traditional processes of the market."
 
 #: web/templates/page/_cases.html.eex:160

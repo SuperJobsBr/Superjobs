@@ -55,7 +55,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Estagiários Online é uma plataforma digital que conecta universitários à vaga de estágio ideal e auxilia as empresas na contratação e formalização do estagiário. Por meio de processos 100% automatizados e recursos exclusivos, as empresas economizam tempo e dinheiro, chegando a reduzir o custo em até 60% em relação ao praticado do mercado." %>
+                    <%= gettext "Estagiários Online é uma plataforma digital que conecta universitários à vaga de estágio ideal e auxilia as empresas na contratação/formalização do estagiário. Por meio de processos 100% automatizados e recursos exclusivos, as empresas economizam tempo e dinheiro, chegando a reduzir o custo em até 60% em relação ao praticado do mercado." %>
                   </p>
               </figure>
             </div>
@@ -81,7 +81,7 @@
                   <hr class="separator">
                   <p class="description">
                     <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "Plataforma social de Fintech que permite aos usuários uma interação dentro do mercado financeiro." %>
+                    <%= gettext "Smartrade é uma plataforma P2P de social trading, onde usuários podem trocar informações, trades, estratégias e experiências, e copiá-los dos melhores operadores e investidores do mercado financeiro local." %>
                   </p>
               </figure>
             </div>
@@ -93,7 +93,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos." %>
+                    <%= gettext "Dr. Sintomas é uma plataforma de análise de sintomas, com a missão de proporcionar ao usuário um primeiro direcionamento sobre dúvidas relacionadas a saúde." %>
                   </p>
               </figure>
             </div>
@@ -104,7 +104,8 @@
                     <img src="/images/cases/diatec.png" alt="Diatec">
                   </a>
                   <hr class="separator">
-                  <p class="description">
+                  <p class="description">                    
+                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
                     <%= gettext "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
                   </p>
               </figure>
@@ -113,7 +114,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp wuzu" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="https://wuzu.io/" title="Wuzu" target="_blank">
-                    <img src="/images/cases/wuzu.png" alt="Diatec">
+                    <img src="/images/cases/wuzu.png" alt="Wuzu">
                   </a>
                   <hr class="separator">
                   <p class="description">
