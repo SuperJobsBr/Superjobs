@@ -103,8 +103,8 @@ msgid "Em desenvolvimento"
 msgstr "In Progress"
 
 #: web/templates/page/_cases.html.eex:28
-msgid "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes."
-msgstr "Glicker is a digital management platform of diabetes, developed not only to facilitate patients’ day-by-day, but also to get them closer to a multidisciplinary team that helps enhancing control, well-being and quality of life of those living with that condition."
+msgid "É uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes."
+msgstr "Is a digital management platform of diabetes, developed not only to facilitate patients’ day-by-day, but also to get them closer to a multidisciplinary team that helps enhancing control, well-being and quality of life of those living with that condition."
 
 #: web/templates/page/_cases.html.eex:40
 msgid "Dr. Sintomas é uma plataforma de análise de sintomas, com a missão de proporcionar ao usuário um primeiro direcionamento sobre dúvidas relacionadas a saúde."

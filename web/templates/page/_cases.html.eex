@@ -101,7 +101,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp glicker" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="http://comercial.drsintomas.com.br/" title="Glicker" target="_blank">
-                    <img src="/images/cases/glicker.png" alt="Diatec">
+                    <img src="/images/cases/diatec.png" alt="Diatec">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -213,7 +213,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Dr. Cannabis traz informações do ecossistema da Cannabis Medicinal, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas." %>
+                    <%= gettext "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos." %>
                   </p>
               </figure>
             </div>

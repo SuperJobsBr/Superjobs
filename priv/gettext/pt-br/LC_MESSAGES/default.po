@@ -111,7 +111,7 @@ msgid "Em desenvolvimento"
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:28
-msgid "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes."
+msgid "É uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:40
