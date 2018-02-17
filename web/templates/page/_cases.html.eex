@@ -106,7 +106,7 @@
                   <hr class="separator">
                   <p class="description">                    
                     <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
+                    <%= gettext "É uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
                   </p>
               </figure>
             </div>
