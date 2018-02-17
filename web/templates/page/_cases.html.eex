@@ -134,18 +134,6 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp docbot" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a href="http://docbot.com.br/" title="Docbot" target="_blank">
-                    <img src="/images/cases/docbot.png" alt="Docbot">
-                  </a>
-                  <hr class="separator">
-                  <p class="description">
-                    <%= gettext "DOCBOT é uma plataforma que funciona como um assistente pessoal de saúde, permitindo aos usuários uma avaliação gratuita de sintomas." %>
-                  </p>
-              </figure>
-            </div>
-
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp jober" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="https://jober.me/" title="Jober" target="_blank">
