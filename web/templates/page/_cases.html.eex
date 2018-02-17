@@ -117,7 +117,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
+                    <%= gettext "Primeira Bolsa de Criptomoedas a integrar múltiplas corretoras. Estruturada para atender aos mais altos padrões de segurança e tecnologia." %>
                   </p>
               </figure>
             </div>
