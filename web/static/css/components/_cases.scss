@@ -65,9 +65,10 @@
                 border-color: #2288c3; 
             }
         }
-        &.wetoro { 
+        &.smartrade { 
             img {
-                max-width: 65%;
+                max-width: 105%;
+                width: 105%;
             }
 
             .separator { 
@@ -150,6 +151,11 @@
                 border-color: #ff5f25; 
             }
         }
+        /*&.wuzu { 
+            .separator { 
+                border-color: #ff5f25; 
+            }
+        }*/
     }
 
 

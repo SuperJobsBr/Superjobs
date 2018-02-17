@@ -31,7 +31,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Bicos Online é uma plataforma digital inovadora que traz um ambiente seguro e dinâmico para a busca de mão de obra qualificada em assuntos domésticos." %>
+                    <%= gettext "O Bicos é uma plataforma digital e inovadora criada para descomplicar o dia-a-dia. Conectando clientes e prestadores de serviços, de forma rápida e segura." %>
                   </p>
               </figure>
             </div>
@@ -55,7 +55,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "O Estagiários Online é uma plataforma que conecta empresas e estagiários. Selecionamos a vaga ideal para quem procura uma oportunidade e selecionamos os candidatos ideais para quem precisa contratar." %>
+                    <%= gettext "Estagiários Online é uma plataforma digital que conecta universitários à vaga de estágio ideal e auxilia as empresas na contratação e formalização do estagiário. Por meio de processos 100% automatizados e recursos exclusivos, as empresas economizam tempo e dinheiro, chegando a reduzir o custo em até 60% em relação ao praticado do mercado." %>
                   </p>
               </figure>
             </div>
@@ -73,10 +73,10 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp wetoro" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp smartrade" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a onclick="alert('<%= gettext "Em breve" %>')">
-                    <img src="/images/cases/wetoro.png" alt="Wetoro">
+                    <img src="/images/cases/smartrade.png" alt="Wetoro">
                   </a>
                   <hr class="separator">
                   <p class="description">
@@ -93,19 +93,31 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Dr. Sintomas é uma plataforma de análise de sintomas, com a missão de proporcionar ao usuário um primeiro direcionamento sobre dúvidas relacionadas a saúde." %>
+                    <%= gettext "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos." %>
                   </p>
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp diatec" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp glicker" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://comercial.drsintomas.com.br/" title="Diatec" target="_blank">
-                    <img src="/images/cases/diatec.png" alt="Diatec">
+                  <a href="http://comercial.drsintomas.com.br/" title="Glicker" target="_blank">
+                    <img src="/images/cases/glicker.png" alt="Diatec">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida." %>
+                    <%= gettext "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp wuzu" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://wuzu.io/" title="Wuzu" target="_blank">
+                    <img src="/images/cases/wuzu.png" alt="Diatec">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
                   </p>
               </figure>
             </div>
@@ -153,7 +165,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "O Pinmyspot é um aplicativo de Realidade Aumentada que funciona como uma rede social e um caça descontos." %>
+                    <%= gettext "O Pinmyspot é um aplicativo para marketing promocional utilizando realidade aumentada. Empresas podem anunciar e usuários podem ganhar prêmios e descontos." %>
                   </p>
               </figure>
             </div>
@@ -177,7 +189,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Solução que facilita a sua melhor escolha na compra de moeda estrangeira através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido." %>
+                    <%= gettext "Solução que facilita a sua melhor escolha na compra de moeda estrangeira. Através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido." %>
                   </p>
               </figure>
             </div>
@@ -189,7 +201,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Plataforma inteligente para desenvolvimento de projetos de software reunindo uma rede de técnicos e desenvolvedores. Utilizando inteligência artificial a plataforma seleciona o melhor profissional para seu projeto de acordo com suas necessidades." %>
+                    <%= gettext "Rede exclusiva dos 7% melhores freelancers de desenvolvimento de software, design, gestão de projetos e análise de negócios do Brasil, disponíveis para ajudar as empresas a criarem times completos de software ou ampliar a capacidade técnica de suas equipes locais." %>
                   </p>
               </figure>
             </div>

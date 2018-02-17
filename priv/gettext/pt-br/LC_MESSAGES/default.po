@@ -111,7 +111,7 @@ msgid "Em desenvolvimento"
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:28
-msgid "Plataforma 100% voltada a questões relacionadas a Diabetes. Ajuda os usuários a identificarem a doença e caso já possuam, podem conhecer soluções para aumentar a qualidade de vida."
+msgid "O Glicker é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:40
@@ -127,7 +127,7 @@ msgid "Plataforma que usa da inteligência artificial para ajudar a economizar n
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:78
-msgid "O Pinmyspot é um aplicativo de Realidade Aumentada que funciona como uma rede social e um caça descontos."
+msgid "O Pinmyspot é um aplicativo para marketing promocional utilizando realidade aumentada. Empresas podem anunciar e usuários podem ganhar prêmios e descontos."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:90
@@ -135,7 +135,7 @@ msgid "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você i
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:102
-msgid "Solução que facilita a sua melhor escolha na compra de moeda estrangeira através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido."
+msgid "Solução que facilita a sua melhor escolha na compra de moeda estrangeira. Através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:114
@@ -147,11 +147,11 @@ msgid "O Bsocial tem como objetivo agilizar e facilitar doações de forma extre
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:126
-msgid "Plataforma social de Fintech que permite aos usuários uma interação dentro do mercado financeiro."
+msgid "O Smartrade é uma plataforma P2P de social trading, onde usuários podem trocar informações, trades, estratégias e experiências, e copiá-los dos melhores operadores e investidores do mercado financeiro local."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:136
-msgid "Bicos Online é uma plataforma digital inovadora que traz um ambiente seguro e dinâmico para a busca de mão de obra qualificada em assuntos domésticos."
+msgid "O Bicos é uma plataforma digital e inovadora criada para descomplicar o dia-a-dia. Conectando clientes e prestadores de serviços, de forma rápida e segura."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:148
@@ -167,7 +167,7 @@ msgid "Jober é um agregador de empregos que encontra, armazena e organiza vaga
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:184
-msgid "Plataforma inteligente para desenvolvimento de projetos de software reunindo uma rede de técnicos e desenvolvedores. Utilizando inteligência artificial a plataforma seleciona o melhor profissional para seu projeto de acordo com suas necessidades."
+msgid "Rede exclusiva dos 7% melhores freelancers de desenvolvimento de software, design, gestão de projetos e análise de negócios do Brasil, disponíveis para ajudar as empresas a criarem times completos de software ou ampliar a capacidade técnica de suas equipes locais."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:196
@@ -175,7 +175,11 @@ msgid "Rheco.me é um método de recrutamento que encoraja os atuais funcionári
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:208
-msgid "Dr. Cannabis traz informações do ecossistema da Cannabis Medicinal, direciona para médicos e  auxilia nas dúvidas de pacientes com doenças crônicas."
+msgid "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:220
+msgid "Primeira Bolsa de Criptomoedas a integrar múltiplas corretoras. Estruturada para atender aos mais altos padrões de segurança e tecnologia."
 msgstr ""
 
 #: web/templates/page/_our_vision.html.eex:35
