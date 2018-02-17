@@ -283,7 +283,7 @@
 				$('.mansory-pagination').show();
 
 			else {
-				if($('.portfolio-filter').attr('data-filter') == '*')
+				if($('.portfolio-filter a[data-filter="*"]').hasClass('active'))
 					return;
 
 				$('.mansory-pagination').hide();
