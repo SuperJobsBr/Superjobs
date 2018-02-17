@@ -1,8 +1,7 @@
+<link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">
 
-  <link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">
-
-  <!-- If you'd like to support IE8 -->
-  <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+<!-- If you'd like to support IE8 -->
+<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 
 <section id="portfolio" class="cases">
     <div class="header">
@@ -219,9 +218,18 @@
               </figure>
             </div>
         </div>
-    </div>
 
+        <div class="mansory-pagination">
+            <button class="arrow-left"><-</button>
+            <ul class="list">
+                <li class="item">1</li>
+                <li class="item">2</li>
+            </ul>
+            <button class="arrow-right">-></button>
+        </div>
+    </div>
 </section>
+
 <section id="portfolio-internacional" class="cases">
     <div class="container babel-portfolio">
         <div class="row">

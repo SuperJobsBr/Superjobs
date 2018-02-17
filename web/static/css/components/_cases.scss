@@ -49,6 +49,46 @@
         }
     }
 
+    .mansory-pagination {
+        text-align: center;
+        
+        .arrow  {
+            display: inline-block;
+            height: 25px;
+            
+
+            &.left {
+
+            }
+
+            &.right {
+
+            }
+        }
+
+        .list {
+            display: inline-block;
+            margin: 0 15px;
+            height: 25px;
+            padding: 0;
+
+            .item {
+                border: 2px solid blue;
+                display: inline-block;
+                margin-right: 5px;
+                cursor: pointer;
+                line-height: 0;
+                font-size: 0;
+                height: 22px;
+                width: 22px;
+
+                &.active {
+                    background: blue;
+                }
+            }
+        }
+    }
+
     /*portfolio-effect*/
     figure.portfolio-effect {
         text-align: center;

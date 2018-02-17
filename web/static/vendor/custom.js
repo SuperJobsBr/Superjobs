@@ -220,16 +220,101 @@
 			$('.portfolio-filter a').removeClass('active');
 			$(this).closest('a').addClass('active');
 		});
+
+		$('.mansory-pagination .list .item').click(function(evt){
+			evt.preventDefault();
+			var _this = $(this),
+				_listIndex = _this.index();
+
+			$container.isotope({
+				itemSelector: '.masonry-item',
+				layoutMode: 'packery',
+				cellsByRow: {
+				  columnWidth: '.masonry-item',
+				},
+				filter: function(){
+					var index = $(this).index();
+
+					if(_listIndex == 0)
+						return parseInt(index, 10) < 9;
+					else
+						return parseInt(index, 10) > 9;
+				}
+			});
+
+            $('html, body').animate({
+                scrollTop: $("#portfolio").offset().top - 50
+            }, 1000);
+		});
 	
 		
 		// isotope Masonry
-		var $container = $('.masonry');
+		var $container = $('#portfolio .masonry');
+		var $containerInternacional = $('#portfolio-internacional .masonry');
+
 		$container.imagesLoaded(function() {
 			$container.isotope({
 				itemSelector: '.masonry-item',
 				layoutMode: 'packery',
 				cellsByRow: {
 				  columnWidth: '.masonry-item',
+				},
+				filter: function(){
+					var index = $(this).index();
+					return parseInt(index, 10) < 9;
+				}
+			});
+
+			$containerInternacional.isotope({
+				itemSelector: '.masonry-item',
+				layoutMode: 'packery',
+				cellsByRow: {
+				  columnWidth: '.masonry-item',
+				},
+				filter: function(){
+					var index = $(this).index();
+					return parseInt(index, 10) < 9;
+				}
+			});
+		});
+
+		$container.on( 'arrangeComplete', function(event, filteredItens){
+			if (filteredItens.length >= 9)
+				$('.mansory-pagination').show();
+
+			else {
+				if($('.portfolio-filter').attr('data-filter') == '*')
+					return;
+
+				$('.mansory-pagination').hide();
+			}
+		});
+
+
+		$containerInternacional.imagesLoaded(function() {
+			$containerInternacional.isotope({
+				itemSelector: '.masonry-item',
+				layoutMode: 'packery',
+				cellsByRow: {
+				  columnWidth: '.masonry-item',
+				},
+				filter: function(){
+					var index = $(this).index();
+					return parseInt(index, 10) < 9;
+				}
+			});
+		});
+
+		$container.imagesLoaded(function() {
+			$container.isotope({
+				itemSelector: '.masonry-item',
+				layoutMode: 'packery',
+				cellsByRow: {
+				  columnWidth: '.masonry-item',
+				},
+				filter: function(){
+					var index = $(this).index();
+					return parseInt(index, 10) < 9;
 				}
 			});
 		});
