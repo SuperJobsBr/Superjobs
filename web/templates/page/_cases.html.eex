@@ -24,6 +24,30 @@
         </div>
 
         <div class="row masonry">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp apptite" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="http://www.apptite.com/" title="Apptite" target="_blank">
+                    <img src="/images/cases/apptite.png" alt="Apptite">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Da cozinha do Chef, para sua mesa. Apptite é o 1º marketplace de comida artesanal do Brasil, conectando consumidores a chefs e cozinheiros próximos. Descubra os talentos que fazem a melhor comida na sua região." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp wuzu" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://wuzu.io/" title="Wuzu" target="_blank">
+                    <img src="/images/cases/wuzu.png" alt="Wuzu">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Primeira Bolsa de Criptomoedas a integrar múltiplas corretoras. Estruturada para atender aos mais altos padrões de segurança e tecnologia." %>
+                  </p>
+              </figure>
+            </div>
+
             <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp bicos" data-wow-delay=".1s">
               <figure class="portfolio-effect">
                   <a href="https://www.bicos.com.br/" title="Bicos" target="_blank">
@@ -32,18 +56,6 @@
                   <hr class="separator">
                   <p class="description">
                     <%= gettext "O Bicos é uma plataforma digital e inovadora criada para descomplicar o dia-a-dia. Conectando clientes e prestadores de serviços, de forma rápida e segura." %>
-                  </p>
-              </figure>
-            </div>
-
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a href="https://www.startmeup.com.br/" title="Start me up" target="_blank">
-                    <img src="/images/cases/startmeup.png" alt="Startmeup">
-                  </a>
-                  <hr class="separator">
-                  <p class="description">
-                    <%= gettext "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras." %>
                   </p>
               </figure>
             </div>
@@ -60,28 +72,14 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp bsocial" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp vibbra" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://www.bsocial.com.br/" title="BSocial" target="_blank">
-                    <img src="/images/cases/bsocial.png" alt="BSocial">
-                  </a>
-                  <hr class="separator" style="border-color: #4a1968;">
-                  <p class="description">
-                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "O Bsocial tem como objetivo agilizar e facilitar doações de forma extremamente segura e transparente, além de fornecer a possibilidade para ONGs e instituições de criar causas sociais para receber contribuições de usuários da plataforma." %>
-                  </p>
-              </figure>
-            </div>
-
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp smartrade" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a onclick="alert('<%= gettext "Em breve" %>')">
-                    <img src="/images/cases/smartrade.png" alt="Wetoro">
+                  <a href="http://www.vibbra.com.br/" title="Vibbra!" target="_blank">
+                    <img src="/images/cases/vibbra.png" alt="Vibbra!">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "Smartrade é uma plataforma P2P de social trading, onde usuários podem trocar informações, trades, estratégias e experiências, e copiá-los dos melhores operadores e investidores do mercado financeiro local." %>
+                    <%= gettext "Rede exclusiva dos 7% melhores freelancers de desenvolvimento de software, design, gestão de projetos e análise de negócios do Brasil, disponíveis para ajudar as empresas a criarem times completos de software ou ampliar a capacidade técnica de suas equipes locais." %>
                   </p>
               </figure>
             </div>
@@ -98,63 +96,26 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp glicker" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://comercial.drsintomas.com.br/" title="Glicker" target="_blank">
-                    <img src="/images/cases/diatec.png" alt="Diatec">
+                  <a href="https://www.startmeup.com.br/" title="Start me up" target="_blank">
+                    <img src="/images/cases/startmeup.png" alt="Startmeup">
                   </a>
                   <hr class="separator">
-                  <p class="description">                    
-                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "É uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
+                  <p class="description">
+                    <%= gettext "Plataforma de Equity Crowdfunding. A StartMeUp torna simples para você investir em empresas inovadoras." %>
                   </p>
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp wuzu" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drcannabis" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="https://wuzu.io/" title="Wuzu" target="_blank">
-                    <img src="/images/cases/wuzu.png" alt="Wuzu">
+                  <a href="http://www.drcannabis.com.br/ " title="drcannabis" target="_blank">
+                    <img src="/images/cases/drcannabis.png" alt="Dr. Cannabis">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Primeira Bolsa de Criptomoedas a integrar múltiplas corretoras. Estruturada para atender aos mais altos padrões de segurança e tecnologia." %>
-                  </p>
-              </figure>
-            </div>
-
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp apptite" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a href="http://www.apptite.com/" title="Apptite" target="_blank">
-                    <img src="/images/cases/apptite.png" alt="Apptite">
-                  </a>
-                  <hr class="separator">
-                  <p class="description">
-                    <%= gettext "Da cozinha do Chef, para sua mesa. Apptite é o 1º marketplace de comida artesanal do Brasil, conectando consumidores a chefs e cozinheiros próximos. Descubra os talentos que fazem a melhor comida na sua região." %>
-                  </p>
-              </figure>
-            </div>
-
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp jober" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a href="https://jober.me/" title="Jober" target="_blank">
-                    <img src="/images/cases/jober.png" alt="Jober">
-                  </a>
-                  <hr class="separator">
-                  <p class="description">
-                    <%= gettext "Jober é um agregador de empregos que encontra, armazena e organiza vagas de emprego das mais diversas fontes na internet." %>
-                  </p>
-              </figure>
-            </div>
-
-            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp pinmyspot" data-wow-delay=".3s">
-              <figure class="portfolio-effect">
-                  <a href="https://pinmyspot.com.br/" title="Pin My Spot" target="_blank">
-                    <img src="/images/cases/pinmyspot.png" alt="Pinmyspot">
-                  </a>
-                  <hr class="separator">
-                  <p class="description">
-                    <%= gettext "O Pinmyspot é um aplicativo para marketing promocional utilizando realidade aumentada. Empresas podem anunciar e usuários podem ganhar prêmios e descontos." %>
+                    <%= gettext "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos." %>
                   </p>
               </figure>
             </div>
@@ -183,14 +144,52 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp vibbra" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp bsocial" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://www.vibbra.com.br/" title="Vibbra!" target="_blank">
-                    <img src="/images/cases/vibbra.png" alt="Vibbra!">
+                  <a href="http://www.bsocial.com.br/" title="BSocial" target="_blank">
+                    <img src="/images/cases/bsocial.png" alt="BSocial">
+                  </a>
+                  <hr class="separator" style="border-color: #4a1968;">
+                  <p class="description">
+                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
+                    <%= gettext "O Bsocial tem como objetivo agilizar e facilitar doações de forma extremamente segura e transparente, além de fornecer a possibilidade para ONGs e instituições de criar causas sociais para receber contribuições de usuários da plataforma." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp glicker" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="http://comercial.drsintomas.com.br/" title="Glicker" target="_blank">
+                    <img src="/images/cases/diatec.png" alt="Diatec">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">                    
+                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
+                    <%= gettext "É uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp jober" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://jober.me/" title="Jober" target="_blank">
+                    <img src="/images/cases/jober.png" alt="Jober">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Rede exclusiva dos 7% melhores freelancers de desenvolvimento de software, design, gestão de projetos e análise de negócios do Brasil, disponíveis para ajudar as empresas a criarem times completos de software ou ampliar a capacidade técnica de suas equipes locais." %>
+                    <%= gettext "Jober é um agregador de empregos que encontra, armazena e organiza vagas de emprego das mais diversas fontes na internet." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp pinmyspot" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://pinmyspot.com.br/" title="Pin My Spot" target="_blank">
+                    <img src="/images/cases/pinmyspot.png" alt="Pinmyspot">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "O Pinmyspot é um aplicativo para marketing promocional utilizando realidade aumentada. Empresas podem anunciar e usuários podem ganhar prêmios e descontos." %>
                   </p>
               </figure>
             </div>
@@ -207,14 +206,15 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drcannabis" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp smartrade" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://www.drcannabis.com.br/ " title="drcannabis" target="_blank">
-                    <img src="/images/cases/drcannabis.png" alt="Dr. Cannabis">
+                  <a onclick="alert('<%= gettext "Em breve" %>')">
+                    <img src="/images/cases/smartrade.png" alt="Wetoro">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos." %>
+                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
+                    <%= gettext "Smartrade é uma plataforma P2P de social trading, onde usuários podem trocar informações, trades, estratégias e experiências, e copiá-los dos melhores operadores e investidores do mercado financeiro local." %>
                   </p>
               </figure>
             </div>
