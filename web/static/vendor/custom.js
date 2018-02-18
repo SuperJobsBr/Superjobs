@@ -287,7 +287,7 @@
 					if(_listIndex == 0)
 						return parseInt(index, 10) < 9;
 					else
-						return parseInt(index, 10) > 9;
+						return parseInt(index, 10) >= 9;
 				}
 			});
 
