@@ -302,6 +302,7 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp occamz-razor" data-wow-delay=".3s">
               <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/razor" title="Occamz Razor" target="_blank">
                     <img src="/images/cases/babel-occamz-razor.png" alt="Occamz Razor">
                   </a>
                   <hr class="separator">
