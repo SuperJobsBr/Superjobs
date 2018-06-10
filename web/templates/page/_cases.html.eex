@@ -311,6 +311,42 @@
                   </p>
               </figure>
             </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp wild-earth" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/wildearth" title="Wild Earth" target="_blank">
+                    <img src="/images/cases/babel-wild-earth.png" alt="Wild Earth">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "A Wild Earth está desafiando o mercado tradicional com proteínas limpas feitas sem ingredientes animais, criando a comida perfeita para atender às necessidades específicas de cachorros e gatos. Nenhum subproduto animal, nenhum animal processado. Elaborado para atender a todas as necessidades nutricionais." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp cannaly" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="" title="Cannaly" target="_blank">
+                    <img src="/images/cases/babel-cannaly.png" alt="Cannaly">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Na Cannaly, a missão é capacitar futuras marcas da indústria de cannabis por meio da inovação tecnológica. Agilize seu processo de compra, colocando suas relações com fornecedores em uma única plataforma. Descubra novas marcas e faça pedidos de marcas existentes; Qualquer hora, qualquer lugar. Amplie o alcance de suas marcas e mantenha seus clientes satisfeitos. Com as mensagens do aplicativo e o fácil acesso ao histórico de pedidos, você pode atender melhor às necessidades de seus clientes." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp nabis" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="" title="Nabis" target="_blank">
+                    <img src="/images/cases/babel-nabis.png" alt="nabis">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Em breve mais informações" %>
+                  </p>
+              </figure>
+            </div>
         </div>
     </div>
 </section>

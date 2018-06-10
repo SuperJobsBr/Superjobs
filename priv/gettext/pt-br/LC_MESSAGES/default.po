@@ -208,6 +208,18 @@ msgstr ""
 msgid "Com foco inicial na doença de Parkinson (PD), que é incurável, a Razor desenvolveu um sistema de Inteligência Artificial que permite que todas as pesquisas, conhecimentos e informações atuais sejam feitas de forma semi-automatizada. A OccamzRazor pretende acelerar os processos por trás de pesquisas científicas, abordando a fragmentação da informação e a validação dos dados, facilitando a construção de uma base de conhecimento institucional. A empresa começou executando pilotos em Stanford, Harvard e MIT."
 msgstr ""
 
+#: web/templates/page/_cases.html.eex:304
+msgid "A Wild Earth está desafiando o mercado tradicional com proteínas limpas feitas sem ingredientes animais, criando a comida perfeita para atender às necessidades específicas de cachorros e gatos. Nenhum subproduto animal, nenhum animal processado. Elaborado para atender a todas as necessidades nutricionais."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:316
+msgid "Na Cannaly, a missão é capacitar futuras marcas da indústria de cannabis por meio da inovação tecnológica. Agilize seu processo de compra, colocando suas relações com fornecedores em uma única plataforma. Descubra novas marcas e faça pedidos de marcas existentes; Qualquer hora, qualquer lugar. Amplie o alcance de suas marcas e mantenha seus clientes satisfeitos. Com as mensagens do aplicativo e o fácil acesso ao histórico de pedidos, você pode atender melhor às necessidades de seus clientes."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:328
+msgid "Em breve mais informações"
+msgstr ""
+
 
 
 #: web/templates/page/_our_vision.html.eex:35

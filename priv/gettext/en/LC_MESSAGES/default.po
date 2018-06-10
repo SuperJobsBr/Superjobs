@@ -200,6 +200,18 @@ msgstr "Forever Labs collects and stores your stem cells today, while they are y
 msgid "Com foco inicial na doença de Parkinson (PD), que é incurável, a Razor desenvolveu um sistema de Inteligência Artificial que permite que todas as pesquisas, conhecimentos e informações atuais sejam feitas de forma semi-automatizada. A OccamzRazor pretende acelerar os processos por trás de pesquisas científicas, abordando a fragmentação da informação e a validação dos dados, facilitando a construção de uma base de conhecimento institucional. A empresa começou executando pilotos em Stanford, Harvard e MIT."
 msgstr "OccamzRazor is an AI-driven neuroscience company. Our product RAZOR uses deep learning to extract information from publications and various other data sources for universal analysis via bioinformatics frameworks. "
 
+#: web/templates/page/_cases.html.eex:304
+msgid "A Wild Earth está desafiando o mercado tradicional com proteínas limpas feitas sem ingredientes animais, criando a comida perfeita para atender às necessidades específicas de cachorros e gatos. Nenhum subproduto animal, nenhum animal processado. Elaborado para atender a todas as necessidades nutricionais."
+msgstr "Wild Earth is entering the traditional market with clean, animal-free proteins, creating a perfect food to meet the specific needs of dogs and cats. No animal by-products, no processed animal. Designed to meet all nutritional needs."
+
+#: web/templates/page/_cases.html.eex:316
+msgid "Na Cannaly, a missão é capacitar futuras marcas da indústria de cannabis por meio da inovação tecnológica. Agilize seu processo de compra, colocando suas relações com fornecedores em uma única plataforma. Descubra novas marcas e faça pedidos de marcas existentes; Qualquer hora, qualquer lugar. Amplie o alcance de suas marcas e mantenha seus clientes satisfeitos. Com as mensagens do aplicativo e o fácil acesso ao histórico de pedidos, você pode atender melhor às necessidades de seus clientes."
+msgstr "At Cannaly, the mission is to empower future brands in the cannabis industry through technological innovation. Streamline your purchasing process by putting your relationships with suppliers on a single platform. Discover new brands and order existing brands; Any time, anywhere. Extend the reach of your brands and keep your customers happy. With application messages and easy access to order history, you can better meet your customers' needs."
+
+#: web/templates/page/_cases.html.eex:328
+msgid "Em breve mais informações"
+msgstr "Soon more information"
+
 
 
 #: web/templates/page/_cases.html.eex:126

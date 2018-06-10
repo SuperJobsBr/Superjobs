@@ -1,0 +1,1069 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"password",
+				"password_repeat"
+			],
+			[
+				"scroll",
+				"scrollTop\t.scrollTop()"
+			],
+			[
+				"to",
+				"toArray\t.toArray()"
+			],
+			[
+				"campai",
+				"campaigns"
+			],
+			[
+				"rejec",
+				"rejection"
+			],
+			[
+				"reado",
+				"read_only"
+			],
+			[
+				"netfl",
+				"netflixFilters"
+			],
+			[
+				"backgo",
+				"background"
+			],
+			[
+				"service-",
+				"service-tiles-list"
+			],
+			[
+				"ENVIR",
+				"ENVIRONMENT_VARS"
+			],
+			[
+				"Organiz",
+				"OrganizationSerializer"
+			],
+			[
+				"priva",
+				"privacy_queryset"
+			],
+			[
+				"preference",
+				"preference_queryset"
+			],
+			[
+				"Langau",
+				"Languages"
+			],
+			[
+				"cate",
+				"category_parent"
+			],
+			[
+				"fields",
+				"fields_list"
+			],
+			[
+				"obje",
+				"object_name"
+			],
+			[
+				"notif",
+				"notificationsQuantity"
+			],
+			[
+				"endpoint",
+				"endpointNotifications"
+			],
+			[
+				"response",
+				"responseTeam"
+			],
+			[
+				"breakp",
+				"break-bp12"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"ta",
+				"ta\ttext-align: ${1:left};"
+			],
+			[
+				"sche",
+				"scheduleNewSelection"
+			],
+			[
+				"schedu",
+				"scheduleLength"
+			],
+			[
+				"collec",
+				"collection"
+			],
+			[
+				"payment",
+				"paymentsConfigurations"
+			],
+			[
+				"addr",
+				"address"
+			],
+			[
+				"schedul",
+				"scheduleSelected"
+			],
+			[
+				"redirec",
+				"redirectURI"
+			],
+			[
+				"kwn",
+				"knowMoreHandler"
+			],
+			[
+				"ngs",
+				"ngStorage-returnUri"
+			],
+			[
+				"setup",
+				"_setupPersonalization"
+			],
+			[
+				"redic",
+				"redirectUri"
+			],
+			[
+				"blacklist",
+				"blacklist_monitors"
+			],
+			[
+				"campaig",
+				"campaignsPage"
+			],
+			[
+				"getChar",
+				"getChart"
+			],
+			[
+				"change",
+				"changeLanguage"
+			],
+			[
+				"language",
+				"LANGUAGE_SESSION_KEY"
+			],
+			[
+				"total",
+				"total_loja"
+			],
+			[
+				"array_",
+				"array_push"
+			],
+			[
+				"cod_loja",
+				"cod_loja_anterior"
+			],
+			[
+				"Valor",
+				"ValorFrete"
+			],
+			[
+				"cep",
+				"cepDestino"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"con",
+				"conditions"
+			],
+			[
+				"cod",
+				"cod_loja"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 299.0,
+		"last_filter": "sethtml",
+		"selected_items":
+		[
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"setcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"secs",
+				"Set Syntax: CSS"
+			],
+			[
+				"sethm",
+				"Set Syntax: HTML"
+			],
+			[
+				"setjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"seter",
+				"Set Syntax: Erlang"
+			],
+			[
+				"setht",
+				"Set Syntax: HTML"
+			],
+			[
+				"setcs",
+				"Set Syntax: CSS"
+			],
+			[
+				"setscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"sethtml\t\t",
+				"Set Syntax: HTML"
+			],
+			[
+				"setjavasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"etcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"setjavascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"css",
+				"Plugin Development: Convert Syntax to .sublime-syntax"
+			],
+			[
+				"installpac",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 484.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michel/Documents/Respire/code/client/Gruntfile.js",
+		"/Users/michel/Documents/Respire/code/client/app/css/source/_grid.scss",
+		"/Users/michel/Documents/Respire/code/client/package.json",
+		"/Users/michel/Documents/Respire/dev/docs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Respire/client_poc/src/index.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Respire/client_poc/src/app/views/test.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Respire/client_poc/src/app/views/test.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Respire/client_poc/src/routes.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/priv/gettext/en/LC_MESSAGES/default.po",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/priv/gettext/pt-br/LC_MESSAGES/default.po",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/static/css/components/_cases.scss",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/templates/page/_cases.html.eex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/Dockerfile",
+		"/Library/WebServer/Documents/index.html.en",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/configs-php/php-fpm.conf",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/configs-php/php.ini",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/configs-php/www.conf",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/configs/nginx.conf",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/configs/www.conf",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-files/configs/app.conf",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/docker-compose.yml",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Sennit/Movida/DockerVetor/README.md",
+		"/Users/michel/Downloads/anjos.txt",
+		"/Users/michel/Documents/Respire/code/client/app/includes/services/edit-general.html",
+		"/Users/michel/Documents/Respire/code/client/app/css/source/_forms.scss",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/modules/main.js",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/modules/constants.js",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/controllers/services.js",
+		"/Users/michel/Downloads/TestApp-master/README.md",
+		"/Users/michel/Documents/Respire/code/client/app/css/source/_services.scss",
+		"/Users/michel/Documents/Respire/code/client/app/includes/profiles/profile-login.html",
+		"/Users/michel/Documents/Respire/code/client/app/index.html",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/controllers/system.js",
+		"/Users/michel/Documents/Respire/code/client/app/includes/profiles/login-backup.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/templates/page/_who_we_are.html.eex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/static/vendor/custom.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/index.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/static/domready.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/servicos.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/corporativo-escolares.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/static/screen.css",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/eventos-escolares.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/eventos-corporativos.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/eventos-treinamentos.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/static/css/app.scss",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/static/css/base/_variables.scss",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/static/css/components/_who-we-are.scss",
+		"/Users/michel/Documents/docs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/aniversarios.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/404.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/contato.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-condominios.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-contos-de-anjos.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-criatividades.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-festas.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-hotelaria.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-jogos.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-personagens.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/galeria-top-services.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/parceiros.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/quem-somos.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/servicos-sociais.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/trabalhe-conosco.html",
+		"/Users/michel/Documents/Respire/code/core-v2/core/requirements.txt",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/includes/phpmailer/class.phpmailer.php",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/includes/phpmailer/examples/scripts/shCore.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/includes/phpmailer/language/phpmailer.lang-ch.php",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/templates/page/_portfolio.html.eex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/lib/superjobs/endpoint.ex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/app.json",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/Procfile",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/README.md",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/test.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/sendcontato.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/anjosdosorriso/send-newsletter.php",
+		"/Users/michel/Documents/Respire/code/core-v2/core/back/TODO",
+		"/Users/michel/Documents/Respire/code/core-v2/README.md",
+		"/Users/michel/Documents/Respire/code/client/bower.json",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/modules/routes.js",
+		"/Users/michel/Documents/eri.txt",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/lib/superjobs/plug/locale.ex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/config/config.exs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/config/dev.exs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/dev.exs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/router.ex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/config/prod.exs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/config/test.exs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/templates/layout/app.html.eex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/priv/gettext/default.pot",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/templates/page/_team.html.eex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/static/css/components/_process-slider.scss",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/priv/static/css/app.css",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/mix.exs",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/web/templates/page/_process_slider.html.eex",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/priv/static/js/app.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/.gitignore",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Superjobs/superjobs/_build/dev/lib/connection/ebin/Elixir.Connection.beam",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/js/domready.js",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/cadastre.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/css/screen.css",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/login.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/cadastro-cupons.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/index.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/cadastre_bkp.html",
+		"/Users/michel/Documents/Work/Nago Desenvolvimento/Dicico/cupom-cadastrado.html",
+		"/Users/michel/Documents/Respire/code/client/app/includes/profiles/profile-sign-in.html",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/controllers/hc-pro.js",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/controllers/profiles.js",
+		"/Users/michel/Documents/Respire/code/client/app/includes/hc-pro/about.html",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/data/translations_pt.json",
+		"/Users/michel/Documents/Respire/code/client/app/includes/general/cat-nav-head.html",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/meplis/services/oauth/oauth.template.html",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/controllers/settings.js",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/controllers/articles.js",
+		"/Users/michel/Documents/FileZilla.xml",
+		"/Library/WebServer/Documents/www/anjosdosorriso/wp-content/themes/unite/footer.php",
+		"/Library/WebServer/Documents/www/anjosdosorriso/.htaccess",
+		"/Library/WebServer/Documents/www/anjosdosorriso/wp-config.php",
+		"/Users/michel/Documents/Work/Personal/docs.txt",
+		"/Users/michel/Documents/Work/Personal/docs_2",
+		"/Users/michel/Documents/Respire/code/client/app/scripts/respire-app/interceptors/http-headers.js",
+		"/Users/michel/Documents/Respire/code/client/app/includes/profiles/profile-articles.html",
+		"/Users/michel/Documents/Respire/code/client/app/includes/profiles/profile-sign-out.html",
+		"/Users/michel/Documents/Respire/code/client/app/css/source/_header.scss",
+		"/Users/michel/Documents/Respire/code/client/app/includes/services/services.html",
+		"/Users/michel/Documents/Respire/code/client/app/includes/profiles/profile-services.html",
+		"/Users/michel/Documents/Respire/code/client/app/includes/general/footer.html",
+		"/Users/michel/Documents/Respire/code/client/app/assets/landings/css/style.css"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mix.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_grid",
+				"app/css/source/_grid.scss"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"gruntf",
+				"Gruntfile.js"
+			],
+			[
+				"cases",
+				"web/templates/page/_cases.html.eex"
+			],
+			[
+				"ob_config",
+				"objects/ob_config.php"
+			],
+			[
+				"formsscss",
+				"app/css/source/_forms.scss"
+			],
+			[
+				"servicescss",
+				"app/css/source/_services.scss"
+			],
+			[
+				"",
+				"app/includes/services/edit-general.html"
+			],
+			[
+				"indexhtml",
+				"app/index.html"
+			],
+			[
+				"serviceeditgenera",
+				"app/includes/services/edit-general.html"
+			],
+			[
+				"system",
+				"app/scripts/respire-app/controllers/system.js"
+			],
+			[
+				"respireservice",
+				"app/scripts/respire-app/controllers/services.js"
+			],
+			[
+				"respiremain",
+				"app/scripts/respire-app/modules/main.js"
+			],
+			[
+				"profilelogin",
+				"app/includes/profiles/profile-login.html"
+			],
+			[
+				"loginhtml",
+				"app/includes/profiles/login-backup.html"
+			],
+			[
+				"idnexhtml",
+				"index.html"
+			],
+			[
+				"serv",
+				"servicos.html"
+			],
+			[
+				"domread",
+				"static/domready.js"
+			],
+			[
+				"servicos",
+				"servicos.html"
+			],
+			[
+				"screen",
+				"static/screen.css"
+			],
+			[
+				"corporativo",
+				"corporativo-escolares.html"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"evento",
+				"eventos-escolares.html"
+			],
+			[
+				"treiname",
+				"eventos-treinamentos.html"
+			],
+			[
+				"index.ht",
+				"index.html"
+			],
+			[
+				"variable",
+				"superjobs/web/static/css/base/_variables.scss"
+			],
+			[
+				"cases.scss",
+				"superjobs/web/static/css/components/_cases.scss"
+			],
+			[
+				"who",
+				"superjobs/web/templates/page/_who_we_are.html.eex"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"scree",
+				"static/screen.css"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"gruntfil",
+				"Gruntfile.js"
+			],
+			[
+				"bower",
+				"bower.json"
+			],
+			[
+				"route",
+				"app/scripts/respire-app/modules/routes.js"
+			],
+			[
+				"dev.e",
+				"config/dev.exs"
+			],
+			[
+				"default",
+				"priv/gettext/default.pot"
+			],
+			[
+				"team",
+				"web/templates/page/_team.html.eex"
+			],
+			[
+				"processslider",
+				"web/static/css/components/_process-slider.scss"
+			],
+			[
+				"app.",
+				"priv/static/css/app.css"
+			],
+			[
+				"app.js",
+				"priv/static/js/app.js"
+			],
+			[
+				"gitigno",
+				".gitignore"
+			],
+			[
+				"process",
+				"web/templates/page/_process_slider.html.eex"
+			],
+			[
+				"gitignore",
+				".gitignore"
+			],
+			[
+				"login",
+				"login.html"
+			],
+			[
+				"domrea",
+				"js/domready.js"
+			],
+			[
+				"cadastre",
+				"cadastre.html"
+			],
+			[
+				"cadastro",
+				"cadastro-cupons.html"
+			],
+			[
+				"cadas",
+				"cadastro-cupons.html"
+			],
+			[
+				"cadast",
+				"cadastre.html"
+			],
+			[
+				"cupon",
+				"cadastro-cupons.html"
+			],
+			[
+				"cupom",
+				"cupom-cadastrado.html"
+			],
+			[
+				"cadastr",
+				"cadastro-cupons.html"
+			],
+			[
+				"scre",
+				"css/screen.css"
+			],
+			[
+				"domra",
+				"js/domready.js"
+			],
+			[
+				"controllerpro",
+				"client/app/scripts/respire-app/controllers/profiles.js"
+			],
+			[
+				"hcprojs",
+				"client/app/scripts/respire-app/controllers/hc-pro.js"
+			],
+			[
+				"hcabout",
+				"client/app/includes/hc-pro/about.html"
+			],
+			[
+				"transla",
+				"client/app/scripts/data/translations_pt.json"
+			],
+			[
+				"translt",
+				"client/app/scripts/data/translations_pt.json"
+			],
+			[
+				"profilesign",
+				"client/app/includes/profiles/profile-sign-in.html"
+			],
+			[
+				"catnavhe",
+				"client/app/includes/general/cat-nav-head.html"
+			],
+			[
+				"controser",
+				"client/app/scripts/respire-app/controllers/services.js"
+			],
+			[
+				"controllersettings",
+				"client/app/scripts/respire-app/controllers/settings.js"
+			],
+			[
+				"oauthtempl",
+				"client/app/scripts/meplis/services/oauth/oauth.template.html"
+			],
+			[
+				"grunfil",
+				"client/Gruntfile.js"
+			],
+			[
+				"gruntfi",
+				"client/Gruntfile.js"
+			],
+			[
+				"grunt",
+				"client/Gruntfile.js"
+			],
+			[
+				"footer",
+				"unite/footer.php"
+			],
+			[
+				"controllerprof",
+				"app/scripts/respire-app/controllers/profiles.js"
+			],
+			[
+				"httpheader",
+				"app/scripts/respire-app/interceptors/http-headers.js"
+			],
+			[
+				"_header",
+				"app/css/source/_header.scss"
+			],
+			[
+				"articlejs",
+				"app/scripts/respire-app/controllers/articles.js"
+			],
+			[
+				"p",
+				"package.json"
+			],
+			[
+				"inclprofilearti",
+				"app/includes/profiles/profile-articles.html"
+			],
+			[
+				"services",
+				"app/includes/services/services.html"
+			],
+			[
+				"controlservi",
+				"app/scripts/respire-app/controllers/services.js"
+			],
+			[
+				"controllerservices",
+				"app/scripts/respire-app/controllers/services.js"
+			],
+			[
+				"controprofil",
+				"app/scripts/respire-app/controllers/profiles.js"
+			],
+			[
+				"routes",
+				"app/scripts/respire-app/modules/routes.js"
+			],
+			[
+				"general",
+				"app/includes/settings/general.html"
+			],
+			[
+				"landings",
+				"app/css/source/_landings.scss"
+			],
+			[
+				"landingstyle",
+				"app/assets/landings/css/style.css"
+			],
+			[
+				"hcpro",
+				"app/includes/hc-pro/hc-pro.html"
+			],
+			[
+				"g",
+				"Gruntfile.js"
+			],
+			[
+				"controllerhc",
+				"app/scripts/respire-app/controllers/hc-pro.js"
+			],
+			[
+				"indexht",
+				"app/index.html"
+			],
+			[
+				"editgen",
+				"app/includes/services/edit-general.html"
+			],
+			[
+				"controllerseri",
+				"app/scripts/respire-app/controllers/services.js"
+			],
+			[
+				"modulescheduleconfi",
+				"app/scripts/respire-app/directives/module-schedule-configuration/module-schedule-configuration.js"
+			],
+			[
+				"mepliscalendar",
+				"app/scripts/meplis/services/calendar/calendar.service.js"
+			],
+			[
+				"moduleaddres",
+				"app/scripts/respire-app/directives/module-address/module-address.js"
+			],
+			[
+				"editsched",
+				"app/includes/services/edit-schedule.html"
+			],
+			[
+				"editaddres",
+				"app/includes/services/edit-address.html"
+			],
+			[
+				"formsscs",
+				"app/css/source/_forms.scss"
+			],
+			[
+				"calendarservice",
+				"app/scripts/meplis/services/calendar/calendar.service.js"
+			],
+			[
+				"scheduleconfi",
+				"app/scripts/respire-app/directives/module-schedule-configuration/module-schedule-configuration.js"
+			],
+			[
+				"serviceservicejs",
+				"app/scripts/respire-app/services/services.js"
+			],
+			[
+				"articlesscs",
+				"app/css/source/respire-without-parsing/_all-articles.scss"
+			],
+			[
+				"articles",
+				"app/includes/articles/articles.html"
+			],
+			[
+				"servicehtml",
+				"app/includes/services/service.html"
+			],
+			[
+				"serviceitemjs",
+				"app/scripts/respire-app/directives/service-item/service-item.js"
+			],
+			[
+				"serviceitemtemp",
+				"app/scripts/respire-app/directives/service-item/service-item.template.html"
+			],
+			[
+				"serviceservices",
+				"app/includes/services/services.html"
+			],
+			[
+				"serviceschedule",
+				"app/scripts/respire-app/services/schedules.js"
+			],
+			[
+				"servicecalendar",
+				"app/scripts/respire-app/services/calendar.js"
+			],
+			[
+				"controllservi",
+				"app/scripts/respire-app/controllers/services.js"
+			],
+			[
+				"scheduleseria",
+				"core/back/schedule/serializers.py"
+			],
+			[
+				"generalls",
+				"src/app/less/general.less"
+			],
+			[
+				"todo",
+				"TODO"
+			],
+			[
+				"configu",
+				"app/configuration/configuration.controller.js"
+			],
+			[
+				"translat",
+				"app/index.translate.js"
+			],
+			[
+				"mainhtml",
+				"app/main/main.html"
+			],
+			[
+				"registeht",
+				"app/register/register.html"
+			],
+			[
+				"register",
+				"app/register/register.controller.js"
+			],
+			[
+				"maincontr",
+				"app/main/main.controller.js"
+			],
+			[
+				"translate",
+				"app/index.translate.js"
+			],
+			[
+				"main",
+				"app/main/main.html"
+			],
+			[
+				"maincontro",
+				"app/main/main.controller.js"
+			],
+			[
+				"django",
+				"app/index.djangoAuth.js"
+			],
+			[
+				"registe",
+				"app/register/register.controller.js"
+			],
+			[
+				"registerh",
+				"app/register/register.html"
+			],
+			[
+				"indexroute",
+				"app/index.route.js"
+			],
+			[
+				"editcont",
+				"app/edit-account/edit-account.controller.js"
+			],
+			[
+				"edit",
+				"app/edit-account/edit-account.html"
+			],
+			[
+				"configura",
+				"app/configuration/configuration.controller.js"
+			],
+			[
+				"indexmodu",
+				"app/index.module.js"
+			],
+			[
+				"meplisprofile",
+				"app/scripts/meplis/services/profile/profile.service.js"
+			],
+			[
+				"serviceprofile",
+				"app/scripts/respire-app/services/profiles.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
