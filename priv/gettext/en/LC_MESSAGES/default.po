@@ -212,6 +212,14 @@ msgstr "At Cannaly, the mission is to empower future brands in the cannabis indu
 msgid "Em breve mais informações"
 msgstr "Soon more information"
 
+#: web/templates/page/_cases.html.eex:340
+msgid "Gestão de pagamentos via boleto completa, intuitiva e segura. A ReCB é uma empresa de tecnologia voltada a empreendedores, pequenos e médios empresários o recebimento via boleto bancário com segurança, comodidade e sem burocracia."
+msgstr "Invoice Payment Management, intuitive and secure. ReCB is a technology company focused on entrepreneurs, small and medium-sized businessmen to receive through invoice with security, convenience and without bureaucracy."
+
+#: web/templates/page/_cases.html.eex:352
+msgid "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você."
+msgstr "First on-demand scheduling platform for face-to-face smartphone fixes. We take the technician to you."
+
 
 
 #: web/templates/page/_cases.html.eex:126

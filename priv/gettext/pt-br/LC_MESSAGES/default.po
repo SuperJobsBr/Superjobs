@@ -220,6 +220,13 @@ msgstr ""
 msgid "Em breve mais informações"
 msgstr ""
 
+#: web/templates/page/_cases.html.eex:340
+msgid "Gestão de pagamentos via boleto completa, intuitiva e segura. A ReCB é uma empresa de tecnologia voltada a empreendedores, pequenos e médios empresários o recebimento via boleto bancário com segurança, comodidade e sem burocracia."
+msgstr ""
+
+#: web/templates/page/_cases.html.eex:352
+msgid "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você."
+msgstr ""
 
 
 #: web/templates/page/_our_vision.html.eex:35

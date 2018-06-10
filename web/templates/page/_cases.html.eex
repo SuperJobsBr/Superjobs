@@ -131,6 +131,18 @@
               </figure>
             </div>
 
+            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp liggi" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.liggi.com.br/" title="Liggi" target="_blank">
+                    <img src="/images/cases/liggi.png" alt="Liggi">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você." %>
+                  </p>
+              </figure>
+            </div>
+
             <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp supercambio" data-wow-delay=".3s">
               <figure class="portfolio-effect">
                   <a href="http://www.supercambio.com.br/" title="Super Câmbio" target="_blank">
@@ -139,6 +151,18 @@
                   <hr class="separator">
                   <p class="description">
                     <%= gettext "Solução que facilita a sua melhor escolha na compra de moeda estrangeira. Através do portal da Super Câmbio, o cliente pesquisa as taxas de câmbio das melhores empresas e já efetua o seu pedido." %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp recb" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="http://www.recb.com.br/" title="Recb" target="_blank">
+                    <img src="/images/cases/recb.png" alt="Recb">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Gestão de pagamentos via boleto completa, intuitiva e segura. A ReCB é uma empresa de tecnologia voltada a empreendedores, pequenos e médios empresários o recebimento via boleto bancário com segurança, comodidade e sem burocracia." %>
                   </p>
               </figure>
             </div>
@@ -156,10 +180,10 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp glicker" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp my-beth" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="http://comercial.drsintomas.com.br/" title="Glicker" target="_blank">
-                    <img src="/images/cases/diatec.png" alt="Diatec">
+                  <a href="http://comercial.drsintomas.com.br/" title="My Beth" target="_blank">
+                    <img src="/images/cases/mybeth.jpeg" alt="Diatec">
                   </a>
                   <hr class="separator">
                   <p class="description">                    
