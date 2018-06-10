@@ -182,13 +182,13 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp my-beth" data-wow-delay=".3s" data-filter="health-tag">
               <figure class="portfolio-effect">
-                  <a href="http://comercial.drsintomas.com.br/" title="My Beth" target="_blank">
-                    <img src="/images/cases/mybeth.jpeg" alt="Diatec">
+                  <a href="" title="My Beth" target="_blank">
+                    <img src="/images/cases/mybeth.jpg" alt="Diatec">
                   </a>
                   <hr class="separator">
                   <p class="description">                    
                     <small>(<%= gettext "Em desenvolvimento" %>)</small>
-                    <%= gettext "É uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
+                    <%= gettext "My Beth é uma plataforma de gerenciamento digital do Diabetes, desenvolvida não só para facilitar os cuidados no dia a dia, mas também aproximar o paciente de uma equipe multidisciplinar, melhorando o controle, o bem estar e a qualidade de vida daqueles que convivem com Diabetes." %>
                   </p>
               </figure>
             </div>
@@ -350,7 +350,7 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp cannaly" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="" title="Cannaly" target="_blank">
+                  <a title="Cannaly">
                     <img src="/images/cases/babel-cannaly.png" alt="Cannaly">
                   </a>
                   <hr class="separator">
@@ -362,7 +362,7 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp nabis" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a href="" title="Nabis" target="_blank">
+                  <a title="Nabis">
                     <img src="/images/cases/babel-nabis.png" alt="nabis">
                   </a>
                   <hr class="separator">
