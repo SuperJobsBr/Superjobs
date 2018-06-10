@@ -176,6 +176,10 @@
             border-bottom: 6px solid;
         }
 
+        &.liggi {
+            display: none!important;
+        }
+
         &.bicos { 
             .separator { 
                 border-color: #00456f; 
