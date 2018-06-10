@@ -221,25 +221,6 @@
 			$(this).closest('a').addClass('active');
 		});
 
-		function goToPage(_listIndex) {
-			$container.isotope({
-				itemSelector: '.masonry-item',
-				layoutMode: 'packery',
-				cellsByRow: {
-				  columnWidth: '.masonry-item',
-				},
-				filter: function(){
-					var index = $(this).index();
-
-					if(_listIndex == 0)
-						return parseInt(index, 10) < 9;
-					else
-						return parseInt(index, 10) > 9;
-				}
-			});
-		}
-
-
 		$('.mansory-pagination .list .item').click(function(evt){
 			evt.preventDefault();
 			var _this = $(this),
@@ -275,6 +256,10 @@
 		});
 
 		function goToPage(_listIndex){
+			var category = $('#portfolio .transition.active').data('filter').substring(0);
+			category = category === '*' ? null : category;
+			console.log(category);
+
 			$container.isotope({
 				itemSelector: '.masonry-item',
 				layoutMode: 'packery',
@@ -282,7 +267,9 @@
 				  columnWidth: '.masonry-item',
 				},
 				filter: function(){
-					var index = $(this).index();
+					var _this = $(this);
+					var index = _this.index();
+					var _category = _this.data('filter');
 
 					if(_listIndex == 0)
 						return parseInt(index, 10) < 9;
@@ -331,7 +318,7 @@
 			var isAll = $('.portfolio-filter a[data-filter="*"]').hasClass('active'),
 				index = $('.mansory-pagination .list .item.active').index();
 
-			if (filteredItens.length >= 9)
+			if (filteredItens.length > 9)
 				$('.mansory-pagination').show();
 
 			else {

@@ -14,16 +14,15 @@
             <div class="col-md-12">
                 <div class="portfolio-filter">
                     <a href="#" title="<%= gettext "Todos" %>" class="filter transition active" data-filter="*"><%= gettext "Todos" %></a>
-                    <a href="#" title="<%= gettext "Jobs" %>" class="filter transition" data-filter=".jobs-tag"><%= gettext "Jobs" %></a>
+                    <a href="#" title="<%= gettext "Impact" %>" class="filter transition" data-filter=".impact-tag"><%= gettext "Impact" %></a>
                     <a href="#" title="<%= gettext "Health Tech" %>" class="filter transition" data-filter=".health-tag"><%= gettext "Health Tech" %></a>
-                    <a href="#" title="<%= gettext "Fintech" %>" class="filter transition" data-filter=".fintech-tag"><%= gettext "Fintech" %></a>
-                    <a href="#" title="<%= gettext "Inteligência Artificial/Realidade Aumentada" %>" class="filter transition" data-filter=".ai-tag"><%= gettext "AI/AR" %></a>
+                    <a href="#" title="<%= gettext "Fintech" %>" class="filter transition" data-filter=".fintech-tag"><%= gettext "Fintech" %></a></a>
                 </div>
             </div>
         </div>
 
         <div class="row masonry">
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp apptite" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp apptite" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.apptite.com/" title="Apptite" target="_blank">
                     <img src="/images/cases/apptite.png" alt="Apptite">
@@ -35,7 +34,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp wuzu" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp wuzu" data-wow-delay=".3s" data-filter="fintech-tag">
               <figure class="portfolio-effect">
                   <a href="https://wuzu.io/" title="Wuzu" target="_blank">
                     <img src="/images/cases/wuzu.png" alt="Wuzu">
@@ -47,7 +46,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp bicos" data-wow-delay=".1s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp bicos" data-wow-delay=".1s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="https://www.bicos.com.br/" title="Bicos" target="_blank">
                     <img src="/images/cases/bicos.png" alt="Bicos">
@@ -59,7 +58,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp estagiariosonline" data-wow-delay=".2s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp estagiariosonline" data-wow-delay=".2s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="https://estagiariosonline.com.br/" title="Estagiarios online" target="_blank">
                     <img src="/images/cases/estagiariosonline.png" alt="Estagiariosonline">
@@ -71,7 +70,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp vibbra" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp vibbra" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.vibbra.com.br/" title="Vibbra!" target="_blank">
                     <img src="/images/cases/vibbra.png" alt="Vibbra!">
@@ -83,7 +82,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drsintomas" data-wow-delay=".4s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drsintomas" data-wow-delay=".4s" data-filter="health-tag">
               <figure class="portfolio-effect">
                   <a href="https://www.drsintomas.com.br/" title="Dr Sintomas" target="_blank">
                     <img src="/images/cases/drsintomas.png" alt="Drsintomas">
@@ -95,7 +94,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp startmeup" data-wow-delay=".3s" data-filter="fintech-tag">
               <figure class="portfolio-effect">
                   <a href="https://www.startmeup.com.br/" title="Start me up" target="_blank">
                     <img src="/images/cases/startmeup.png" alt="Startmeup">
@@ -107,7 +106,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drcannabis" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp drcannabis" data-wow-delay=".3s" data-filter="health-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.drcannabis.com.br/ " title="drcannabis" target="_blank">
                     <img src="/images/cases/drcannabis.png" alt="Dr. Cannabis">
@@ -119,7 +118,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp rhecome" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp rhecome" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="https://www.rheco.me/" title="Rheco.me" target="_blank">
                     <img src="/images/cases/rhecome.png" alt="Rheco.me">
@@ -131,19 +130,20 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp liggi" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp liggi" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="https://www.liggi.com.br/" title="Liggi" target="_blank">
                     <img src="/images/cases/liggi.png" alt="Liggi">
                   </a>
                   <hr class="separator">
                   <p class="description">
+                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
                     <%= gettext "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você." %>
                   </p>
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp supercambio" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp supercambio" data-wow-delay=".3s" data-filter="fintech-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.supercambio.com.br/" title="Super Câmbio" target="_blank">
                     <img src="/images/cases/supercambio.png" alt="Super Câmbio">
@@ -155,7 +155,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp recb" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp recb" data-wow-delay=".3s" data-filter="fintech-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.recb.com.br/" title="Recb" target="_blank">
                     <img src="/images/cases/recb.png" alt="Recb">
@@ -167,7 +167,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp bsocial" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp bsocial" data-wow-delay=".3s" data-filter="fintech-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.bsocial.com.br/" title="BSocial" target="_blank">
                     <img src="/images/cases/bsocial.png" alt="BSocial">
@@ -180,7 +180,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp my-beth" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp my-beth" data-wow-delay=".3s" data-filter="health-tag">
               <figure class="portfolio-effect">
                   <a href="http://comercial.drsintomas.com.br/" title="My Beth" target="_blank">
                     <img src="/images/cases/mybeth.jpeg" alt="Diatec">
@@ -193,7 +193,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp jober" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp jober" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="https://jober.me/" title="Jober" target="_blank">
                     <img src="/images/cases/jober.png" alt="Jober">
@@ -205,7 +205,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp pinmyspot" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp pinmyspot" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="https://pinmyspot.com.br/" title="Pin My Spot" target="_blank">
                     <img src="/images/cases/pinmyspot.png" alt="Pinmyspot">
@@ -217,7 +217,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 ai-tag wow fadeInUp zaply" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp zaply" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
                   <a href="http://www.zaply.com.br/ " title="Zaply" target="_blank">
                     <img src="/images/cases/zaply.png" alt="Zaply">
@@ -229,7 +229,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp smartrade" data-wow-delay=".3s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp smartrade" data-wow-delay=".3s" data-filter="fintech-tag">
               <figure class="portfolio-effect">
                   <a onclick="alert('<%= gettext "Em breve" %>')">
                     <img src="/images/cases/smartrade.png" alt="Smartrade">
@@ -300,7 +300,7 @@
               </figure>
             </div>
 
-            <div class="cases__card masonry-item col-xs-12 col-md-6 jobs-tag wow fadeInUp vitagene" data-wow-delay=".2s">
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp vitagene" data-wow-delay=".2s">
               <figure class="portfolio-effect">
                   <a href="https://www.babel.ventures/vitagene" title="Vitagene" target="_blank">
                     <img src="/images/cases/babel-vitagene.png" alt="Vitagene">
