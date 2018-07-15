@@ -307,10 +307,6 @@
 				cellsByRow: {
 				  columnWidth: '.masonry-item',
 				},
-				filter: function(){
-					var index = $(this).index();
-					return parseInt(index, 10) < 9;
-				}
 			});
 		});
 
@@ -337,10 +333,6 @@
 				cellsByRow: {
 				  columnWidth: '.masonry-item',
 				},
-				filter: function(){
-					var index = $(this).index();
-					return parseInt(index, 10) < 9;
-				}
 			});
 		});
 

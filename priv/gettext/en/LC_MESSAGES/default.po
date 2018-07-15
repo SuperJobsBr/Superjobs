@@ -212,6 +212,14 @@ msgstr "At Cannaly, the mission is to empower future brands in the cannabis indu
 msgid "Em breve mais informações"
 msgstr "Soon more information"
 
+#: web/templates/page/_cases.html.eex:342
+msgid "Novo refrigerante com infusão de maconha como alternativa ao consumo de álcool."
+msgstr "New soda infused with marijuana as an alternative to alcohol."
+
+#: web/templates/page/_cases.html.eex:356
+msgid "A Nabis é um fornecedor de logística e distribuição habilitado por software para empresas de cannabis na Califórnia"
+msgstr "Nabis is a software-enabled logistics and distribution provider for cannabis companies in California."
+
 #: web/templates/page/_cases.html.eex:340
 msgid "Gestão de pagamentos via boleto completa, intuitiva e segura. A ReCB é uma empresa de tecnologia voltada a empreendedores, pequenos e médios empresários o recebimento via boleto bancário com segurança, comodidade e sem burocracia."
 msgstr "Invoice Payment Management, intuitive and secure. ReCB is a technology company focused on entrepreneurs, small and medium-sized businessmen to receive through invoice with security, convenience and without bureaucracy."

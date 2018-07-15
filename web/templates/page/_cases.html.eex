@@ -350,7 +350,7 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp cannaly" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a title="Cannaly">
+                  <a href="https://www.babel.ventures/cannaly-1" title="Cannaly" target="_blank">
                     <img src="/images/cases/babel-cannaly.png" alt="Cannaly">
                   </a>
                   <hr class="separator">
@@ -362,12 +362,24 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp nabis" data-wow-delay=".3s">
               <figure class="portfolio-effect">
-                  <a title="Nabis">
+                  <a href="https://www.babel.ventures/nabis-1" title="Nabis" target="_blank">
                     <img src="/images/cases/babel-nabis.png" alt="nabis">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Em breve mais informações" %>
+                    <%= gettext "A Nabis é um fornecedor de logística e distribuição habilitado por software para empresas de cannabis na Califórnia" %>
+                  </p>
+              </figure>
+            </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 wow fadeInUp california-dreamin" data-wow-delay=".3s">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/californiadreamin" title="California Dreamin" target="_blank">
+                    <img src="/images/cases/california-dreaming.png" alt="California Dreamin">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Novo refrigerante com infusão de maconha como alternativa ao consumo de álcool." %>
                   </p>
               </figure>
             </div>
