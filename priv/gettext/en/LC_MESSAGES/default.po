@@ -167,8 +167,8 @@ msgid "Rheco.me é um método de recrutamento que encoraja os atuais funcionári
 msgstr "Rheco.me is a recruiting method that encourages current employees to recommend friends and / or acquaintances for a specific jobvacancy and, if the recommended candidate is hired, a financial reward will be given to those who helped on the recommendation."
 
 #: web/templates/page/_cases.html.eex:208
-msgid "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos."
-msgstr "Dr. Cannabis is a pioneer technology platform in Brazil connecting patients, doctors, law professionals and suppliers of medical cannabis products. This platform was created to inspire health solutions and enhance welfare of patients, by scheduling medical appointments and offering information about therapies and products."
+msgid "Uma plataforma pioneira no Brasil, que acolhe e conecta pacientes crônicos a médicos, além de transmitir informações de qualidade sobre cannabis medicial. Criada para inspirar soluções a saúde e facilitar o dia-a-dia, Dr. Cannabis é uma rede que reúne interessados em cannabis medicinal legal."
+msgstr "A Brazillian pioneer platform that embrace and connect chronic patients to doctors, as well transmitting quality information about medical cannabis. Created to inspire health solutions and facilitate the day-by-day. Dr Cannabis is a network that brings together people interested in legal medical cannabis."
 
 #: web/templates/page/_cases.html.eex:220
 msgid "Primeira Bolsa de Criptomoedas a integrar múltiplas corretoras. Estruturada para atender aos mais altos padrões de segurança e tecnologia."

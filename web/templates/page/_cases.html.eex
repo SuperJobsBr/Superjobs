@@ -183,7 +183,7 @@
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp my-beth" data-wow-delay=".3s" data-filter="health-tag">
               <figure class="portfolio-effect">
                   <a href="" title="My Beth" target="_blank">
-                    <img src="/images/cases/mybeth.jpg" alt="Diatec">
+                    <img src="/images/cases/mybeth.png" alt="Diatec">
                   </a>
                   <hr class="separator">
                   <p class="description">                    

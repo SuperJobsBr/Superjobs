@@ -175,7 +175,7 @@ msgid "Rheco.me é um método de recrutamento que encoraja os atuais funcionári
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:208
-msgid "Dr. Cannabis é uma plataforma de tecnologia pioneira no Brasil, que conecta pacientes, médicos, profissionais da área jurídica e fornecedores de produtos derivados da cannabis medicinal. Uma ferramenta criada para inspirar soluções a saúde e facilitar o dia-a-dia, através de serviços como agendamento de consultas e disponibilização de produtos."
+msgid "Uma plataforma pioneira no Brasil, que acolhe e conecta pacientes crônicos a médicos, além de transmitir informações de qualidade sobre cannabis medicial. Criada para inspirar soluções a saúde e facilitar o dia-a-dia, Dr. Cannabis é uma rede que reúne interessados em cannabis medicinal legal."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:220
