@@ -232,6 +232,10 @@ msgstr "First on-demand scheduling platform for face-to-face smartphone fixes. W
 msgid "Gestão de contratos com assinatura digital em nuvem como alternativa definitiva à planilhas, correios, cartórios e arquivos em papel."
 msgstr "Cloud contract management with digital signature as definitive alternative to sheets, post and registry offices and paper files"
 
+#: web/templates/page/_cases.html.eex:376
+msgid "Uma plataforma web que ajuda micro, pequenas e médias empresas a solucionar o problema da inadimplência, realizando a intermediação automática da cobrança de forma simples e barata, ajudando na inclusão de CNPJ em nosso registro e oferecendo uma inovadora ferramenta de pesquisa e análise de crédito."
+msgstr "A web platform that helps micro, small and medium-sized business to solve the non-payment problem. Performing an automatic intermediation of charging in a simple and cheap way, helping to include the CNPJ in our registry and offering an innovative research tool and credit analysis"
+
 
 
 #: web/templates/page/_cases.html.eex:126

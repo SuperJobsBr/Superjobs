@@ -180,6 +180,18 @@
               </figure>
             </div>
 
+            <div class="cases__card masonry-item col-xs-12 col-md-6 fintech-tag wow fadeInUp paguebembrasil" data-wow-delay=".3s" data-filter="fintech-tag">
+              <figure class="portfolio-effect">
+                  <a href="http://www.paguebembrasil.com.br/" title="Pague Bem" target="_blank">
+                    <img src="/images/cases/paguebembrasil.png" alt="Pague Bem">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Uma plataforma web que ajuda micro, pequenas e médias empresas a solucionar o problema da inadimplência, realizando a intermediação automática da cobrança de forma simples e barata, ajudando na inclusão de CNPJ em nosso registro e oferecendo uma inovadora ferramenta de pesquisa e análise de crédito." %>
+                  </p>
+              </figure>
+            </div>
+
             <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp my-beth" data-wow-delay=".3s" data-filter="health-tag">
               <figure class="portfolio-effect">
                   <a href="" title="My Beth" target="_blank">
