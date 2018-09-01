@@ -236,6 +236,10 @@ msgstr ""
 msgid "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você."
 msgstr ""
 
+#: web/templates/page/_cases.html.eex:364
+msgid "Gestão de contratos com assinatura digital em nuvem como alternativa definitiva à planilhas, correios, cartórios e arquivos em papel."
+msgstr ""
+
 
 #: web/templates/page/_our_vision.html.eex:35
 msgid "Baseado nesse entendimento que a SuperJobs definiu o seu propósito:"

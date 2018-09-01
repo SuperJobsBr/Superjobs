@@ -228,6 +228,10 @@ msgstr "Invoice Payment Management, intuitive and secure. ReCB is a technology c
 msgid "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você."
 msgstr "First on-demand scheduling platform for face-to-face smartphone fixes. We take the technician to you."
 
+#: web/templates/page/_cases.html.eex:364
+msgid "Gestão de contratos com assinatura digital em nuvem como alternativa definitiva à planilhas, correios, cartórios e arquivos em papel."
+msgstr "Cloud contract management with digital signature as definitive alternative to sheets, post and registry offices and paper files"
+
 
 
 #: web/templates/page/_cases.html.eex:126
