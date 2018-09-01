@@ -295,10 +295,6 @@
 				cellsByRow: {
 				  columnWidth: '.masonry-item',
 				},
-				filter: function(){
-					var index = $(this).index();
-					return parseInt(index, 10) < 9;
-				}
 			});
 
 			$containerInternacional.isotope({
@@ -310,20 +306,20 @@
 			});
 		});
 
-		$container.on( 'arrangeComplete', function(event, filteredItens){
-			var isAll = $('.portfolio-filter a[data-filter="*"]').hasClass('active'),
-				index = $('.mansory-pagination .list .item.active').index();
+		// $container.on( 'arrangeComplete', function(event, filteredItens){
+		// 	var isAll = $('.portfolio-filter a[data-filter="*"]').hasClass('active'),
+		// 		index = $('.mansory-pagination .list .item.active').index();
 
-			if (filteredItens.length > 9)
-				$('.mansory-pagination').show();
+		// 	if (filteredItens.length > 9)
+		// 		$('.mansory-pagination').show();
 
-			else {
-				if(isAll)
-					return;
+		// 	else {
+		// 		if(isAll)
+		// 			return;
 
-				$('.mansory-pagination').hide();
-			}
-		});
+		// 		$('.mansory-pagination').hide();
+		// 	}
+		// });
 
 
 		$containerInternacional.imagesLoaded(function() {
@@ -343,10 +339,10 @@
 				cellsByRow: {
 				  columnWidth: '.masonry-item',
 				},
-				filter: function(){
-					var index = $(this).index();
-					return parseInt(index, 10) < 9;
-				}
+				// filter: function(){
+				// 	var index = $(this).index();
+				// 	return parseInt(index, 10) < 9;
+				// }
 			});
 		});
 		
