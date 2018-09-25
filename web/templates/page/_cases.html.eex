@@ -132,12 +132,11 @@
 
             <div class="cases__card masonry-item col-xs-12 col-md-6 impact-tag wow fadeInUp liggi" data-wow-delay=".3s" data-filter="impact-tag">
               <figure class="portfolio-effect">
-                  <a href="https://www.liggi.com.br/" title="Liggi" target="_blank">
+                  <a href="https://liggi.com.br/" title="Liggi" target="_blank">
                     <img src="/images/cases/liggi.png" alt="Liggi">
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <small>(<%= gettext "Em desenvolvimento" %>)</small>
                     <%= gettext "Primeira plataforma de agendamento sob demanda para consertos presenciais de smartphones. Levamos o técnico até você." %>
                   </p>
               </figure>
