@@ -378,7 +378,7 @@
                   </a>
                   <hr class="separator">
                   <p class="description">
-                    <%= gettext "Novo refrigerante com infusão de maconha como alternativa ao consumo de álcool." %>
+                    <%= gettext "Novo refrigerante com infusão de cannabis como alternativa ao consumo de álcool." %>
                   </p>
               </figure>
             </div>

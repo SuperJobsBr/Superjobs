@@ -221,7 +221,7 @@ msgid "Em breve mais informações"
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:342
-msgid "Novo refrigerante com infusão de maconha como alternativa ao consumo de álcool."
+msgid "Novo refrigerante com infusão de cannabis como alternativa ao consumo de álcool."
 msgstr ""
 
 #: web/templates/page/_cases.html.eex:356
@@ -318,7 +318,7 @@ msgid "Andre Martins é presidente da VB desde abril de 2000. Formado em Adminis
 msgstr ""
 
 #: web/templates/page/_team.html.eex:38
-msgid "Fundador e CEO da SuperJobs, Marcos Botelho é um apaixonado por tecnologia, com 20 anos de experiência no mercado de comunicação, foi fundador da agência Midia (2001) e da Elemídia Mall (2008), onde tinha como sócio o publicitário Roberto Justus, após a venda das duas empresas para o grupo Abril (2010) e passar alguns anos na Abril como Diretor Comercial, Botelho voltou a empreender em 2014, idealizando e fundando as plataformas Bicos Online, Estagiários Online e Dr. Sintomas."
+msgid "Fundador e CEO da SuperJobs, Marcos Botelho é um apaixonado por tecnologia, com 20 anos de experiência no mercado de comunicação, foi fundador da agência Midia (2001) e da Elemídia Mall (2008), onde tinha como sócio o publicitário Roberto Justus, após a venda das duas empresas para o grupo Abril (2010) e passar alguns anos na Abril como Diretor Comercial, Botelho voltou a empreender em 2014, idealizando e fundando a SuperJobs Ventures."
 msgstr ""
 
 #: web/templates/page/_team.html.eex:
