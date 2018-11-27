@@ -244,6 +244,11 @@ msgstr ""
 msgid "Uma plataforma web que ajuda micro, pequenas e médias empresas a solucionar o problema da inadimplência, realizando a intermediação automática da cobrança de forma simples e barata, ajudando na inclusão de CNPJ em nosso registro e oferecendo uma inovadora ferramenta de pesquisa e análise de crédito."
 msgstr ""
 
+#: web/templates/page/_cases.html.eex:388
+msgid "Probiótico projetado que quebra uma toxina chamada acetaldeído, responsável pela ressaca e desidratação após ingerir bebidas alcóolicas."
+msgstr ""
+
+
 
 #: web/templates/page/_our_vision.html.eex:35
 msgid "Baseado nesse entendimento que a SuperJobs definiu o seu propósito:"

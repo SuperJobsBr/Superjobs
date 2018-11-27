@@ -236,6 +236,10 @@ msgstr "Cloud contract management with digital signature as definitive alternati
 msgid "Uma plataforma web que ajuda micro, pequenas e médias empresas a solucionar o problema da inadimplência, realizando a intermediação automática da cobrança de forma simples e barata, ajudando na inclusão de CNPJ em nosso registro e oferecendo uma inovadora ferramenta de pesquisa e análise de crédito."
 msgstr "A web platform that helps micro, small and medium-sized business to solve the non-payment problem. Performing an automatic intermediation of charging in a simple and cheap way, helping to include the CNPJ in our registry and offering an innovative research tool and credit analysis"
 
+#: web/templates/page/_cases.html.eex:388
+msgid "Probiótico projetado que quebra uma toxina chamada acetaldeído, responsável pela ressaca e desidratação após ingerir bebidas alcóolicas."
+msgstr "Our first engineered probiotic targets a toxin called acetaldehyde. It's this toxin – not just dehydration – that causes the worst next-day effects of drinking."
+
 
 
 #: web/templates/page/_cases.html.eex:126

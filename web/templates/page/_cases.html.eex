@@ -381,6 +381,18 @@
                   </p>
               </figure>
             </div>
+
+            <div class="cases__card masonry-item col-xs-12 col-md-6 health-tag wow fadeInUp zbiotics" data-wow-delay=".4s" data-filter="health-tag">
+              <figure class="portfolio-effect">
+                  <a href="https://www.babel.ventures/zbiotics" title="Z Biotics" target="_blank">
+                    <img src="/images/cases/zbiotics.png" alt="Z Biotics">
+                  </a>
+                  <hr class="separator">
+                  <p class="description">
+                    <%= gettext "Probiótico projetado que quebra uma toxina chamada acetaldeído, responsável pela ressaca e desidratação após ingerir bebidas alcóolicas." %>
+                  </p>
+              </figure>
+            </div>
         </div>
     </div>
 </section>
